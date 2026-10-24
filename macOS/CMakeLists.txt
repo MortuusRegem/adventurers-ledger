@@ -1,0 +1,28 @@
+cmake_minimum_required(VERSION 3.22)
+project(AdventurersLedger VERSION 1.1.1 LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_AUTORCC ON)
+find_package(Qt6 REQUIRED COMPONENTS Widgets Network)
+qt_add_executable(AdventurersLedger WIN32 MACOSX_BUNDLE main.cpp encumbrance.inc deities.inc effects.inc progression.inc equipment.inc advancement.inc creation.inc level_choices.inc ability_budget.inc subclass_info.inc subclass_rules.inc dice_tray.inc book_catalogs.inc subclass_features.inc description_text.inc levelup_increment_tests.inc uploaded_rules.inc resources.qrc)
+if(WIN32)
+    target_sources(AdventurersLedger PRIVATE app.rc)
+endif()
+target_link_libraries(AdventurersLedger PRIVATE Qt6::Widgets Qt6::Network)
+if(MSVC)
+    target_compile_options(AdventurersLedger PRIVATE /utf-8 /W4)
+else()
+    target_compile_options(AdventurersLedger PRIVATE -Wall -Wextra)
+endif()
+set_target_properties(AdventurersLedger PROPERTIES OUTPUT_NAME "Adventurers Ledger")
+if(APPLE)
+    set_target_properties(AdventurersLedger PROPERTIES
+        MACOSX_BUNDLE_GUI_IDENTIFIER "com.mortuusregem.adventurersledger"
+        MACOSX_BUNDLE_BUNDLE_NAME "Adventurer's Ledger"
+        MACOSX_BUNDLE_SHORT_VERSION_STRING "${PROJECT_VERSION}"
+        MACOSX_BUNDLE_BUNDLE_VERSION "${PROJECT_VERSION}")
+    if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/ledger.icns")
+        target_sources(AdventurersLedger PRIVATE ledger.icns)
+        set_source_files_properties(ledger.icns PROPERTIES MACOSX_PACKAGE_LOCATION Resources)
+        set_target_properties(AdventurersLedger PROPERTIES MACOSX_BUNDLE_ICON_FILE ledger.icns)
+    endif()
+endif()
