@@ -1,0 +1,1080 @@
+{
+  "feats": [
+    {
+      "name": "Alert",
+      "category": "Origin",
+      "description": "Alert Origin Feat You gain the following benefits. Initiative Proficiency. When you roll Initiative, you can add your Proficiency Bonus to the roll. Initiative Swap. Immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat. You can’t make this swap if you or the ally has the Incapacitated condition.",
+      "automation": "Automatically adds your proficiency bonus to initiative. Initiative swapping is a table decision.",
+      "repeatable": false
+    },
+    {
+      "name": "Crafter",
+      "category": "Origin",
+      "description": "Train three artisan tools; receive a 20% nonmagical-item discount and temporary fast-crafting options.",
+      "repeatable": false,
+      "automation": "No permanent numeric stat bonus. Use the described actions, training, rerolls, or limited resources manually. Add any campaign-specific numeric effects with Edit effects."
+    },
+    {
+      "name": "Healer",
+      "category": "Origin",
+      "description": "Use a healer kit and a patient’s Hit Die plus your proficiency; healing dice showing 1 can be rerolled once.",
+      "repeatable": false,
+      "automation": "No permanent numeric stat bonus. Use the described actions, training, rerolls, or limited resources manually. Add any campaign-specific numeric effects with Edit effects."
+    },
+    {
+      "name": "Lucky",
+      "category": "Origin",
+      "description": "Luck Points equal proficiency return after a Long Rest; spend them for advantage or to hinder an incoming attack.",
+      "repeatable": false,
+      "automation": "No permanent numeric stat bonus. Use the described actions, training, rerolls, or limited resources manually. Add any campaign-specific numeric effects with Edit effects."
+    },
+    {
+      "name": "Magic Initiate",
+      "category": "Origin",
+      "description": "Magic Initiate Origin Feat You gain the following benefits. Two Cantrips. You learn two cantrips of your choice from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat’s spells (choose when you select this feat). Level 1 Spell. Choose a level 1 spell from the same list you selected for this feat’s cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have. Spell Change. Whenever you gain a new level, you can replace one of the spells you chose for this feat with a different spell of the same level from the chosen spell list. Repeatable. You can take this feat more than once, but you must choose a different spell list each time.",
+      "automation": "Choose a spell list and casting ability. Add chosen spells in Spellbook and set their ability; the free daily cast is tracked manually. No permanent numeric stat bonus.",
+      "repeatable": true
+    },
+    {
+      "name": "Musician",
+      "category": "Origin",
+      "description": "Train three instruments; rest performances grant Heroic Inspiration to a number of allies equal to proficiency.",
+      "repeatable": false,
+      "automation": "No permanent numeric stat bonus. Use the described actions, training, rerolls, or limited resources manually. Add any campaign-specific numeric effects with Edit effects."
+    },
+    {
+      "name": "Savage Attacker",
+      "category": "Origin",
+      "description": "Savage Attacker Origin Feat You’ve trained to deal particularly damaging strikes. Once per turn when you hit a target with a weapon, you can roll the weapon’s damage dice twice and use either roll against the target.",
+      "automation": "No permanent stat bonus. Once per turn you can roll weapon damage twice and choose a roll; do this manually in Weapons.",
+      "repeatable": false
+    },
+    {
+      "name": "Skilled",
+      "category": "Origin",
+      "description": "Skilled Origin Feat You gain proficiency in any combination of three skills or tools of your choice. Repeatable. You can take this feat more than once.",
+      "automation": "Choose three skills or tools. Selected skill proficiencies apply automatically; tool training is recorded with the feat.",
+      "repeatable": true
+    },
+    {
+      "name": "Tavern Brawler",
+      "category": "Origin",
+      "description": "Unarmed damage can use 1d4 plus Strength; reroll damage ones, train improvised weapons, and push on one qualifying hit per turn.",
+      "repeatable": false,
+      "automation": "No permanent numeric stat bonus. Use the described actions, training, rerolls, or limited resources manually. Add any campaign-specific numeric effects with Edit effects."
+    },
+    {
+      "name": "Tough",
+      "category": "Origin",
+      "description": "Maximum HP gains twice your character level, including two more HP with each level gained.",
+      "repeatable": false,
+      "automation": "Automatically adds 2 HP per total character level to maximum HP. Current HP does not automatically heal."
+    },
+    {
+      "name": "Ability Score Improvement",
+      "category": "General",
+      "description": "Ability Score Improvement General Feat (Prerequisite: Level 4+) Increase one ability score of your choice by 2, or increase two ability scores of your choice by 1. This feat can’t increase an ability score above 20. Repeatable. You can take this feat more than once.",
+      "automation": "Choose two +1 increases (the same ability twice gives +2), capped at 20. All dependent modifiers update automatically.",
+      "repeatable": true,
+      "abilityChoices": [
+        "Strength",
+        "Dexterity",
+        "Constitution",
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ],
+      "increases": 2,
+      "scoreCap": 20
+    },
+    {
+      "name": "Actor",
+      "category": "General",
+      "abilityChoices": [
+        "Charisma"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+, Charisma 13+.\n\nDisguised impersonation gains advantage with Deception or Performance. You can imitate voices and other creature sounds; listeners test Insight against your Charisma-based DC.\n\nAbility increase: +1 Charisma, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:actor"
+    },
+    {
+      "name": "Athlete",
+      "category": "General",
+      "abilityChoices": [
+        "Strength",
+        "Dexterity"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+, Strength or Dexterity 13+.\n\nClimb at your normal speed. Standing from prone costs only 5 feet, and a running jump needs just 5 feet of approach.\n\nAbility increase: +1 Strength or Dexterity, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic. The feat traits summary shows Climb speed equal to your effective Speed. Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:athlete"
+    },
+    {
+      "name": "Charger",
+      "category": "General",
+      "abilityChoices": [
+        "Strength",
+        "Dexterity"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+, Strength or Dexterity 13+.\n\nDash gains 10 feet for that action. Once on your turn, a qualifying 10-foot straight approach before an Attack-action melee hit permits either 1d8 extra damage or a 10-foot push against a suitably sized target.\n\nAbility increase: +1 Strength or Dexterity, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:charger"
+    },
+    {
+      "name": "Chef",
+      "category": "General",
+      "abilityChoices": [
+        "Constitution",
+        "Wisdom"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+.\n\nGain cooking-utensil training. A rest meal serves 4 + proficiency creatures and adds 1d8 healing when they spend Hit Dice. Make proficiency-count treats in an hour or at a Long Rest; each grants proficiency-count temporary HP, uses a Bonus Action to eat, and expires after 8 hours.\n\nAbility increase: +1 Constitution or Wisdom, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://roll20.net/compendium/dnd5e/Feats%3AChef?expansion=32231"
+    },
+    {
+      "name": "Crossbow Expert",
+      "category": "General",
+      "abilityChoices": [
+        "Dexterity"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+, Dexterity 13+.\n\nCrossbows bypass Loading and can be loaded without a spare hand. Nearby enemies do not penalize crossbow attacks. A qualifying Light crossbow extra attack can include its ability-based damage bonus once.\n\nAbility increase: +1 Dexterity, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:crossbow-expert"
+    },
+    {
+      "name": "Crusher",
+      "category": "General",
+      "abilityChoices": [
+        "Strength",
+        "Constitution"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+.\n\nA bludgeoning hit can shift a suitably sized enemy 5 feet once per turn. A bludgeoning critical makes attacks against that enemy advantageous until your next turn begins.\n\nAbility increase: +1 Strength or Constitution, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:crusher"
+    },
+    {
+      "name": "Defensive Duelist",
+      "category": "General",
+      "abilityChoices": [
+        "Dexterity"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+, Dexterity 13+.\n\nWhen holding a Finesse weapon, react to a melee hit by raising AC against melee attacks by your proficiency bonus until your next turn begins.\n\nAbility increase: +1 Dexterity, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://roll20.net/compendium/dnd5e/Feats%3ADefensive%20Duelist?expansion=32231"
+    },
+    {
+      "name": "Dual Wielder",
+      "category": "General",
+      "abilityChoices": [
+        "Strength",
+        "Dexterity"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+, Strength or Dexterity 13+.\n\nAn Attack-action Light weapon strike enables a Bonus Action strike using another one-handed Melee weapon. The extra strike normally omits positive ability damage. You can draw or put away two eligible weapons together.\n\nAbility increase: +1 Strength or Dexterity, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:dual-wielder"
+    },
+    {
+      "name": "Durable",
+      "category": "General",
+      "abilityChoices": [
+        "Constitution"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+.\n\nDeath saving throws have advantage. A Bonus Action can spend a Hit Die to recover HP equal to its roll.\n\nAbility increase: +1 Constitution, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic. Advantage applies automatically to the Death save button. Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [
+        {
+          "target": "deathSave",
+          "value": 0,
+          "scale": "flat",
+          "op": "advantage"
+        }
+      ],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:durable"
+    },
+    {
+      "name": "Elemental Adept",
+      "category": "General",
+      "abilityChoices": [
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+, Spellcasting or Pact Magic.\n\nPick acid, cold, fire, lightning, or thunder. Your spells bypass that resistance and damage dice showing 1 can count as 2 for that type. Repeat only with another element.\n\nAbility increase: +1 Intelligence or Wisdom or Charisma, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic. Choose and record an element; another copy must choose a different element. Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": true,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:elemental-adept"
+    },
+    {
+      "name": "Fey Touched",
+      "category": "General",
+      "abilityChoices": [
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+.\n\nAlways prepare Misty Step and a selected level-1 Divination or Enchantment spell. Each has one free use per Long Rest, plus ordinary slot casting. Use the ability raised by this feat for these spells.\n\nAbility increase: +1 Intelligence or Wisdom or Charisma, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:fey-touched"
+    },
+    {
+      "name": "Grappler",
+      "category": "General",
+      "description": "Grappler General Feat (Prerequisite: Level 4+, Strength or Dexterity 13+) You gain the following benefits. Ability Score Increase. Increase your Strength or Dexterity score by 1, to a maximum of 20. Punch and Grab. When you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can use both the Damage and the Grapple option. You can use this benefit only once per turn. Attack Advantage. You have Advantage on attack rolls against a creature Grappled by you. Fast Wrestler. You don’t have to spend extra movement to move a creature Grappled by you if the creature is your size or smaller.",
+      "automation": "Choose Strength or Dexterity +1, capped at 20. Grapple advantages and movement exceptions are situational; choose roll mode when applicable.",
+      "repeatable": false,
+      "abilityChoices": [
+        "Strength",
+        "Dexterity"
+      ],
+      "increases": 1,
+      "scoreCap": 20
+    },
+    {
+      "name": "Great Weapon Master",
+      "category": "General",
+      "abilityChoices": [
+        "Strength"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+, Strength 13+.\n\nHeavy-weapon hits made with the Attack action on your turn can add proficiency to damage. A Melee weapon critical or defeat can trigger a Bonus Action attack with that weapon.\n\nAbility increase: +1 Strength, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic. Proficiency damage is added only for Heavy weapons while Attack action on my turn is checked in Weapons. Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [
+        {
+          "target": "heavyAttackDamage",
+          "value": 1,
+          "scale": "proficiency",
+          "op": "bonus"
+        }
+      ],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:great-weapon-master"
+    },
+    {
+      "name": "Heavily Armored",
+      "category": "General",
+      "abilityChoices": [
+        "Strength",
+        "Constitution"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+, Medium armor training.\n\nGain Heavy armor training. This does not equip armor or choose an AC formula for you.\n\nAbility increase: +1 Strength or Constitution, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://roll20.net/compendium/dnd5e/Feats%3AHeavily%20Armored?expansion=32231"
+    },
+    {
+      "name": "Heavy Armor Master",
+      "category": "General",
+      "abilityChoices": [
+        "Strength",
+        "Constitution"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+, Heavy armor training.\n\nWhile in Heavy armor, reduce bludgeoning, piercing, and slashing damage received from an attack by your proficiency bonus. Apply this reduction to the relevant damage event.\n\nAbility increase: +1 Strength or Constitution, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:heavy-armor-master"
+    },
+    {
+      "name": "Inspiring Leader",
+      "category": "General",
+      "abilityChoices": [
+        "Wisdom",
+        "Charisma"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+, Wisdom or Charisma 13+.\n\nAfter a rest performance, up to six witnessing allies within 30 feet, potentially including you, gain temporary HP equal to your level plus the modifier of the ability raised by this feat.\n\nAbility increase: +1 Wisdom or Charisma, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:inspiring-leader"
+    },
+    {
+      "name": "Keen Mind",
+      "category": "General",
+      "abilityChoices": [
+        "Intelligence"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+, Intelligence 13+.\n\nChoose Arcana, History, Investigation, Nature, or Religion: gain proficiency, or expertise if already proficient. You can perform the Study action using a Bonus Action.\n\nAbility increase: +1 Intelligence, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic. The chosen knowledge skill gains proficiency, or upgrades existing proficiency to expertise. Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:keen-mind"
+    },
+    {
+      "name": "Lightly Armored",
+      "category": "General",
+      "abilityChoices": [
+        "Strength",
+        "Dexterity"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+.\n\nGain training with Light armor and shields. Equip the intended gear and set its base AC separately.\n\nAbility increase: +1 Strength or Dexterity, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://roll20.net/compendium/dnd5e/Feats%3ALightly%20Armored?expansion=32231"
+    },
+    {
+      "name": "Mage Slayer",
+      "category": "General",
+      "abilityChoices": [
+        "Strength",
+        "Dexterity"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+.\n\nEnemies you damage have disadvantage on the associated concentration save. Once between rests, turn a failed Intelligence, Wisdom, or Charisma save into a success.\n\nAbility increase: +1 Strength or Dexterity, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:mage-slayer"
+    },
+    {
+      "name": "Martial Weapon Training",
+      "category": "General",
+      "abilityChoices": [
+        "Strength",
+        "Dexterity"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+.\n\nBecome proficient with Martial weapons. This supplies attack proficiency, not a separate flat damage bonus.\n\nAbility increase: +1 Strength or Dexterity, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic. Martial-weapon attack proficiency is added automatically while this feat is active. Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://roll20.net/compendium/dnd5e/Feats%3AMartial%20Weapon%20Training?expansion=32231"
+    },
+    {
+      "name": "Medium Armor Master",
+      "category": "General",
+      "abilityChoices": [
+        "Strength",
+        "Dexterity"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+, Medium armor training.\n\nMedium armor can count up to +3 of Dexterity toward AC instead of +2. This benefit does not remove armor-specific Stealth penalties.\n\nAbility increase: +1 Strength or Dexterity, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic. AC automatically uses the higher Dexterity cap when Wearing armor is checked and the medium-armor Maximum +2 mode is selected. Keep base AC calculated without this feat. Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:medium-armor-master"
+    },
+    {
+      "name": "Moderately Armored",
+      "category": "General",
+      "abilityChoices": [
+        "Strength",
+        "Dexterity"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+, Light armor training.\n\nGain Medium armor training. Shield training is not part of this feat in the 2024 rules.\n\nAbility increase: +1 Strength or Dexterity, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:moderately-armored"
+    },
+    {
+      "name": "Mounted Combatant",
+      "category": "General",
+      "abilityChoices": [
+        "Strength",
+        "Dexterity",
+        "Wisdom"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+.\n\nWhile mounted, attacks can gain advantage against smaller unmounted foes near your mount. Your mount can avoid or halve Dexterity-save damage, and you can redirect a hit on it to yourself, subject to the feat conditions.\n\nAbility increase: +1 Strength or Dexterity or Wisdom, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:mounted-combatant"
+    },
+    {
+      "name": "Observant",
+      "category": "General",
+      "abilityChoices": [
+        "Intelligence",
+        "Wisdom"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+, Intelligence or Wisdom 13+.\n\nChoose Insight, Investigation, or Perception: gain proficiency, upgrading existing proficiency to expertise. Search can use a Bonus Action.\n\nAbility increase: +1 Intelligence or Wisdom, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic. The chosen observation skill gains proficiency, or upgrades existing proficiency to expertise. Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:observant"
+    },
+    {
+      "name": "Piercer",
+      "category": "General",
+      "abilityChoices": [
+        "Strength",
+        "Dexterity"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+.\n\nReroll one piercing-damage die once per turn and keep the new roll. A piercing critical adds one further damage die.\n\nAbility increase: +1 Strength or Dexterity, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:piercer"
+    },
+    {
+      "name": "Poisoner",
+      "category": "General",
+      "abilityChoices": [
+        "Dexterity",
+        "Intelligence"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+.\n\nYour poison damage bypasses resistance. Gain poisoner-kit training; an hour and 50 GP produces proficiency-count doses. Bonus Action application lasts up to a minute or until damage. A failed Constitution save against your feat-ability DC adds 2d8 poison and briefly poisons the victim.\n\nAbility increase: +1 Dexterity or Intelligence, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:poisoner"
+    },
+    {
+      "name": "Polearm Master",
+      "category": "General",
+      "abilityChoices": [
+        "Strength",
+        "Dexterity"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+, Strength or Dexterity 13+.\n\nAn eligible Attack-action polearm strike permits a Bonus Action d4 bludgeoning butt-end attack. Holding a quarterstaff, spear, or Heavy-and-Reach weapon also permits a reaction attack when a foe enters its reach.\n\nAbility increase: +1 Strength or Dexterity, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:polearm-master"
+    },
+    {
+      "name": "Resilient",
+      "category": "General",
+      "abilityChoices": [
+        "Strength",
+        "Dexterity",
+        "Constitution",
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+.\n\nChoose an ability whose saving throw you are not already proficient in. That ability gains +1, and its saving throw gains proficiency.\n\nAbility increase: +1 Strength or Dexterity or Constitution or Intelligence or Wisdom or Charisma, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic. The chosen ability and its saving-throw proficiency update automatically. Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:resilient"
+    },
+    {
+      "name": "Ritual Caster",
+      "category": "General",
+      "abilityChoices": [
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+, Intelligence, Wisdom, or Charisma 13+.\n\nAlways prepare proficiency-count level-1 Ritual spells, adding another when proficiency rises. Use the raised ability for casting. Once per Long Rest, cast one prepared Ritual without a slot or the extra ritual time.\n\nAbility increase: +1 Intelligence or Wisdom or Charisma, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:ritual-caster"
+    },
+    {
+      "name": "Sentinel",
+      "category": "General",
+      "abilityChoices": [
+        "Strength",
+        "Dexterity"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+, Strength or Dexterity 13+.\n\nNearby enemies disengaging or hitting someone else can provoke your Opportunity Attack. A hit with an Opportunity Attack stops its target’s movement for the current turn.\n\nAbility increase: +1 Strength or Dexterity, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:sentinel"
+    },
+    {
+      "name": "Shadow Touched",
+      "category": "General",
+      "abilityChoices": [
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+.\n\nAlways prepare Invisibility and a selected level-1 Illusion or Necromancy spell. Each has a free use per Long Rest; ordinary slot casting also works. Casting uses the ability this feat increases.\n\nAbility increase: +1 Intelligence or Wisdom or Charisma, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:shadow-touched"
+    },
+    {
+      "name": "Sharpshooter",
+      "category": "General",
+      "abilityChoices": [
+        "Dexterity"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+, Dexterity 13+.\n\nRanged weapon attacks bypass half and three-quarter cover. Nearby enemies and long-range shots do not impose their usual disadvantage. There is no 2014-style -5/+10 option.\n\nAbility increase: +1 Dexterity, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:sharpshooter"
+    },
+    {
+      "name": "Shield Master",
+      "category": "General",
+      "abilityChoices": [
+        "Strength"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+, Shield training.\n\nAn eligible Attack-action Melee hit permits a once-on-your-turn shield bash: a failed Strength save allows a 5-foot push OR prone. A shield reaction can eliminate damage after a successful half-damage Dexterity save.\n\nAbility increase: +1 Strength, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://roll20.net/compendium/dnd5e/Feats%3AShield%20Master?expansion=32231"
+    },
+    {
+      "name": "Skill Expert",
+      "category": "General",
+      "abilityChoices": [
+        "Strength",
+        "Dexterity",
+        "Constitution",
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+.\n\nAdd proficiency in one skill. Also choose a proficient skill without expertise and grant it expertise; the newly learned skill can qualify.\n\nAbility increase: +1 Strength or Dexterity or Constitution or Intelligence or Wisdom or Charisma, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic. Selected skill proficiency and expertise update automatically. Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:skill-expert"
+    },
+    {
+      "name": "Skulker",
+      "category": "General",
+      "abilityChoices": [
+        "Dexterity"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+, Dexterity 13+.\n\nGain blindsight out to 10 feet. Hiding during battle has Stealth advantage. A missed attack made while hidden does not reveal your position.\n\nAbility increase: +1 Dexterity, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:skulker"
+    },
+    {
+      "name": "Slasher",
+      "category": "General",
+      "abilityChoices": [
+        "Strength",
+        "Dexterity"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+.\n\nOnce per turn, slashing damage can slow an enemy by 10 feet until your next turn starts. A slashing critical also disadvantages that enemy’s attacks for that interval.\n\nAbility increase: +1 Strength or Dexterity, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:slasher"
+    },
+    {
+      "name": "Speedy",
+      "category": "General",
+      "abilityChoices": [
+        "Dexterity",
+        "Constitution"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+, Dexterity or Constitution 13+.\n\nSpeed rises by 10 feet. Dashing ignores extra movement costs from difficult terrain for that turn, and Opportunity Attacks against you suffer disadvantage.\n\nAbility increase: +1 Dexterity or Constitution, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic. The +10-foot speed bonus is automatic. Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [
+        {
+          "target": "speed",
+          "value": 10,
+          "scale": "flat",
+          "op": "bonus"
+        }
+      ],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:speedy"
+    },
+    {
+      "name": "Spell Sniper",
+      "category": "General",
+      "abilityChoices": [
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+, Spellcasting or Pact Magic.\n\nSpell attacks bypass partial cover and nearby-enemy penalties. An attack-roll spell with at least 10 feet of range may gain 60 feet of range.\n\nAbility increase: +1 Intelligence or Wisdom or Charisma, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:spell-sniper"
+    },
+    {
+      "name": "Telekinetic",
+      "category": "General",
+      "abilityChoices": [
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+.\n\nMage Hand becomes component-free and optionally invisible, with 30 feet more range and operating distance. A Bonus Action can shove a visible creature within 30 feet by 5 feet after a failed Strength save against your feat-ability DC.\n\nAbility increase: +1 Intelligence or Wisdom or Charisma, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:telekinetic"
+    },
+    {
+      "name": "Telepathic",
+      "category": "General",
+      "abilityChoices": [
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+.\n\nSend one-way mental speech to a visible creature within 60 feet in a shared language. Always prepare Detect Thoughts; one component-free, slot-free cast returns each Long Rest. Casting uses the raised ability.\n\nAbility increase: +1 Intelligence or Wisdom or Charisma, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:telepathic"
+    },
+    {
+      "name": "War Caster",
+      "category": "General",
+      "abilityChoices": [
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+, Spellcasting or Pact Magic.\n\nConcentration Constitution saves have advantage. Hands holding weapons or a shield can perform spell gestures. When a foe leaves your reach, an eligible single-target Action spell may replace your Opportunity Attack.\n\nAbility increase: +1 Intelligence or Wisdom or Charisma, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic. Advantage applies to the Concentration save button only, not every Constitution save. Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [
+        {
+          "target": "concentration",
+          "value": 0,
+          "scale": "flat",
+          "op": "advantage"
+        }
+      ],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:war-caster"
+    },
+    {
+      "name": "Weapon Master",
+      "category": "General",
+      "abilityChoices": [
+        "Strength",
+        "Dexterity"
+      ],
+      "increases": 1,
+      "scoreCap": 20,
+      "description": "2024 rules summary\nPrerequisites: Level 4+.\n\nChoose a Simple or Martial weapon category you are proficient with and gain access to its mastery property. The chosen weapon type can change after a Long Rest.\n\nAbility increase: +1 Strength or Dexterity, maximum 20.",
+      "automation": "The chosen +1 ability increase and dependent stats are automatic.  Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:weapon-master"
+    },
+    {
+      "name": "Archery",
+      "category": "Fighting Style",
+      "description": "Archery Fighting Style Feat (Prerequisite: Fighting Style Feature) You gain a +2 bonus to attack rolls you make with Ranged weapons.",
+      "automation": "Automatically adds +2 to attack rolls with weapons classified as Ranged; does not apply to thrown Melee weapons.",
+      "repeatable": false
+    },
+    {
+      "name": "Blind Fighting",
+      "category": "Fighting Style",
+      "description": "2024 rules summary\nPrerequisite: Fighting Style feature.\n\nGain blindsight out to 10 feet; resolve sight-dependent circumstances using that sense.",
+      "automation": "No ability-score increase. Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:blind-fighting"
+    },
+    {
+      "name": "Defense",
+      "category": "Fighting Style",
+      "description": "Defense Fighting Style Feat (Prerequisite: Fighting Style Feature) While you’re wearing Light, Medium, or Heavy armor, you gain a +1 bonus to Armor Class.",
+      "automation": "Automatically adds +1 AC while Wearing armor is checked in Combat.",
+      "repeatable": false
+    },
+    {
+      "name": "Dueling",
+      "category": "Fighting Style",
+      "description": "2024 rules summary\nPrerequisite: Fighting Style feature.\n\nA Melee weapon held in one hand deals +2 damage while you hold no other weapons. A shield does not by itself disqualify this benefit.",
+      "automation": "No ability-score increase. Damage updates for the eligible weapon when its Dueling / throwing checkbox is enabled in Edit weapon. Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [
+        {
+          "target": "duelingDamage",
+          "value": 2,
+          "scale": "flat",
+          "op": "bonus"
+        }
+      ],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:dueling"
+    },
+    {
+      "name": "Great Weapon Fighting",
+      "category": "Fighting Style",
+      "description": "Great Weapon Fighting Fighting Style Feat (Prerequisite: Fighting Style Feature) When you roll damage for an attack you make with a Melee weapon that you are holding with two hands, you can treat any 1 or 2 on a damage die as a 3. The weapon must have the Two-Handed or Versatile property to gain this benefit.",
+      "automation": "No permanent bonus. For eligible two-handed Melee damage rolls, treat each damage die of 1 or 2 as 3 manually.",
+      "repeatable": false
+    },
+    {
+      "name": "Interception",
+      "category": "Fighting Style",
+      "description": "2024 rules summary\nPrerequisite: Fighting Style feature.\n\nWhile holding a shield or eligible weapon, react when a visible attacker hits someone else within 5 feet. Reduce that damage by 1d10 plus your proficiency bonus.",
+      "automation": "No ability-score increase. Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:interception"
+    },
+    {
+      "name": "Protection",
+      "category": "Fighting Style",
+      "description": "2024 rules summary\nPrerequisite: Fighting Style feature.\n\nWith a shield, react to a visible attacker targeting someone else within 5 feet. That attack and later attacks on the protected ally have disadvantage until your next turn starts, while you remain close.",
+      "automation": "No ability-score increase. Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:protection"
+    },
+    {
+      "name": "Thrown Weapon Fighting",
+      "category": "Fighting Style",
+      "description": "2024 rules summary\nPrerequisite: Fighting Style feature.\n\nA ranged attack using a weapon with the Thrown property adds +2 damage when it hits. This does not add damage to ordinary melee use.",
+      "automation": "No ability-score increase. Damage updates for the eligible weapon when its Dueling / throwing checkbox is enabled in Edit weapon. Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [
+        {
+          "target": "thrownDamage",
+          "value": 2,
+          "scale": "flat",
+          "op": "bonus"
+        }
+      ],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:thrown-weapon-fighting"
+    },
+    {
+      "name": "Two-Weapon Fighting",
+      "category": "Fighting Style",
+      "description": "Two-Weapon Fighting Fighting Style Feat (Prerequisite: Fighting Style Feature) When you make an extra attack as a result of using a weapon that has the Light property, you can add your ability modifier to the damage of that attack if you aren’t already adding it to the damage.",
+      "automation": "No extra permanent bonus. The normal weapon roller already includes your ability modifier; use that damage for the eligible Light extra attack without adding it twice.",
+      "repeatable": false
+    },
+    {
+      "name": "Unarmed Fighting",
+      "category": "Fighting Style",
+      "description": "2024 rules summary\nPrerequisite: Fighting Style feature.\n\nStrength-based unarmed damage can use d6, or d8 with neither weapons nor shield held. At the beginning of your turn, a creature you grapple can take 1d4 bludgeoning damage.",
+      "automation": "No ability-score increase. Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:unarmed-fighting"
+    },
+    {
+      "name": "Boon of Combat Prowess",
+      "category": "Epic Boon",
+      "description": "Boon of Combat Prowess Epic Boon Feat (Prerequisite: Level 19+) You gain the following benefits. Ability Score Increase. Increase one ability score of your choice by 1, to a maximum of 30. Peerless Aim. When you miss with an attack roll, you can hit instead. Once you use this benefit, you can’t use it again until the start of your next turn.",
+      "automation": "Choose the stated +1 ability increase, capped at 30; dependent modifiers update automatically. Other special actions, reactions, resistances, and resource uses are handled manually as described.",
+      "repeatable": false,
+      "abilityChoices": [
+        "Strength",
+        "Dexterity",
+        "Constitution",
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ],
+      "increases": 1,
+      "scoreCap": 30
+    },
+    {
+      "name": "Boon of Dimensional Travel",
+      "category": "Epic Boon",
+      "description": "Boon of Dimensional Travel Epic Boon Feat (Prerequisite: Level 19+) You gain the following benefits. Ability Score Increase. Increase one ability score of your choice by 1, to a maximum of 30. Blink Steps. Immediately after you take the Attack action or the Magic action, you can teleport up to 30 feet to an unoccupied space you can see.",
+      "automation": "Choose the stated +1 ability increase, capped at 30; dependent modifiers update automatically. Other special actions, reactions, resistances, and resource uses are handled manually as described.",
+      "repeatable": false,
+      "abilityChoices": [
+        "Strength",
+        "Dexterity",
+        "Constitution",
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ],
+      "increases": 1,
+      "scoreCap": 30
+    },
+    {
+      "name": "Boon of Energy Resistance",
+      "category": "Epic Boon",
+      "description": "2024 rules summary\nPrerequisite: Level 19+.\n\nChoose two non-Force energy resistances, changeable after a Long Rest. A qualifying damage event can trigger a reaction against another visible creature within 60 feet: Constitution-based DC, Dexterity save, and 2d12 plus Constitution modifier damage on failure.\n\nAbility increase: +1 to any one ability, maximum 30.",
+      "abilityChoices": [
+        "Strength",
+        "Dexterity",
+        "Constitution",
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ],
+      "increases": 1,
+      "scoreCap": 30,
+      "automation": "The chosen ability increase is automatic. Record the two resistance choices; apply resistance and reaction damage to the relevant event. Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:boon-of-energy-resistance"
+    },
+    {
+      "name": "Boon of Fate",
+      "category": "Epic Boon",
+      "description": "Boon of Fate Epic Boon Feat (Prerequisite: Level 19+) You gain the following benefits. Ability Score Increase. Increase one ability score of your choice by 1, to a maximum of 30. Improve Fate. When you or another creature within 60 feet of you succeeds on or fails a D20 Test, you can roll 2d4 and apply the total rolled as a bonus or penalty to the d20 roll. Once you use this benefit, you can’t use it again until you roll Initiative or finish a Short or Long Rest.",
+      "automation": "Choose the stated +1 ability increase, capped at 30; dependent modifiers update automatically. Other special actions, reactions, resistances, and resource uses are handled manually as described.",
+      "repeatable": false,
+      "abilityChoices": [
+        "Strength",
+        "Dexterity",
+        "Constitution",
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ],
+      "increases": 1,
+      "scoreCap": 30
+    },
+    {
+      "name": "Boon of Fortitude",
+      "category": "Epic Boon",
+      "description": "2024 rules summary\nPrerequisite: Level 19+.\n\nIncrease maximum HP by 40. Once per turn when regaining HP, you may also recover HP equal to your Constitution modifier.\n\nAbility increase: +1 to any one ability, maximum 30.",
+      "abilityChoices": [
+        "Strength",
+        "Dexterity",
+        "Constitution",
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ],
+      "increases": 1,
+      "scoreCap": 30,
+      "automation": "The chosen ability increase is automatic. The +40 maximum HP is automatic; the once-per-turn healing is a manual choice. Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [
+        {
+          "target": "hpMax",
+          "value": 40,
+          "scale": "flat",
+          "op": "bonus"
+        }
+      ],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:boon-of-fortitude"
+    },
+    {
+      "name": "Boon of Irresistible Offense",
+      "category": "Epic Boon",
+      "description": "Boon of Irresistible Offense Epic Boon Feat (Prerequisite: Level 19+) You gain the following benefits. Ability Score Increase. Increase your Strength or Dexterity score by 1, to a maximum of 30. Overcome Defenses. The Bludgeoning, Piercing, and Slashing damage you deal always ignores Resistance. Overwhelming Strike. When you roll a 20 on the d20 for an attack roll, you can deal extra damage to the target equal to the ability score increased by this feat. The extra damage’s type is the same as the attack’s type.",
+      "automation": "Choose the stated +1 ability increase, capped at 30; dependent modifiers update automatically. Other special actions, reactions, resistances, and resource uses are handled manually as described.",
+      "repeatable": false,
+      "abilityChoices": [
+        "Strength",
+        "Dexterity"
+      ],
+      "increases": 1,
+      "scoreCap": 30
+    },
+    {
+      "name": "Boon of Recovery",
+      "category": "Epic Boon",
+      "description": "2024 rules summary\nPrerequisite: Level 19+.\n\nOnce per Long Rest, a reduction to 0 HP can instead leave you at 1 HP, followed by healing half your maximum. A separate ten-d10 healing pool can be spent with Bonus Actions and refreshes after a Long Rest.\n\nAbility increase: +1 to any one ability, maximum 30.",
+      "abilityChoices": [
+        "Strength",
+        "Dexterity",
+        "Constitution",
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ],
+      "increases": 1,
+      "scoreCap": 30,
+      "automation": "The chosen ability increase is automatic. The healing pool and once-per-rest recovery are resolved manually. Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:boon-of-recovery"
+    },
+    {
+      "name": "Boon of Skill",
+      "category": "Epic Boon",
+      "description": "2024 rules summary\nPrerequisite: Level 19+.\n\nGain proficiency in every skill, then choose one skill without expertise to receive expertise.\n\nAbility increase: +1 to any one ability, maximum 30.",
+      "abilityChoices": [
+        "Strength",
+        "Dexterity",
+        "Constitution",
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ],
+      "increases": 1,
+      "scoreCap": 30,
+      "automation": "The chosen ability increase is automatic. All skill proficiencies and the selected expertise are automatic. Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [
+        {
+          "target": "skill:*",
+          "value": 0,
+          "scale": "flat",
+          "op": "proficiency"
+        }
+      ],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:boon-of-skill"
+    },
+    {
+      "name": "Boon of Speed",
+      "category": "Epic Boon",
+      "description": "2024 rules summary\nPrerequisite: Level 19+.\n\nSpeed rises by 30 feet. A Bonus Action Disengage also releases the Grappled condition on you.\n\nAbility increase: +1 to any one ability, maximum 30.",
+      "abilityChoices": [
+        "Strength",
+        "Dexterity",
+        "Constitution",
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ],
+      "increases": 1,
+      "scoreCap": 30,
+      "automation": "The chosen ability increase is automatic. The +30-foot speed bonus is automatic. Situational actions, reactions, target conditions, limited uses and damage-die changes are resolved manually as described.",
+      "baseEffects": [
+        {
+          "target": "speed",
+          "value": 30,
+          "scale": "flat",
+          "op": "bonus"
+        }
+      ],
+      "repeatable": false,
+      "sourceUrl": "https://dnd2024.wikidot.com/feat:boon-of-speed"
+    },
+    {
+      "name": "Boon of Spell Recall",
+      "category": "Epic Boon",
+      "description": "Boon of Spell Recall Epic Boon Feat (Prerequisite: Level 19+, Spellcasting Feature) You gain the following benefits. Ability Score Increase. Increase your Intelligence, Wisdom, or Charisma score by 1, to a maximum of 30. Free Casting. Whenever you cast a spell with a level 1–4 spell slot, roll 1d4. If the number you roll is the same as the slot’s level, the slot isn’t expended.",
+      "automation": "Choose the stated +1 ability increase, capped at 30; dependent modifiers update automatically. Other special actions, reactions, resistances, and resource uses are handled manually as described.",
+      "repeatable": false,
+      "abilityChoices": [
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ],
+      "increases": 1,
+      "scoreCap": 30
+    },
+    {
+      "name": "Boon of Truesight",
+      "category": "Epic Boon",
+      "description": "Boon of Truesight Epic Boon Feat (Prerequisite: Level 19+) You gain the following benefits. Ability Score Increase. Increase one ability score of your choice by 1, to a maximum of 30. Truesight. You have Truesight with a range of 60 feet. ",
+      "automation": "Choose the stated +1 ability increase, capped at 30; dependent modifiers update automatically. Other special actions, reactions, resistances, and resource uses are handled manually as described.",
+      "repeatable": false,
+      "abilityChoices": [
+        "Strength",
+        "Dexterity",
+        "Constitution",
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ],
+      "increases": 1,
+      "scoreCap": 30
+    },
+    {
+      "name": "Boon of the Night Spirit",
+      "category": "Epic Boon",
+      "description": "Boon of the Night Spirit Epic Boon Feat (Prerequisite: Level 19+) You gain the following benefits. Ability Score Increase. Increase one ability score of your choice by 1, to a maximum of 30. Merge with Shadows. While within Dim Light or Darkness, you can give yourself the Invisible condition as a Bonus Action. The condition ends on you immediately after you take an action, a Bonus Action, or a Reaction. Shadowy Form. While within Dim Light or Darkness, you have Resistance to all damage except Psychic and Radiant.",
+      "automation": "Choose the stated +1 ability increase, capped at 30; dependent modifiers update automatically. Other special actions, reactions, resistances, and resource uses are handled manually as described.",
+      "repeatable": false,
+      "abilityChoices": [
+        "Strength",
+        "Dexterity",
+        "Constitution",
+        "Intelligence",
+        "Wisdom",
+        "Charisma"
+      ],
+      "increases": 1,
+      "scoreCap": 30
+    }
+  ],
+  "source": "SRD 5.2.1, CC BY 4.0; additional Origin summaries: https://www.dndbeyond.com/posts/1785-the-backgrounds-and-origin-feats-in-the-2024"
+}
