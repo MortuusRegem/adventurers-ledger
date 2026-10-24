@@ -1,0 +1,476 @@
+{
+  "classReference": {
+    "levels": [
+      {
+        "level": 1,
+        "features": "Spellcasting, Tinker's Magic",
+        "stats": {
+          "Slot 1": "2",
+          "Slot 2": "—",
+          "Slot 3": "—",
+          "Slot 4": "—",
+          "Slot 5": "—",
+          "Prepared spells": "2",
+          "Cantrips": "2",
+          "Plans known": "0",
+          "Replicated items": "0",
+          "Attunement limit": "3"
+        }
+      },
+      {
+        "level": 2,
+        "features": "Replicate Magic Item",
+        "stats": {
+          "Slot 1": "2",
+          "Slot 2": "—",
+          "Slot 3": "—",
+          "Slot 4": "—",
+          "Slot 5": "—",
+          "Prepared spells": "3",
+          "Cantrips": "2",
+          "Plans known": "4",
+          "Replicated items": "2",
+          "Attunement limit": "3"
+        }
+      },
+      {
+        "level": 3,
+        "features": "Artificer Subclass",
+        "stats": {
+          "Slot 1": "3",
+          "Slot 2": "—",
+          "Slot 3": "—",
+          "Slot 4": "—",
+          "Slot 5": "—",
+          "Prepared spells": "4",
+          "Cantrips": "2",
+          "Plans known": "4",
+          "Replicated items": "2",
+          "Attunement limit": "3"
+        }
+      },
+      {
+        "level": 4,
+        "features": "Ability Score Improvement",
+        "stats": {
+          "Slot 1": "3",
+          "Slot 2": "—",
+          "Slot 3": "—",
+          "Slot 4": "—",
+          "Slot 5": "—",
+          "Prepared spells": "5",
+          "Cantrips": "2",
+          "Plans known": "4",
+          "Replicated items": "2",
+          "Attunement limit": "3"
+        }
+      },
+      {
+        "level": 5,
+        "features": "Subclass feature",
+        "stats": {
+          "Slot 1": "4",
+          "Slot 2": "2",
+          "Slot 3": "—",
+          "Slot 4": "—",
+          "Slot 5": "—",
+          "Prepared spells": "6",
+          "Cantrips": "2",
+          "Plans known": "4",
+          "Replicated items": "2",
+          "Attunement limit": "3"
+        }
+      },
+      {
+        "level": 6,
+        "features": "Magic Item Tinker",
+        "stats": {
+          "Slot 1": "4",
+          "Slot 2": "2",
+          "Slot 3": "—",
+          "Slot 4": "—",
+          "Slot 5": "—",
+          "Prepared spells": "6",
+          "Cantrips": "2",
+          "Plans known": "5",
+          "Replicated items": "3",
+          "Attunement limit": "3"
+        }
+      },
+      {
+        "level": 7,
+        "features": "Flash of Genius",
+        "stats": {
+          "Slot 1": "4",
+          "Slot 2": "3",
+          "Slot 3": "—",
+          "Slot 4": "—",
+          "Slot 5": "—",
+          "Prepared spells": "7",
+          "Cantrips": "2",
+          "Plans known": "5",
+          "Replicated items": "3",
+          "Attunement limit": "3"
+        }
+      },
+      {
+        "level": 8,
+        "features": "Ability Score Improvement",
+        "stats": {
+          "Slot 1": "4",
+          "Slot 2": "3",
+          "Slot 3": "—",
+          "Slot 4": "—",
+          "Slot 5": "—",
+          "Prepared spells": "7",
+          "Cantrips": "2",
+          "Plans known": "5",
+          "Replicated items": "3",
+          "Attunement limit": "3"
+        }
+      },
+      {
+        "level": 9,
+        "features": "Subclass feature",
+        "stats": {
+          "Slot 1": "4",
+          "Slot 2": "3",
+          "Slot 3": "2",
+          "Slot 4": "—",
+          "Slot 5": "—",
+          "Prepared spells": "9",
+          "Cantrips": "2",
+          "Plans known": "5",
+          "Replicated items": "3",
+          "Attunement limit": "3"
+        }
+      },
+      {
+        "level": 10,
+        "features": "Magic Item Adept",
+        "stats": {
+          "Slot 1": "4",
+          "Slot 2": "3",
+          "Slot 3": "2",
+          "Slot 4": "—",
+          "Slot 5": "—",
+          "Prepared spells": "9",
+          "Cantrips": "3",
+          "Plans known": "6",
+          "Replicated items": "4",
+          "Attunement limit": "4"
+        }
+      },
+      {
+        "level": 11,
+        "features": "Spell-Storing Item",
+        "stats": {
+          "Slot 1": "4",
+          "Slot 2": "3",
+          "Slot 3": "3",
+          "Slot 4": "—",
+          "Slot 5": "—",
+          "Prepared spells": "10",
+          "Cantrips": "3",
+          "Plans known": "6",
+          "Replicated items": "4",
+          "Attunement limit": "4"
+        }
+      },
+      {
+        "level": 12,
+        "features": "Ability Score Improvement",
+        "stats": {
+          "Slot 1": "4",
+          "Slot 2": "3",
+          "Slot 3": "3",
+          "Slot 4": "—",
+          "Slot 5": "—",
+          "Prepared spells": "10",
+          "Cantrips": "3",
+          "Plans known": "6",
+          "Replicated items": "4",
+          "Attunement limit": "4"
+        }
+      },
+      {
+        "level": 13,
+        "features": "—",
+        "stats": {
+          "Slot 1": "4",
+          "Slot 2": "3",
+          "Slot 3": "3",
+          "Slot 4": "1",
+          "Slot 5": "—",
+          "Prepared spells": "11",
+          "Cantrips": "3",
+          "Plans known": "6",
+          "Replicated items": "4",
+          "Attunement limit": "4"
+        }
+      },
+      {
+        "level": 14,
+        "features": "Advanced Artifice",
+        "stats": {
+          "Slot 1": "4",
+          "Slot 2": "3",
+          "Slot 3": "3",
+          "Slot 4": "1",
+          "Slot 5": "—",
+          "Prepared spells": "11",
+          "Cantrips": "4",
+          "Plans known": "7",
+          "Replicated items": "5",
+          "Attunement limit": "5"
+        }
+      },
+      {
+        "level": 15,
+        "features": "Subclass feature",
+        "stats": {
+          "Slot 1": "4",
+          "Slot 2": "3",
+          "Slot 3": "3",
+          "Slot 4": "2",
+          "Slot 5": "—",
+          "Prepared spells": "12",
+          "Cantrips": "4",
+          "Plans known": "7",
+          "Replicated items": "5",
+          "Attunement limit": "5"
+        }
+      },
+      {
+        "level": 16,
+        "features": "Ability Score Improvement",
+        "stats": {
+          "Slot 1": "4",
+          "Slot 2": "3",
+          "Slot 3": "3",
+          "Slot 4": "2",
+          "Slot 5": "—",
+          "Prepared spells": "12",
+          "Cantrips": "4",
+          "Plans known": "7",
+          "Replicated items": "5",
+          "Attunement limit": "5"
+        }
+      },
+      {
+        "level": 17,
+        "features": "—",
+        "stats": {
+          "Slot 1": "4",
+          "Slot 2": "3",
+          "Slot 3": "3",
+          "Slot 4": "3",
+          "Slot 5": "1",
+          "Prepared spells": "14",
+          "Cantrips": "4",
+          "Plans known": "7",
+          "Replicated items": "5",
+          "Attunement limit": "5"
+        }
+      },
+      {
+        "level": 18,
+        "features": "Magic Item Master",
+        "stats": {
+          "Slot 1": "4",
+          "Slot 2": "3",
+          "Slot 3": "3",
+          "Slot 4": "3",
+          "Slot 5": "1",
+          "Prepared spells": "14",
+          "Cantrips": "4",
+          "Plans known": "8",
+          "Replicated items": "6",
+          "Attunement limit": "6"
+        }
+      },
+      {
+        "level": 19,
+        "features": "Epic Boon",
+        "stats": {
+          "Slot 1": "4",
+          "Slot 2": "3",
+          "Slot 3": "3",
+          "Slot 4": "3",
+          "Slot 5": "2",
+          "Prepared spells": "15",
+          "Cantrips": "4",
+          "Plans known": "8",
+          "Replicated items": "6",
+          "Attunement limit": "6"
+        }
+      },
+      {
+        "level": 20,
+        "features": "Soul of Artifice",
+        "stats": {
+          "Slot 1": "4",
+          "Slot 2": "3",
+          "Slot 3": "3",
+          "Slot 4": "3",
+          "Slot 5": "2",
+          "Prepared spells": "15",
+          "Cantrips": "4",
+          "Plans known": "8",
+          "Replicated items": "6",
+          "Attunement limit": "6"
+        }
+      }
+    ],
+    "features": [
+      {
+        "level": 1,
+        "name": "Spellcasting, Tinker's Magic",
+        "description": "Intelligence spellcasting, two chosen cantrips plus Mending, and prepared Artificer spells. Tinker magic creates temporary mundane gear; uses equal Intelligence modifier, minimum one, per long rest."
+      },
+      {
+        "level": 2,
+        "name": "Replicate Magic Item",
+        "description": "Learn eligible magic-item plans and create a limited number of replicated items. Record each created item in Equipment and apply item-specific bonuses in Feats & bonuses."
+      },
+      {
+        "level": 3,
+        "name": "Artificer Subclass",
+        "description": "Choose an Artificer specialty and review its companion, equipment and spell rules."
+      },
+      {
+        "level": 6,
+        "name": "Magic Item Tinker",
+        "description": "Magic Item Tinker provides charging, draining and transmutation options for replicated items. Resolve item and spell-slot transactions when used."
+      },
+      {
+        "level": 7,
+        "name": "Flash of Genius",
+        "description": "Flash of Genius helps a failed ability check or saving throw with Intelligence; track expended uses in class resources."
+      },
+      {
+        "level": 10,
+        "name": "Magic Item Adept",
+        "description": "The attunement limit increases to four."
+      },
+      {
+        "level": 11,
+        "name": "Spell-Storing Item",
+        "description": "Spell-Storing Item holds an eligible Artificer spell of up to level 3; resolve its uses and restrictions separately."
+      },
+      {
+        "level": 14,
+        "name": "Advanced Artifice",
+        "description": "Advanced Artifice increases the attunement limit to five and restores one Flash of Genius on a short rest."
+      },
+      {
+        "level": 18,
+        "name": "Magic Item Master",
+        "description": "Magic Item Master increases the attunement limit to six."
+      },
+      {
+        "level": 19,
+        "name": "Epic Boon",
+        "description": "Choose an Epic Boon or another eligible feat."
+      },
+      {
+        "level": 20,
+        "name": "Soul of Artifice",
+        "description": "Soul of Artifice offers item-fueled survival and improved recovery of Flash of Genius. Track attuned and replicated items to determine eligibility."
+      }
+    ],
+    "reference": "Eberron: Forge of the Artificer (2025). Original app summaries; consult the book for full item, tool and spell rules.",
+    "source": "https://www.dndbeyond.com/posts/2106-whats-new-with-the-artificer-in-eberron-forge-of"
+  },
+  "spells": [
+    "Acid Splash",
+    "Fire Bolt",
+    "Guidance",
+    "Light",
+    "Mage Hand",
+    "Mending",
+    "Message",
+    "Poison Spray",
+    "Prestidigitation",
+    "Ray of Frost",
+    "Resistance",
+    "Shocking Grasp",
+    "Spare the Dying",
+    "Thorn Whip",
+    "Thunderclap",
+    "Absorb Elements",
+    "Alarm",
+    "Catapult",
+    "Cure Wounds",
+    "Detect Magic",
+    "Disguise Self",
+    "Expeditious Retreat",
+    "Faerie Fire",
+    "False Life",
+    "Feather Fall",
+    "Grease",
+    "Identify",
+    "Jump",
+    "Longstrider",
+    "Purify Food and Drink",
+    "Sanctuary",
+    "Snare",
+    "Tashas Caustic Brew",
+    "Aid",
+    "Alter Self",
+    "Arcane Lock",
+    "Blur",
+    "Continual Flame",
+    "Darkvision",
+    "Enhance Ability",
+    "Enlarge/Reduce",
+    "Heat Metal",
+    "Invisibility",
+    "Lesser Restoration",
+    "Levitate",
+    "Magic Mouth",
+    "Magic Weapon",
+    "Protection from Poison",
+    "Pyrotechnics",
+    "Rope Trick",
+    "See Invisibility",
+    "Skywrite",
+    "Spider Climb",
+    "Web",
+    "Air Bubble",
+    "Ashardalons Stride",
+    "Blink",
+    "Catnap",
+    "Create Food and Water",
+    "Dispel Magic",
+    "Elemental Weapon",
+    "Flame Arrows",
+    "Fly",
+    "Glyph of Warding",
+    "Haste",
+    "Intellect Fortress",
+    "Protection from Energy",
+    "Revivify",
+    "Tiny Servant",
+    "Water Breathing",
+    "Water Walk",
+    "Arcane Eye",
+    "Elemental Bane",
+    "Fabricate",
+    "Freedom of Movement",
+    "Leomunds Secret Chest",
+    "Mordenkainens Faithful Hound",
+    "Mordenkainens Private Sanctum",
+    "Otilukes Resilient Sphere",
+    "Stone Shape",
+    "Stoneskin",
+    "Summon Construct",
+    "Animate Objects",
+    "Bigbys Hand",
+    "Creation",
+    "Greater Restoration",
+    "Skill Empowerment",
+    "Transmute Rock",
+    "Wall of Stone"
+  ]
+}
