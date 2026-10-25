@@ -20,7 +20,7 @@ for size in 16 32 128 256 512; do
     sips -z "$twice" "$twice" "$icon" --out "build-macos/ledger.iconset/icon_${size}x${size}@2x.png" >/dev/null
 done
 iconutil -c icns build-macos/ledger.iconset -o "$app/Contents/Resources/ledger.icns"
-/usr/libexec/PlistBuddy -c 'Add :CFBundleIconFile string ledger.icns' "$app/Contents/Info.plist"
+/usr/libexec/PlistBuddy -c 'Set :CFBundleIconFile ledger.icns' "$app/Contents/Info.plist"
 cp ATTRIBUTION.txt MAC-INSTALL.md "$app/Contents/Resources/"
 cp licenses/*.txt "$app/Contents/Resources/licenses/"
 # Test output is not part of the shipped application.
