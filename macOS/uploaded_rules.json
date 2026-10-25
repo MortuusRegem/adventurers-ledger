@@ -1,0 +1,1732 @@
+{
+  "checkedOn": "2026-10-18",
+  "sources": [
+    {
+      "id": "PlayerDnDBasicRules_v0.2_PrintFriendly",
+      "title": "Player’s Basic Rules v0.2",
+      "filename": "PlayerDnDBasicRules_v0.2_PrintFriendly.pdf",
+      "path": "",
+      "edition": "2014 rules",
+      "summary": "Older character creation, four basic species and classes, six backgrounds, equipment, adventuring, combat and spellcasting. Six matching older background entries were compared directly with this PDF. These rules predate the app’s 2024 class and character-creation rules.",
+      "sha256": "76bd7bca1700891ab68cba116669ce6691e76ad30e345bd299e76c9584f78914",
+      "pages": 115
+    },
+    {
+      "id": "EE_PlayersCompanion",
+      "title": "Elemental Evil Player’s Companion",
+      "filename": "EE_PlayersCompanion.pdf",
+      "path": "",
+      "edition": "2015 published supplement",
+      "summary": "Aarakocra, deep gnomes, four genasi lineages, goliaths, Svirfneblin Magic and 43 elemental spells. The app imports 41 previously missing spells as optional 2015 entries. The two spells with existing revised entries retain those revised entries. Species and feat printings are available here as older references.",
+      "sha256": "c520bf96adb66923113abe2931fb068fca06f5ac075a6298f8af45c07d4c197c",
+      "pages": 25
+    },
+    {
+      "id": "DMBasicRulesv.0.3_PrinterFriendly",
+      "title": "Dungeon Master’s Basic Rules v0.3",
+      "filename": "DMBasicRulesv.0.3_PrinterFriendly.pdf",
+      "path": "",
+      "edition": "2014 rules",
+      "summary": "Monster statistics, NPCs, encounter-building guidance and magic items. Monster and encounter rules are a DM reference; they are not automatic changes to a player character. Magic-item entries are available in this library with their original-version labels.",
+      "sha256": "920984ab3db209f1a740612680644abeb93ae6de10751b232b506801895bcfb9",
+      "pages": 63
+    },
+    {
+      "id": "HoardDragonQueen_Supplement_PF_v0.3",
+      "title": "Hoard of the Dragon Queen Supplement v0.3",
+      "filename": "HoardDragonQueen_Supplement_PF_v0.3.pdf",
+      "path": "",
+      "edition": "2014 adventure reference",
+      "summary": "Magic items, monster statistics and spell references used by the adventure. Matching modern spell names are retained; this PDF is not a new class spell-list expansion. Original-version magic-item descriptions can be added to inventory as references.",
+      "sha256": "034e67fa431d7fde55e9bcec2c77f91ec10d261505e77e62fff4408b3819c18b",
+      "pages": 28
+    },
+    {
+      "id": "RiseTiamatSupplementv0.2_Printer",
+      "title": "The Rise of Tiamat Supplement v0.2",
+      "filename": "RiseTiamatSupplementv0.2_Printer.pdf",
+      "path": "",
+      "edition": "2014 adventure reference",
+      "summary": "Magic items, monster statistics and spell references for the adventure. Several named spells use older titles for spells already present in revised form. Original-version magic-item descriptions can be added to inventory as references.",
+      "sha256": "c01ac3075fb047525d6925e164b9ccdbe404a3a2e82d8c4c33fc78779db31dc2",
+      "pages": 38
+    },
+    {
+      "id": "ADVLeague_PlayerGuide_TODv1",
+      "title": "Adventurers League Player’s Guide v1.0",
+      "filename": "ADVLeague_PlayerGuide_TODv1.pdf",
+      "path": "",
+      "edition": "Archived 2014–2015 season",
+      "summary": "Tyranny of Dragons organized-play guidance dated August 1, 2014 through February 28, 2015: character creation, advancement, rewards, downtime and factions. These are historical campaign restrictions, not current Adventurers League eligibility rules or universal 2024 character rules.",
+      "sha256": "cb947a26b6db2f9c716d0abb6f055ebda8db35d2a7781200e0d9bb36388de33d",
+      "pages": 21
+    },
+    {
+      "id": "DDALPG_EEv1Print",
+      "title": "Adventurers League Player’s Guide v2.0",
+      "filename": "DDALPG_EEv1Print.pdf",
+      "path": "",
+      "edition": "Archived 2015 season",
+      "summary": "Elemental Evil organized-play guidance dated March 1 through July 15, 2015, including permitted material, advancement, downtime and factions. Retained as a historical campaign reference, not applied as current organized-play restrictions.",
+      "sha256": "71ed7f2c957ae3da0ea1ee0d0a89d2804a7c5f4f2c9c8e79c6fdafd1e4d4e209",
+      "pages": 23
+    },
+    {
+      "id": "UA_Eberron_v1.1",
+      "title": "Unearthed Arcana: Eberron v1.1",
+      "filename": "UA_Eberron_v1.1.pdf",
+      "path": "",
+      "edition": "2015 playtest",
+      "summary": "Experimental changeling, shifter and warforged rules, a Wizard Artificer tradition, action points and dragonmarks. The document explicitly identifies these as playtest mechanics. They are not substituted for later published species, feats or the Artificer class.",
+      "sha256": "c817347b60f0d9b48b9890f849b8d072917a3534e682a8f161b5c43c1baf953d",
+      "pages": 6
+    },
+    {
+      "id": "UA_Battlesystem",
+      "title": "Unearthed Arcana: When Armies Clash",
+      "filename": "UA_Battlesystem.pdf",
+      "path": "",
+      "edition": "2015 playtest",
+      "summary": "Experimental mass-combat rules covering stands, units, formations, commanders, orders, morale and victory. This library provides access to the document; the character-sheet combat and dice controls do not implement a mass-battle simulator.",
+      "sha256": "5a523eae66cacab69cde52255a38731c8205eff1c9ab14679240982824c251a0",
+      "pages": 9
+    }
+  ],
+  "spells": [
+    {
+      "name": "Abi-Dalzim’s Horrid Wilting [EE 2015]",
+      "rulesName": "Abi-Dalzim’s Horrid Wilting",
+      "legacyPdf": true,
+      "level": 8,
+      "meta": "Level 8 Necromancy (Sorcerer, Wizard) — published 2015 rules",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "dice": [
+        "10d8"
+      ],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "150 feet",
+        "Components": "V, S, M (a bit of sponge)",
+        "Duration": "Instantaneous"
+      },
+      "school": "necromancy",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 15,
+      "description": "Abi-Dalzim’s Horrid Wilting\n8th-level necromancy\nCasting Time: 1 action\nRange: 150 feet\nComponents: V, S, M (a bit of sponge)\nDuration: Instantaneous\nYou draw the moisture from every creature in a 30-foot\ncube centered on a point you choose within range. Each\ncreature in that area must make a Constitution saving\nthrow. Constructs and undead aren’t affected, and\nplants and water elementals make this saving throw\nwith disadvantage. A creature takes 10d8 necrotic\ndamage on a failed save, or half as much damage on a\nsuccessful one.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 15. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "10d8",
+      "rollUpcast": 0
+    },
+    {
+      "name": "Absorb Elements [EE 2015]",
+      "rulesName": "Absorb Elements",
+      "legacyPdf": true,
+      "level": 1,
+      "meta": "Level 1 Abjuration (Druid, Ranger, Wizard) — published 2015 rules",
+      "classes": [
+        "Druid",
+        "Ranger",
+        "Wizard"
+      ],
+      "dice": [
+        "1d6"
+      ],
+      "fields": {
+        "Casting Time": "1 reaction, which you take when you take acid, cold, fire, lightning, or thunder damage",
+        "Range": "Self",
+        "Components": "S",
+        "Duration": "1 round"
+      },
+      "school": "abjuration",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 15,
+      "description": "Absorb Elements\n1st-level abjuration\nCasting Time: 1 reaction, which you take when you take\nacid, cold, fire, lightning, or thunder damage\nRange: Self\nComponents: S\nDuration: 1 round\nThe spell captures some of the incoming energy,\nlessening its effect on you and storing it for your next\nmelee attack. You have resistance to the triggering\ndamage type until the start of your next turn. Also, the\nfirst time you hit with a melee attack on your next turn,\nthe target takes an extra 1d6 damage of the triggering\ntype, and the spell ends.\nAt Higher Levels. When you cast this spell using\na spell slot of 2nd level or higher, the extra damage\nincreases by 1d6 for each slot level above 1st.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 15. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "1d6",
+      "rollUpcast": 1
+    },
+    {
+      "name": "Aganazzar’s Scorcher [EE 2015]",
+      "rulesName": "Aganazzar’s Scorcher",
+      "legacyPdf": true,
+      "level": 2,
+      "meta": "Level 2 Evocation (Sorcerer, Wizard) — published 2015 rules",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "dice": [
+        "3d8",
+        "1d8"
+      ],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "30 feet",
+        "Components": "V, S, M (a red dragon’s scale)",
+        "Duration": "Instantaneous"
+      },
+      "school": "evocation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 15,
+      "description": "Aganazzar’s Scorcher\n2nd-level evocation\nCasting Time: 1 action\nRange: 30 feet\nComponents: V, S, M (a red dragon’s scale)\nDuration: Instantaneous\nA line of roaring flame 30 feet long and 5 feet wide\nemanates from you in a direction you choose. Each\ncreature in the line must make a Dexterity saving throw.\nA creature takes 3d8 fire damage on a failed save, or\nhalf as much damage on a successful one.\nAt Higher Levels. When you cast this spell using a\nspell slot of 3rd level or higher, the damage increases by\n1d8 for each slot level above 2nd.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 15. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "3d8",
+      "rollUpcast": 1
+    },
+    {
+      "name": "Beast Bond [EE 2015]",
+      "rulesName": "Beast Bond",
+      "legacyPdf": true,
+      "level": 1,
+      "meta": "Level 1 Divination (Druid, Ranger) — published 2015 rules",
+      "classes": [
+        "Druid",
+        "Ranger"
+      ],
+      "dice": [],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "Touch",
+        "Components": "V, S, M (a bit of fur wrapped in a cloth)",
+        "Duration": "Concentration, up to 10 minutes"
+      },
+      "school": "divination",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 15,
+      "description": "Beast Bond\n1st-level divination\nCasting Time: 1 action\nRange: Touch\nComponents: V, S, M (a bit of fur wrapped in a cloth)\nDuration: Concentration, up to 10 minutes\nYou establish a telepathic link with one beast you touch\nthat is friendly to you or charmed by you. The spell\nfails if the beast’s Intelligence is 4 or higher. Until the\nspell ends, the link is active while you and the beast are\nwithin line of sight of each other. Through the link, the\nbeast can understand your telepathic messages to it,\nand it can telepathically communicate simple emotions\nand concepts back to you. While the link is active,\nthe beast gains advantage on attack rolls against any\ncreature within 5 feet of you that you can see.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 15. Optional older rules; confirm availability with your DM.\n[local reference file]"
+    },
+    {
+      "name": "Bones of the Earth [EE 2015]",
+      "rulesName": "Bones of the Earth",
+      "legacyPdf": true,
+      "level": 6,
+      "meta": "Level 6 Transmutation (Druid) — published 2015 rules",
+      "classes": [
+        "Druid"
+      ],
+      "dice": [
+        "6d6"
+      ],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "120 feet",
+        "Components": "V, S",
+        "Duration": "Instantaneous"
+      },
+      "school": "transmutation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 15,
+      "description": "Bones of the Earth\n6th-level transmutation\nCasting Time: 1 action\nRange: 120 feet\nComponents: V, S\nDuration: Instantaneous\nYou cause up to six pillars of stone to burst from places\non the ground that you can see within range. Each pillar\nis a cylinder that has a diameter of 5 feet and a height of\nup to 30 feet. The ground where a pillar appears must\nbe wide enough for its diameter, and you can target\nground under a creature if that creature is Medium or\nsmaller. Each pillar has AC 5 and 30 hit points. When\nreduced to 0 hit points, a pillar crumbles into rubble,\nwhich creates an area of difficult terrain with a 10-foot\nradius. The rubble lasts until cleared.\nIf a pillar is created under a creature, that creature\nmust succeed on a Dexterity saving throw or be lifted by\nthe pillar. A creature can choose to fail the save.\nIf a pillar is prevented from reaching its full height\nbecause of a ceiling or other obstacle, a creature\non the pillar takes 6d6 bludgeoning damage and is\nrestrained, pinched between the pillar and the obstacle.\nThe restrained creature can use an action to make\na Strength or Dexterity check (the creature’s choice)\nagainst the spell’s saving throw DC. On a success, the\ncreature is no longer restrained and must either move\noff the pillar or fall off it.\nAt Higher Levels. When you cast this spell using\na spell slot of 7th level or higher, you can create two\nadditional pillars for each slot level above 6th.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 15. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "6d6",
+      "rollUpcast": 0
+    },
+    {
+      "name": "Catapult [EE 2015]",
+      "rulesName": "Catapult",
+      "legacyPdf": true,
+      "level": 1,
+      "meta": "Level 1 Transmutation (Sorcerer, Wizard) — published 2015 rules",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "dice": [
+        "3d8",
+        "1d8"
+      ],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "150 feet",
+        "Components": "S",
+        "Duration": "Instantaneous"
+      },
+      "school": "transmutation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 15,
+      "description": "Catapult\n1st-level transmutation\nCasting Time: 1 action\nRange: 150 feet\nComponents: S\nDuration: Instantaneous\nChoose one object weighing 1 to 5 pounds within range\nthat isn’t being worn or carried. The object flies in a\nstraight line up to 90 feet in a direction you choose\nbefore falling to the ground, stopping early if it impacts\nagainst a solid surface. If the object would strike a\ncreature, that creature must make a Dexterity saving\nthrow. On a failed save, the object strikes the target and\nstops moving. In either case, both the object and the\ncreature or solid surface take 3d8 bludgeoning damage.\nAt Higher Levels. When you cast this spell using a\nspell slot of 2nd level or higher, the maximum weight of\nobjects that you can target with this spell increases by 5\npounds, and the damage increases by 1d8, for each slot\nlevel above 1st.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 15. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "3d8",
+      "rollUpcast": 1
+    },
+    {
+      "name": "Create Bonfire [EE 2015]",
+      "rulesName": "Create Bonfire",
+      "legacyPdf": true,
+      "level": 0,
+      "meta": "Cantrip Conjuration (Druid, Sorcerer, Warlock, Wizard) — published 2015 rules",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "dice": [
+        "1d8",
+        "2d8",
+        "3d8",
+        "4d8"
+      ],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "60 feet",
+        "Components": "V, S",
+        "Duration": "Concentration, up to 1 minute"
+      },
+      "school": "cantrip",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 16,
+      "description": "Create Bonfire\nConjuration cantrip\nCasting Time: 1 action\nRange: 60 feet\nComponents: V, S\nDuration: Concentration, up to 1 minute\nYou create a bonfire on ground that you can see within\nrange. Until the spells ends, the bonfire fills a 5-foot\ncube. Any creature in the bonfire’s space when you cast\nthe spell must succeed on a Dexterity saving throw or\ntake 1d8 fire damage. A creature must also make the\nsaving throw when it enters the bonfire’s space for the\nfirst time on a turn or ends its turn there.\nThe spell’s damage increases by 1d8 when you reach\n5th level (2d8), 11th level (3d8), and 17th level (4d8).\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 16. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "1d8",
+      "rollUpcast": 0,
+      "cantripScaling": true
+    },
+    {
+      "name": "Control Flames [EE 2015]",
+      "rulesName": "Control Flames",
+      "legacyPdf": true,
+      "level": 0,
+      "meta": "Cantrip Transmutation (Druid, Sorcerer, Wizard) — published 2015 rules",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "dice": [],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "60 feet",
+        "Components": "S",
+        "Duration": "Instantaneous or 1 hour (see below)"
+      },
+      "school": "cantrip",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 16,
+      "description": "Control Flames\nTransmutation cantrip\nCasting Time: 1 action\nRange: 60 feet\nComponents: S\nDuration: Instantaneous or 1 hour (see below)\nYou choose nonmagical flame that you can see within\nrange and that fits within a 5-foot cube. You affect it in\none of the following ways:\n• You instantaneously expand the flame 5 feet in one\ndirection, provided that wood or other fuel is present\nin the new location.\n• You instantaneously extinguish the flames\nwithin the cube.\n• You double or halve the area of bright light and dim\nlight cast by the flame, change its color, or both. The\nchange lasts for 1 hour.\n• You cause simple shapes—such as the vague form of a\ncreature, an inanimate object, or a location—to appear\nwithin the flames and animate as you like. The shapes\nlast for 1 hour.\nIf you cast this spell multiple times, you can have up to\nthree of its non-instantaneous effects active at a time,\nand you can dismiss such an effect as an action.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 16. Optional older rules; confirm availability with your DM.\n[local reference file]"
+    },
+    {
+      "name": "Control Winds [EE 2015]",
+      "rulesName": "Control Winds",
+      "legacyPdf": true,
+      "level": 5,
+      "meta": "Level 5 Transmutation (Druid, Sorcerer, Wizard) — published 2015 rules",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "dice": [],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "300 feet",
+        "Components": "V, S",
+        "Duration": "Concentration, up to 1 hour"
+      },
+      "school": "transmutation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 16,
+      "description": "Control Winds\n5th-level transmutation\nCasting Time: 1 action\nRange: 300 feet\nComponents: V, S\nDuration: Concentration, up to 1 hour\nYou take control of the air in a 100-foot cube that you\ncan see within range. Choose one of the following\neffects when you cast the spell. The effect lasts for the\nspell’s duration, unless you use your action on a later\n\nturn to switch to a different effect. You can also use your\naction to temporarily halt the effect or to restart one\nyou’ve halted.\nGusts. A wind picks up within the cube, continually\nblowing in a horizontal direction that you choose.\nYou choose the intensity of the wind: calm, moderate,\nor strong. If the wind is moderate or strong, ranged\nweapon attacks that pass through it or that are made\nagainst targets within the cube have disadvantage on\ntheir attack rolls. If the wind is strong, any creature\nmoving against the wind must spend 1 extra foot of\nmovement for each foot moved.\nDowndraft. You cause a sustained blast of strong\nwind to blow downward from the top of the cube.\nRanged weapon attacks that pass through the cube\nor that are made against targets within it have\ndisadvantage on their attack rolls. A creature must\nmake a Strength saving throw if it flies into the cube for\nthe first time on a turn or starts its turn there flying. On\na failed save, the creature is knocked prone.\nUpdraft. You cause a sustained updraft within the\ncube, rising upward from the cube’s bottom edge.\nCreatures that end a fall within the cube take only half\ndamage from the fall. When a creature in the cube\nmakes a vertical jump, the creature can jump up to 10\nfeet higher than normal.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 16. Optional older rules; confirm availability with your DM.\n[local reference file]"
+    },
+    {
+      "name": "Dust Devil [EE 2015]",
+      "rulesName": "Dust Devil",
+      "legacyPdf": true,
+      "level": 2,
+      "meta": "Level 2 Conjuration (Druid, Sorcerer, Wizard) — published 2015 rules",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "dice": [
+        "1d8"
+      ],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "60 feet",
+        "Components": "V, S, M (a pinch of dust)",
+        "Duration": "Concentration, up to 1 minute"
+      },
+      "school": "conjuration",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 17,
+      "description": "Dust Devil\n2nd-level conjuration\nCasting Time: 1 action\nRange: 60 feet\nComponents: V, S, M (a pinch of dust)\nDuration: Concentration, up to 1 minute\nChoose an unoccupied 5-foot cube of air that you can\nsee within range. An elemental force that resembles\na dust devil appears in the cube and lasts for the\nspell’s duration.\nAny creature that ends its turn within 5 feet of the\ndust devil must make a Strength saving throw. On a\nfailed save, the creature takes 1d8 bludgeoning damage\nand is pushed 10 feet away. On a successful save, the\ncreature takes half as much damage and isn’t pushed.\nAs a bonus action, you can move the dust devil up to\n30 feet in any direction. If the dust devil moves over\nsand, dust, loose dirt, or small gravel, it sucks up the\nmaterial and forms a 10-foot-radius cloud of debris\naround itself that lasts until the start of your next turn.\nThe cloud heavily obscures its area.\nAt Higher Levels. When you cast this spell using a\nspell slot of 3rd level or higher, the damage increases by\n1d8 for each slot level above 2nd.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 17. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "1d8",
+      "rollUpcast": 1
+    },
+    {
+      "name": "Earthbind [EE 2015]",
+      "rulesName": "Earthbind",
+      "legacyPdf": true,
+      "level": 2,
+      "meta": "Level 2 Transmutation (Druid, Sorcerer, Warlock, Wizard) — published 2015 rules",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "dice": [],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "300 feet",
+        "Components": "V",
+        "Duration": "Concentration, up to 1 minute"
+      },
+      "school": "transmutation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 17,
+      "description": "Earthbind\n2nd-level transmutation\nCasting Time: 1 action\nRange: 300 feet\nComponents: V\nDuration: Concentration, up to 1 minute\nChoose one creature you can see within range. Yellow\nstrips of magical energy loop around the creature. The\ntarget must succeed on a Strength saving throw or its\nflying speed (if any) is reduced to 0 feet for the spell’s\nduration. An airborne creature affected by this spell\ndescends at 60 feet per round until it reaches the ground\nor the spell ends.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 17. Optional older rules; confirm availability with your DM.\n[local reference file]"
+    },
+    {
+      "name": "Earth Tremor [EE 2015]",
+      "rulesName": "Earth Tremor",
+      "legacyPdf": true,
+      "level": 1,
+      "meta": "Level 1 Evocation (Bard, Druid, Sorcerer, Wizard) — published 2015 rules",
+      "classes": [
+        "Bard",
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "dice": [
+        "1d6"
+      ],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "Self (10-foot radius)",
+        "Components": "V, S",
+        "Duration": "Instantaneous"
+      },
+      "school": "evocation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 17,
+      "description": "Earth Tremor\n1st-level evocation\nCasting Time: 1 action\nRange: Self (10-foot radius)\nComponents: V, S\nDuration: Instantaneous\nYou cause a tremor in the ground in a 10-foot radius.\nEach creature other than you in that area must make\na Dexterity saving throw. On a failed save, a creature\ntakes 1d6 bludgeoning damage and is knocked prone.\nIf the ground in that area is loose earth or stone, it\nbecomes difficult terrain until cleared.\nAt Higher Levels. When you cast this spell using a\nspell slot of 2nd level or higher, the damage increases by\n1d6 for each slot level above 1st.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 17. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "1d6",
+      "rollUpcast": 1
+    },
+    {
+      "name": "Elemental Bane [EE 2015]",
+      "rulesName": "Elemental Bane",
+      "legacyPdf": true,
+      "level": 4,
+      "meta": "Level 4 Transmutation (Druid, Warlock, Wizard) — published 2015 rules",
+      "classes": [
+        "Druid",
+        "Warlock",
+        "Wizard"
+      ],
+      "dice": [
+        "2d6"
+      ],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "90 feet",
+        "Components": "V, S",
+        "Duration": "Concentration, up to 1 minute"
+      },
+      "school": "transmutation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 17,
+      "description": "Elemental Bane\n4th-level transmutation\nCasting Time: 1 action\nRange: 90 feet\nComponents: V, S\nDuration: Concentration, up to 1 minute\nChoose one creature you can see within range, and\nchoose one of the following damage types: acid, cold,\nfire, lightning, or thunder. The target must succeed on\na Constitution saving throw or be affected by the spell\nfor its duration. The first time each turn the affected\ntarget takes damage of the chosen type, the target\ntakes an extra 2d6 damage of that type. Moreover, the\ntarget loses any resistance to that damage type until\nthe spell ends.\nAt Higher Levels. When you cast this spell using\na spell slot of 5th level or higher, you can target one\nadditional creature for each slot level above 4th. The\ncreatures must be within 30 feet of each other when you\ntarget them.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 17. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "2d6",
+      "rollUpcast": 0
+    },
+    {
+      "name": "Erupting Earth [EE 2015]",
+      "rulesName": "Erupting Earth",
+      "legacyPdf": true,
+      "level": 3,
+      "meta": "Level 3 Transmutation (Druid, Sorcerer, Wizard) — published 2015 rules",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "dice": [
+        "3d12",
+        "1d12"
+      ],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "120 feet",
+        "Components": "V, S, M (a piece of obsidian)",
+        "Duration": "Instantaneous"
+      },
+      "school": "transmutation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 17,
+      "description": "Erupting Earth\n3rd-level transmutation\nCasting Time: 1 action\nRange: 120 feet\nComponents: V, S, M (a piece of obsidian)\nDuration: Instantaneous\nChoose a point you can see on the ground within\nrange. A fountain of churned earth and stone erupts in\na 20-foot cube centered on that point. Each creature\nin that area must make a Dexterity saving throw. A\ncreature takes 3d12 bludgeoning damage on a failed\nsave, or half as much damage on a successful one.\nAdditionally, the ground in that area becomes difficult\nterrain until cleared away. Each 5-foot-square portion of\nthe area requires at least 1 minute to clear by hand.\nAt Higher Levels. When you cast this spell using a\nspell slot of 3rd level or higher, the damage increases by\n1d12 for each slot level above 2nd.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 17. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "3d12",
+      "rollUpcast": 1
+    },
+    {
+      "name": "Flame Arrows [EE 2015]",
+      "rulesName": "Flame Arrows",
+      "legacyPdf": true,
+      "level": 3,
+      "meta": "Level 3 Transmutation (Druid, Ranger, Sorcerer, Wizard) — published 2015 rules",
+      "classes": [
+        "Druid",
+        "Ranger",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "dice": [
+        "1d6"
+      ],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "Touch",
+        "Components": "V, S",
+        "Duration": "Concentration, up to 1 hour"
+      },
+      "school": "transmutation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 18,
+      "description": "Flame Arrows\n3rd-level transmutation\nCasting Time: 1 action\nRange: Touch\nComponents: V, S\nDuration: Concentration, up to 1 hour\nYou touch a quiver containing arrows or bolts. When\na target is hit by a ranged weapon attack using a piece\nof ammunition drawn from the quiver, the target takes\nan extra 1d6 fire damage. The spell’s magic ends on\nthe piece of ammunition when it hits or misses, and the\nspell ends when twelve pieces of ammunition have been\ndrawn from the quiver.\nAt Higher Levels. When you cast this spell using a\nspell slot of 4th level or higher, the number of pieces of\nammunition you can affect with this spell increases by\ntwo for each slot level above 3rd.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 18. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "1d6",
+      "rollUpcast": 0
+    },
+    {
+      "name": "Frostbite [EE 2015]",
+      "rulesName": "Frostbite",
+      "legacyPdf": true,
+      "level": 0,
+      "meta": "Cantrip Evocation (Druid, Sorcerer, Warlock, Wizard) — published 2015 rules",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "dice": [
+        "1d6",
+        "2d6",
+        "3d6",
+        "4d6"
+      ],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "60 feet",
+        "Components": "V, S",
+        "Duration": "Instantaneous"
+      },
+      "school": "cantrip",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 18,
+      "description": "Frostbite\nEvocation cantrip\nCasting Time: 1 action\nRange: 60 feet\nComponents: V, S\nDuration: Instantaneous\nYou cause numbing frost to form on one creature that\nyou can see within range. The target must make a\nConstitution saving throw. On a failed save, the target\ntakes 1d6 cold damage, and it has disadvantage on\nthe next weapon attack roll it makes before the end of\nits next turn.\nThe spell’s damage increases by 1d6 when you reach\n5th level (2d6), 11th level (3d6), and 17th level (4d6).\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 18. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "1d6",
+      "rollUpcast": 0,
+      "cantripScaling": true
+    },
+    {
+      "name": "Gust [EE 2015]",
+      "rulesName": "Gust",
+      "legacyPdf": true,
+      "level": 0,
+      "meta": "Cantrip Transmutation (Druid, Sorcerer, Wizard) — published 2015 rules",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "dice": [],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "30 feet",
+        "Components": "V, S",
+        "Duration": "Instantaneous"
+      },
+      "school": "cantrip",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 19,
+      "description": "Gust\nTransmutation cantrip\nCasting Time: 1 action\nRange: 30 feet\nComponents: V, S\nDuration: Instantaneous\nYou seize the air and compel it to create one of the\nfollowing effects at a point you can see within range:\n• One Medium or smaller creature that you choose\nmust succeed on a Strength saving throw or be\npushed up to 5 feet away from you.\n• You create a small blast of air capable of moving one\nobject that is neither held nor carried and that weighs\nno more than 5 pounds. The object is pushed up to 10\nfeet away from you. It isn’t pushed with enough force\nto cause damage.\n• You create a harmless sensory affect using air, such as\ncausing leaves to rustle, wind to slam shutters shut, or\nyour clothing to ripple in a breeze.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 19. Optional older rules; confirm availability with your DM.\n[local reference file]"
+    },
+    {
+      "name": "Immolation [EE 2015]",
+      "rulesName": "Immolation",
+      "legacyPdf": true,
+      "level": 5,
+      "meta": "Level 5 Evocation (Sorcerer, Wizard) — published 2015 rules",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "dice": [
+        "7d6",
+        "3d6"
+      ],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "90 feet",
+        "Components": "V",
+        "Duration": "Concentration, up to 1 minute"
+      },
+      "school": "evocation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 19,
+      "description": "Immolation\n5th-level evocation\nCasting Time: 1 action\nRange: 90 feet\nComponents: V\nDuration: Concentration, up to 1 minute\nFlames wreathe one creature you can see within range.\nThe target must make a Dexterity saving throw. It\ntakes 7d6 fire damage on a failed save, or half as much\ndamage on a successful one. On a failed save, the target\nalso burns for the spell’s duration. The burning target\nsheds bright light in a 30-foot radius and dim light for\nan additional 30 feet. At the end of each of its turns, the\ntarget repeats the saving throw. It takes 3d6 fire damage\non a failed save, and the spell ends on a successful one.\nThese magical flames can’t be extinguished through\nnonmagical means.\nIf damage from this spell reduces a target to 0 hit\npoints, the target is turned to ash.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 19. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "8d6",
+      "rollUpcast": 0,
+      "rollOptions": [
+        {
+          "label": "Initial damage",
+          "dice": "8d6"
+        },
+        {
+          "label": "Later burning damage",
+          "dice": "4d6"
+        }
+      ]
+    },
+    {
+      "name": "Investiture of Flame [EE 2015]",
+      "rulesName": "Investiture of Flame",
+      "legacyPdf": true,
+      "level": 6,
+      "meta": "Level 6 Transmutation (Druid, Sorcerer, Warlock, Wizard) — published 2015 rules",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "dice": [
+        "1d10",
+        "4d8"
+      ],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "Self",
+        "Components": "V, S",
+        "Duration": "Concentration, up to 10 minutes"
+      },
+      "school": "transmutation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 19,
+      "description": "Investiture of Flame\n6th-level transmutation\nCasting Time: 1 action\nRange: Self\nComponents: V, S\nDuration: Concentration, up to 10 minutes\nFlames race across your body, shedding bright light in\na 30-foot radius and dim light for an additional 30 feet\nfor the spell’s duration. The flames don’t harm you. Until\nthe spell ends, you gain the following benefits:\n• You are immune to fire damage and have resistance to\ncold damage.\n• Any creature that moves within 5 feet of you for the\nfirst time on a turn or ends its turn there takes 1d10\nfire damage.\n• You can use your action to create a line of fire 15 feet\nlong and 5 feet wide extending from you in a direc-\ntion you choose. Each creature in the line must make\na Dexterity saving throw. A creature takes 4d8 fire\ndamage on a failed save, or half as much damage on a\nsuccessful one.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 19. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "4d8",
+      "rollUpcast": 0,
+      "rollOptions": [
+        {
+          "label": "Fire line",
+          "dice": "4d8"
+        },
+        {
+          "label": "Nearby creature damage",
+          "dice": "1d10"
+        }
+      ]
+    },
+    {
+      "name": "Investiture of Ice [EE 2015]",
+      "rulesName": "Investiture of Ice",
+      "legacyPdf": true,
+      "level": 6,
+      "meta": "Level 6 Transmutation (Druid, Sorcerer, Warlock, Wizard) — published 2015 rules",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "dice": [
+        "4d6"
+      ],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "Self",
+        "Components": "V, S",
+        "Duration": "Concentration, up to 10 minutes"
+      },
+      "school": "transmutation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 19,
+      "description": "Investiture of Ice\n6th-level transmutation\nCasting Time: 1 action\nRange: Self\nComponents: V, S\nDuration: Concentration, up to 10 minutes\nUntil the spell ends, ice rimes your body, and you gain\nthe following benefits:\n• You are immune to cold damage and have resistance\nto fire damage.\n• You can move across difficult terrain created by ice or\nsnow without spending extra movement.\n• The ground in a 10-foot radius around you is icy and\nis difficult terrain for creatures other than you. The\nradius moves with you.\n• You can use your action to create a 15-foot cone of\nfreezing wind extending from your outstretched hand\nin a direction you choose. Each creature in the cone\nmust make a Constitution saving throw. A creature\ntakes 4d6 cold damage on a failed save, or half as\nmuch damage on a successful one. A creature that\nfails its save against this effect has its speed halved\nuntil the start of your next turn.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 19. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "4d6",
+      "rollUpcast": 0
+    },
+    {
+      "name": "Investiture of Stone [EE 2015]",
+      "rulesName": "Investiture of Stone",
+      "legacyPdf": true,
+      "level": 6,
+      "meta": "Level 6 Transmutation (Druid, Sorcerer, Warlock, Wizard) — published 2015 rules",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "dice": [],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "Self",
+        "Components": "V, S",
+        "Duration": "Concentration, up to 10 minutes"
+      },
+      "school": "transmutation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 19,
+      "description": "Investiture of Stone\n6th-level transmutation\nCasting Time: 1 action\nRange: Self\nComponents: V, S\nDuration: Concentration, up to 10 minutes\nUntil the spell ends, bits of rock spread across your\nbody, and you gain the following benefits:\n• You have resistance to bludgeoning, piercing, and\nslashing damage from nonmagical weapons.\n• You can use your action to create a small earthquake\non the ground in a 15-foot radius centered on you.\n\nOther creatures on that ground must succeed on a\nDexterity saving throw or be knocked prone.\n• You can move across difficult terrain made of earth\nor stone without spending extra movement. You can\nmove through solid earth or stone as if it was air\nand without destabilizing it, but you can’t end your\nmovement there. If you do so, you are ejected to the\nnearest unoccupied space, this spell ends, and you are\nstunned until the end of your next turn.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 19. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "2d6",
+      "rollUpcast": 0
+    },
+    {
+      "name": "Investiture of Wind [EE 2015]",
+      "rulesName": "Investiture of Wind",
+      "legacyPdf": true,
+      "level": 6,
+      "meta": "Level 6 Transmutation (Druid, Sorcerer, Warlock, Wizard) — published 2015 rules",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "dice": [
+        "2d10"
+      ],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "Self",
+        "Components": "V, S",
+        "Duration": "Concentration, up to 10 minutes"
+      },
+      "school": "transmutation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 20,
+      "description": "Investiture of Wind\n6th-level transmutation\nCasting Time: 1 action\nRange: Self\nComponents: V, S\nDuration: Concentration, up to 10 minutes\nUntil the spell ends, wind whirls around you, and you\ngain the following benefits:\n• Ranged weapon attacks made against you have disad-\nvantage on the attack roll.\n• You gain a flying speed of 60 feet. If you are still flying\nwhen the spell ends, you fall, unless you can some-\nhow prevent it.\n• You can use your action to create a 15-foot cube of\nswirling wind centered on a point you can see within\n60 feet of you. Each creature in that area must make\na Constitution saving throw. A creature takes 2d10\nbludgeoning damage on a failed save, or half as much\ndamage on a successful one. If a Large or smaller\ncreature fails the save, that creature is also pushed up\nto 10 feet away from the center of the cube.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 20. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "2d10",
+      "rollUpcast": 0
+    },
+    {
+      "name": "Maelstrom [EE 2015]",
+      "rulesName": "Maelstrom",
+      "legacyPdf": true,
+      "level": 5,
+      "meta": "Level 5 Evocation (Druid) — published 2015 rules",
+      "classes": [
+        "Druid"
+      ],
+      "dice": [
+        "6d6"
+      ],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "120 feet",
+        "Components": "V, S, M (paper or leaf in the shape of a funnel)",
+        "Duration": "Concentration, up to 1 minute"
+      },
+      "school": "evocation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 20,
+      "description": "Maelstrom\n5th-level evocation\nCasting Time: 1 action\nRange: 120 feet\nComponents: V, S, M (paper or leaf in the shape of\na funnel)\nDuration: Concentration, up to 1 minute\nA mass of 5-foot-deep water appears and swirls in a\n30-foot radius centered on a point you can see within\nrange. The point must be on ground or in a body of\nwater. Until the spell ends, that area is difficult terrain,\nand any creature that starts its turn there must succeed\non a Strength saving throw or take 6d6 bludgeoning\ndamage and be pulled 10 feet toward the center.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 20. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "6d6",
+      "rollUpcast": 0
+    },
+    {
+      "name": "Magic Stone [EE 2015]",
+      "rulesName": "Magic Stone",
+      "legacyPdf": true,
+      "level": 0,
+      "meta": "Cantrip Transmutation (Druid, Warlock) — published 2015 rules",
+      "classes": [
+        "Druid",
+        "Warlock"
+      ],
+      "dice": [
+        "1d6"
+      ],
+      "fields": {
+        "Casting Time": "1 bonus action",
+        "Range": "Touch",
+        "Components": "V, S",
+        "Duration": "1 minute"
+      },
+      "school": "cantrip",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 20,
+      "description": "Magic Stone\nTransmutation cantrip\nCasting Time: 1 bonus action\nRange: Touch\nComponents: V, S\nDuration: 1 minute\nYou touch one to three pebbles and imbue them with\nmagic. You or someone else can make a ranged spell\nattack with one of the pebbles by throwing it or hurling\nit with a sling. If thrown, it has a range of 60 feet. If\nsomeone else attacks with the pebble, that attacker adds\nyour spellcasting ability modifier, not the attacker’s, to\nthe attack roll. On a hit, the target takes bludgeoning\ndamage equal to 1d6 + your spellcasting ability modifier.\nHit or miss, the spell then ends on the stone.\nIf you cast this spell again, the spell ends early on any\npebbles still affected by it.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 20. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "1d6",
+      "rollUpcast": 0,
+      "addCastingModifier": true
+    },
+    {
+      "name": "Maximilian’s Earthen Grasp [EE 2015]",
+      "rulesName": "Maximilian’s Earthen Grasp",
+      "legacyPdf": true,
+      "level": 2,
+      "meta": "Level 2 Transmutation (Sorcerer, Wizard) — published 2015 rules",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "dice": [
+        "2d6"
+      ],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "30 feet",
+        "Components": "V, S, M (a miniature hand sculpted from clay)",
+        "Duration": "Concentration, up to 1 minute"
+      },
+      "school": "transmutation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 20,
+      "description": "Maximilian’s Earthen Grasp\n2nd-level transmutation\nCasting Time: 1 action\nRange: 30 feet\nComponents: V, S, M (a miniature hand sculpted\nfrom clay)\nDuration: Concentration, up to 1 minute\nYou choose a 5-foot-square unoccupied space on the\nground that you can see within range. A Medium hand\nmade from compacted soil rises there and reaches\nfor one creature you can see within 5 feet of it. The\ntarget must make a Strength saving throw. On a failed\nsave, the target takes 2d6 bludgeoning damage and is\nrestrained for the spell’s duration.\nAs an action, you can cause the hand to crush the\nrestrained target, who must make a Strength saving\nthrow. It takes 2d6 bludgeoning damage on a failed\nsave, or half as much damage on a successful one.\nTo break out, the restrained target can make a\nStrength check against your spell save DC. On a\nsuccess, the target escapes and is no longer restrained\nby the hand.\nAs an action, you can cause the hand to reach for a\ndifferent creature or to move to a different unoccupied\nspace within range. The hand releases a restrained\ntarget if you do either.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 20. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "2d6",
+      "rollUpcast": 0
+    },
+    {
+      "name": "Melf’s Minute Meteors [EE 2015]",
+      "rulesName": "Melf’s Minute Meteors",
+      "legacyPdf": true,
+      "level": 3,
+      "meta": "Level 3 Evocation (Sorcerer, Wizard) — published 2015 rules",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "dice": [
+        "2d6"
+      ],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "Self",
+        "Components": "V, S, M (niter, sulfur, and pine tar formed into a bead)",
+        "Duration": "Concentration, up to 10 minutes"
+      },
+      "school": "evocation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 20,
+      "description": "Melf’s Minute Meteors\n3rd-level evocation\nCasting Time: 1 action\nRange: Self\nComponents: V, S, M (niter, sulfur, and pine tar formed\ninto a bead)\nDuration: Concentration, up to 10 minutes\nYou create six tiny meteors in your space. They float\nin the air and orbit you for the spell’s duration. When\nyou cast the spell—and as a bonus action on each of\nyour turns thereafter—you can expend one or two of\nthe meteors, sending them streaking toward a point\nor points you choose within 120 feet of you. Once a\nmeteor reaches its destination or impacts against a solid\nsurface, the meteor explodes. Each creature within 5\nfeet of the point where the meteor explodes must make\na Dexterity saving throw. A creature takes 2d6 fire\ndamage on a failed save, or half as much damage on a\nsuccessful one.\nAt Higher Levels. When you cast this spell using a\nspell slot of 4th level or higher, the number of meteors\ncreated increases by two for each slot level above 3rd.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 20. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "2d6",
+      "rollUpcast": 0
+    },
+    {
+      "name": "Mold Earth [EE 2015]",
+      "rulesName": "Mold Earth",
+      "legacyPdf": true,
+      "level": 0,
+      "meta": "Cantrip Transmutation (Druid, Sorcerer, Wizard) — published 2015 rules",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "dice": [],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "30 feet",
+        "Components": "S",
+        "Duration": "Instantaneous or 1 hour (see below)"
+      },
+      "school": "cantrip",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 21,
+      "description": "Mold Earth\nTransmutation cantrip\nCasting Time: 1 action\nRange: 30 feet\nComponents: S\nDuration: Instantaneous or 1 hour (see below)\nYou choose a portion of dirt or stone that you can see\nwithin range and that fits within a 5-foot cube. You\nmanipulate it in one of the following ways:\n• If you target an area of loose earth, you can instan-\ntaneously excavate it, move it along the ground, and\ndeposit it up to 5 feet away. This movement doesn’t\nhave enough force to cause damage.\n• You cause shapes, colors, or both to appear on the dirt\nor stone, spelling out words, creating images, or shap-\ning patterns. The changes last for 1 hour.\n• If the dirt or stone you target is on the ground, you\ncause it to become difficult terrain. Alternatively, you\ncan cause the ground to become normal terrain if it is\nalready difficult terrain. This change lasts for 1 hour.\nIf you cast this spell multiple times, you can have no\nmore than two of its non-instantaneous effects active at\na time, and you can dismiss such an effect as an action.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 21. Optional older rules; confirm availability with your DM.\n[local reference file]"
+    },
+    {
+      "name": "Primordial Ward [EE 2015]",
+      "rulesName": "Primordial Ward",
+      "legacyPdf": true,
+      "level": 6,
+      "meta": "Level 6 Abjuration (Druid) — published 2015 rules",
+      "classes": [
+        "Druid"
+      ],
+      "dice": [],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "Self",
+        "Components": "V, S",
+        "Duration": "Concentration, up to 1 minute"
+      },
+      "school": "abjuration",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 21,
+      "description": "Primordial Ward\n6th-level abjuration\nCasting Time: 1 action\nRange: Self\nComponents: V, S\nDuration: Concentration, up to 1 minute\nYou have resistance to acid, cold, fire, lightning, and\nthunder damage for the spell’s duration.\nWhen you take damage of one of those types, you\ncan use your reaction to gain immunity to that type\nof damage, including against the triggering damage.\nIf you do so, the resistances end, and you have the\nimmunity until the end of your next turn, at which time\nthe spell ends.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 21. Optional older rules; confirm availability with your DM.\n[local reference file]"
+    },
+    {
+      "name": "Pyrotechnics [EE 2015]",
+      "rulesName": "Pyrotechnics",
+      "legacyPdf": true,
+      "level": 2,
+      "meta": "Level 2 Transmutation (Bard, Sorcerer, Wizard) — published 2015 rules",
+      "classes": [
+        "Bard",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "dice": [],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "60 feet",
+        "Components": "V, S",
+        "Duration": "Instantaneous"
+      },
+      "school": "transmutation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 21,
+      "description": "Pyrotechnics\n2nd-level transmutation\nCasting Time: 1 action\nRange: 60 feet\nComponents: V, S\nDuration: Instantaneous\nChoose an area of flame that you can see and that\ncan fit within a 5-foot cube within range. You can\nextinguish the fire in that area, and you create either\nfireworks or smoke.\nFireworks. The target explodes with a dazzling\ndisplay of colors. Each creature within 10 feet of the\ntarget must succeed on a Constitution saving throw or\nbecome blinded until the end of your next turn.\nSmoke. Thick black smoke spreads out from the\ntarget in a 20-foot radius, moving around corners.\nThe area of the smoke is heavily obscured. The smoke\npersists for 1 minute or until a strong wind disperses it.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 21. Optional older rules; confirm availability with your DM.\n[local reference file]"
+    },
+    {
+      "name": "Shape Water [EE 2015]",
+      "rulesName": "Shape Water",
+      "legacyPdf": true,
+      "level": 0,
+      "meta": "Cantrip Transmutation (Druid, Sorcerer, Wizard) — published 2015 rules",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "dice": [],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "30 feet",
+        "Components": "S",
+        "Duration": "Instantaneous or 1 hour (see below)"
+      },
+      "school": "cantrip",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 21,
+      "description": "Shape Water\nTransmutation cantrip\nCasting Time: 1 action\nRange: 30 feet\nComponents: S\nDuration: Instantaneous or 1 hour (see below)\nYou choose an area of water that you can see within\nrange and that fits within a 5-foot cube. You manipulate\nit in one of the following ways:\n• You instantaneously move or otherwise change the\nflow of the water as you direct, up to 5 feet in any\ndirection. This movement doesn’t have enough force\nto cause damage.\n• You cause the water to form into simple shapes\nand animate at your direction. This change\nlasts for 1 hour.\n• You change the water’s color or opacity. The water\nmust be changed in the same way throughout. This\nchange lasts for 1 hour.\n• You freeze the water, provided that there are no crea-\ntures in it. The water unfreezes in 1 hour.\nIf you cast this spell multiple times, you can have no\nmore than two of its non-instantaneous effects active at\na time, and you can dismiss such an effect as an action.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 21. Optional older rules; confirm availability with your DM.\n[local reference file]"
+    },
+    {
+      "name": "Skywrite [EE 2015]",
+      "rulesName": "Skywrite",
+      "legacyPdf": true,
+      "level": 2,
+      "meta": "Level 2 Transmutation (Bard, Druid, Wizard) — published 2015 rules",
+      "classes": [
+        "Bard",
+        "Druid",
+        "Wizard"
+      ],
+      "dice": [],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "Sight",
+        "Components": "V, S",
+        "Duration": "Concentration, up to 1 hour"
+      },
+      "school": "(ritual)",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 22,
+      "description": "Skywrite\n2nd-level transmutation (ritual)\nCasting Time: 1 action\nRange: Sight\nComponents: V, S\nDuration: Concentration, up to 1 hour\nYou cause up to ten words to form in a part of the sky\nyou can see. The words appear to be made of cloud\nand remain in place for the spell’s duration. The words\ndissipate when the spell ends. A strong wind can\ndisperse the clouds and end the spell early.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 22. Optional older rules; confirm availability with your DM.\n[local reference file]"
+    },
+    {
+      "name": "Snilloc’s Snowball Swarm [EE 2015]",
+      "rulesName": "Snilloc’s Snowball Swarm",
+      "legacyPdf": true,
+      "level": 2,
+      "meta": "Level 2 Evocation (Sorcerer, Wizard) — published 2015 rules",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "dice": [
+        "3d6",
+        "1d6"
+      ],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "90 feet",
+        "Components": "V, S, M (a piece of ice or a small white rock chip)",
+        "Duration": "Instantaneous"
+      },
+      "school": "evocation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 22,
+      "description": "Snilloc’s Snowball Swarm\n2nd-level evocation\nCasting Time: 1 action\nRange: 90 feet\nComponents: V, S, M (a piece of ice or a small white\nrock chip)\nDuration: Instantaneous\nA flurry of magic snowballs erupts from a point you\nchoose within range. Each creature in a 5-foot-radius\nsphere centered on that point must make a Dexterity\nsaving throw. A creature takes 3d6 cold damage on a\nfailed save, or half as much damage on a successful one.\nAt Higher Levels. When you cast this spell using a\nspell slot of 3rd level or higher, the damage increases by\n1d6 for each slot level above 2nd.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 22. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "3d6",
+      "rollUpcast": 1
+    },
+    {
+      "name": "Storm Sphere [EE 2015]",
+      "rulesName": "Storm Sphere",
+      "legacyPdf": true,
+      "level": 4,
+      "meta": "Level 4 Evocation (Sorcerer, Wizard) — published 2015 rules",
+      "classes": [
+        "Sorcerer",
+        "Wizard"
+      ],
+      "dice": [
+        "2d6",
+        "4d6",
+        "1d6"
+      ],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "150 feet",
+        "Components": "V, S",
+        "Duration": "Concentration, up to 1 minute"
+      },
+      "school": "evocation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 22,
+      "description": "Storm Sphere\n4th-level evocation\nCasting Time: 1 action\nRange: 150 feet\nComponents: V, S\nDuration: Concentration, up to 1 minute\nA 20-foot-radius sphere of whirling air springs into\nexistence centered on a point you choose within range.\nThe sphere remains for the spell’s duration. Each\ncreature in the sphere when it appears or that ends its\nturn there must succeed on a Strength saving throw or\ntake 2d6 bludgeoning damage. The sphere’s space is\ndifficult terrain.\nUntil the spell ends, you can use a bonus action on\neach of your turns to cause a bolt of lightning to leap\nfrom the center of the sphere toward one creature you\nchoose within 60 feet of the center. Make a ranged\nspell attack. You have advantage on the attack roll if the\ntarget is in the sphere. On a hit, the target takes 4d6\nlightning damage.\nCreatures within 30 feet of the sphere have\ndisadvantage on Wisdom (Perception) checks\nmade to listen.\nAt Higher Levels. When you cast this spell using a\nspell slot of 5th level or higher, the damage increases for\neach of its effects by 1d6 for each slot level above 4th.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 22. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "2d6",
+      "rollUpcast": 1,
+      "rollOptions": [
+        {
+          "label": "Sphere damage",
+          "dice": "2d6"
+        },
+        {
+          "label": "Bonus-action lightning bolt",
+          "dice": "4d6"
+        }
+      ]
+    },
+    {
+      "name": "Thunderclap [EE 2015]",
+      "rulesName": "Thunderclap",
+      "legacyPdf": true,
+      "level": 0,
+      "meta": "Cantrip Evocation (Bard, Druid, Sorcerer, Warlock, Wizard) — published 2015 rules",
+      "classes": [
+        "Bard",
+        "Druid",
+        "Sorcerer",
+        "Warlock",
+        "Wizard"
+      ],
+      "dice": [
+        "1d6",
+        "2d6",
+        "3d6",
+        "4d6"
+      ],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "Self (5-foot radius)",
+        "Components": "S",
+        "Duration": "Instantaneous"
+      },
+      "school": "cantrip",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 22,
+      "description": "Thunderclap\nEvocation cantrip\nCasting Time: 1 action\nRange: Self (5-foot radius)\nComponents: S\nDuration: Instantaneous\nYou create a burst of thunderous sound, which can\nbe heard 100 feet away. Each creature other than\nyou within 5 feet of you must make a Constitution\nsaving throw. On a failed save, the creature takes 1d6\nthunder damage.\nThe spell’s damage increases by 1d6 when you reach\n5th level (2d6), 11th level (3d6), and 17th level (4d6).\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 22. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "1d6",
+      "rollUpcast": 0,
+      "cantripScaling": true
+    },
+    {
+      "name": "Tidal Wave [EE 2015]",
+      "rulesName": "Tidal Wave",
+      "legacyPdf": true,
+      "level": 3,
+      "meta": "Level 3 Conjuration (Druid, Wizard) — published 2015 rules",
+      "classes": [
+        "Druid",
+        "Wizard"
+      ],
+      "dice": [
+        "4d8"
+      ],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "120 feet",
+        "Components": "V, S, M (a drop of water)",
+        "Duration": "Instantaneous"
+      },
+      "school": "conjuration",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 22,
+      "description": "Tidal Wave\n3rd-level conjuration\nCasting Time: 1 action\nRange: 120 feet\nComponents: V, S, M (a drop of water)\nDuration: Instantaneous\nYou conjure up a wave of water that crashes down on an\narea within range. The area can be up to 30 feet long,\nup to 10 feet wide, and up to 10 feet tall. Each creature\nin that area must make a Dexterity saving throw. On a\nfailure, a creature takes 4d8 bludgeoning damage and\nis knocked prone. On a success, a creature takes half\nas much damage and isn’t knocked prone. The water\nthen spreads out across the ground in all directions,\nextinguishing unprotected flames in its area and within\n30 feet of it.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 22. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "4d8",
+      "rollUpcast": 0
+    },
+    {
+      "name": "Transmute Rock [EE 2015]",
+      "rulesName": "Transmute Rock",
+      "legacyPdf": true,
+      "level": 5,
+      "meta": "Level 5 Transmutation (Druid, Wizard) — published 2015 rules",
+      "classes": [
+        "Druid",
+        "Wizard"
+      ],
+      "dice": [
+        "4d8"
+      ],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "120 feet",
+        "Components": "V, S, M (clay and water)",
+        "Duration": "Instantaneous"
+      },
+      "school": "transmutation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 22,
+      "description": "Transmute Rock\n5th-level transmutation\nCasting Time: 1 action\nRange: 120 feet\nComponents: V, S, M (clay and water)\nDuration: Instantaneous\nYou choose an area of stone or mud that you can see\nthat fits within a 40-foot cube and that is within range,\nand choose one of the following effects.\nTransmute Rock to Mud. Nonmagical rock of any\nsort in the area becomes an equal volume of thick and\nflowing mud that remains for the spell’s duration.\nIf you cast the spell on an area of ground, it becomes\nmuddy enough that creatures can sink into it. Each foot\nthat a creature moves through the mud costs 4 feet of\nmovement, and any creature on the ground when you\ncast the spell must make a Strength saving throw. A\ncreature must also make this save the first time it enters\nthe area on a turn or ends its turn there. On a failed\nsave, a creature sinks into the mud and is restrained,\nthough it can use an action to end the restrained\ncondition on itself by pulling itself free of the mud.\nIf you cast the spell on a ceiling, the mud falls.\nAny creature under the mud when it falls must make\na Dexterity saving throw. A creature takes 4d8\nbludgeoning damage on a failed save, or half as much\ndamage on a successful one.\n\nTransmute Mud to Rock. Nonmagical mud or\nquicksand in the area no more than 10 feet deep\ntransforms into soft stone for the spell’s duration. Any\ncreature in the mud when it transforms must make a\nDexterity saving throw. On a failed save, a creature\nbecomes restrained by the rock. The restrained creature\ncan use an action to try to break free by succeeding on\na Strength check (DC 20) or by dealing 25 damage to\nthe rock around it. On a successful save, a creature is\nshunted safely to the surface to an unoccupied space.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 22. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "4d8",
+      "rollUpcast": 0
+    },
+    {
+      "name": "Wall of Sand [EE 2015]",
+      "rulesName": "Wall of Sand",
+      "legacyPdf": true,
+      "level": 3,
+      "meta": "Level 3 Evocation (Wizard) — published 2015 rules",
+      "classes": [
+        "Wizard"
+      ],
+      "dice": [],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "90 feet",
+        "Components": "V, S, M (a handful of sand)",
+        "Duration": "Concentration, up to 10 minutes"
+      },
+      "school": "evocation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 23,
+      "description": "Wall of Sand\n3rd-level evocation\nCasting Time: 1 action\nRange: 90 feet\nComponents: V, S, M (a handful of sand)\nDuration: Concentration, up to 10 minutes\nYou conjure up a wall of swirling sand on the ground at\na point you can see within range. You can make the wall\nup to 30 feet long, 10 feet high, and 10 feet thick, and it\nvanishes when the spell ends. It blocks line of sight but\nnot movement. A creature is blinded while in the wall’s\nspace and must spend 3 feet of movement for every 1\nfoot it moves there.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 23. Optional older rules; confirm availability with your DM.\n[local reference file]"
+    },
+    {
+      "name": "Wall of Water [EE 2015]",
+      "rulesName": "Wall of Water",
+      "legacyPdf": true,
+      "level": 3,
+      "meta": "Level 3 Evocation (Druid, Sorcerer, Wizard) — published 2015 rules",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "dice": [],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "60 feet",
+        "Components": "V, S, M (a drop of water)",
+        "Duration": "Concentration, up to 10 minutes"
+      },
+      "school": "evocation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 23,
+      "description": "Wall of Water\n3rd-level evocation\nCasting Time: 1 action\nRange: 60 feet\nComponents: V, S, M (a drop of water)\nDuration: Concentration, up to 10 minutes\nYou conjure up a wall of water on the ground at a point\nyou can see within range. You can make the wall up to\n30 feet long, 10 feet high, and 1 foot thick, or you can\nmake a ringed wall up to 20 feet in diameter, 20 feet\nhigh, and 1 foot thick. The wall vanishes when the spell\nends. The wall’s space is difficult terrain.\nAny ranged weapon attack that enters the wall’s space\nhas disadvantage on the attack roll, and fire damage\nis halved if the fire effect passes through the wall to\nreach its target. Spells that deal cold damage that pass\nthrough the wall cause the area of the wall they pass\nthrough to freeze solid (at least a 5-foot square section is\nfrozen). Each 5-foot-square frozen section has AC 5 and\n15 hit points. Reducing a frozen section to 0 hit points\ndestroys it. When a section is destroyed, the wall’s water\ndoesn’t fill it.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 23. Optional older rules; confirm availability with your DM.\n[local reference file]"
+    },
+    {
+      "name": "Warding Wind [EE 2015]",
+      "rulesName": "Warding Wind",
+      "legacyPdf": true,
+      "level": 2,
+      "meta": "Level 2 Evocation (Bard, Druid, Sorcerer) — published 2015 rules",
+      "classes": [
+        "Bard",
+        "Druid",
+        "Sorcerer"
+      ],
+      "dice": [],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "Self",
+        "Components": "V",
+        "Duration": "Concentration, up to 10 minutes"
+      },
+      "school": "evocation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 23,
+      "description": "Warding Wind\n2nd-level evocation\nCasting Time: 1 action\nRange: Self\nComponents: V\nDuration: Concentration, up to 10 minutes\nA strong wind (20 miles per hour) blows around you in a\n10-foot radius and moves with you, remaining centered\non you. The wind lasts for the spell’s duration.\nThe wind has the following effects:\n• It deafens you and other creatures in its area.\n• It extinguishes unprotected flames in its area that are\ntorch-sized or smaller.\n• The area is difficult terrain for creatures\nother than you.\n• The attack rolls of ranged weapon attacks have disad-\nvantage if they pass in or out of the wind.\n• It hedges out vapor, gas, and fog that can be dispersed\nby strong wind.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 23. Optional older rules; confirm availability with your DM.\n[local reference file]"
+    },
+    {
+      "name": "Watery Sphere [EE 2015]",
+      "rulesName": "Watery Sphere",
+      "legacyPdf": true,
+      "level": 4,
+      "meta": "Level 4 Conjuration (Druid, Sorcerer, Wizard) — published 2015 rules",
+      "classes": [
+        "Druid",
+        "Sorcerer",
+        "Wizard"
+      ],
+      "dice": [],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "90 feet",
+        "Components": "V, S, M (a droplet of water)",
+        "Duration": "Concentration, up to 1 minute"
+      },
+      "school": "conjuration",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 23,
+      "description": "Watery Sphere\n4th-level conjuration\nCasting Time: 1 action\nRange: 90 feet\nComponents: V, S, M (a droplet of water)\nDuration: Concentration, up to 1 minute\nYou conjure up a sphere of water with a 10-foot radius\non a point you can see within range. The sphere can\nhover in the air, but no more than 10 feet off the ground.\nThe sphere remains for the spell’s duration.\nAny creature in the sphere’s space must make a\nStrength saving throw. On a successful save, a creature\nis ejected from that space to the nearest unoccupied\nspace outside it. A Huge or larger creature succeeds\non the saving throw automatically. On a failed save, a\ncreature is restrained by the sphere and is engulfed by\nthe water. At the end of each of its turns, a restrained\ntarget can repeat the saving throw.\nThe sphere can restrain a maximum of four Medium\nor smaller creatures or one Large creature. If the\nsphere restrains a creature in excess of these numbers,\na random creature that was already restrained by the\nsphere falls out of it and lands prone in a space within\n5 feet of it.\nAs an action, you can move the sphere up to 30 feet in\na straight line. If it moves over a pit, cliff, or other drop, it\nsafely descends until it is hovering 10 feet over ground.\nAny creature restrained by the sphere moves with it. You\ncan ram the sphere into creatures, forcing them to make\nthe saving throw, but no more than once per turn.\nWhen the spell ends, the sphere falls to the ground\nand extinguishes all normal flames within 30 feet of it.\nAny creature restrained by the sphere is knocked prone\nin the space where it falls.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 23. Optional older rules; confirm availability with your DM.\n[local reference file]"
+    },
+    {
+      "name": "Whirlwind [EE 2015]",
+      "rulesName": "Whirlwind",
+      "legacyPdf": true,
+      "level": 7,
+      "meta": "Level 7 Evocation (Druid, Wizard) — published 2015 rules",
+      "classes": [
+        "Druid",
+        "Wizard"
+      ],
+      "dice": [
+        "10d6",
+        "3d6"
+      ],
+      "fields": {
+        "Casting Time": "1 action",
+        "Range": "300 feet",
+        "Components": "V, M (a piece of straw)",
+        "Duration": "Concentration, up to 1 minute"
+      },
+      "school": "evocation",
+      "source": "EE_PlayersCompanion",
+      "sourcePage": 24,
+      "description": "Whirlwind\n7th-level evocation\nCasting Time: 1 action\nRange: 300 feet\nComponents: V, M (a piece of straw)\nDuration: Concentration, up to 1 minute\nA whirlwind howls down to a point on the ground you\nspecify. The whirlwind is a 10-foot-radius, 30-foot-high\ncylinder centered on that point. Until the spell ends, you\ncan use your action to move the whirlwind up to 30 feet\nin any direction along the ground. The whirlwind sucks\nup any Medium or smaller objects that aren’t secured to\nanything and that aren’t worn or carried by anyone.\nA creature must make a Dexterity saving throw\nthe first time on a turn that it enters the whirlwind or\nthat the whirlwind enters its space, including when\nthe whirlwind first appears. A creature takes 10d6\nbludgeoning damage on a failed save, or half as much\ndamage on a successful one. In addition, a Large or\nsmaller creature that fails the save must succeed on\na Strength saving throw or become restrained in the\nwhirlwind until the spell ends. When a creature starts\nits turn restrained by the whirlwind, the creature is\npulled 5 feet higher inside it, unless the creature is at\nthe top. A restrained creature moves with the whirlwind\nand falls when the spell ends, unless the creature has\nsome means to stay aloft.\nA restrained creature can use an action to make a\nStrength or Dexterity check against your spell save DC.\nIf successful, the creature is no longer restrained by the\nwhirlwind and is hurled 3d6 × 10 feet away from it in a\nrandom direction.\n\nSource: Elemental Evil Player’s Companion (2015), PDF page 24. Optional older rules; confirm availability with your DM.\n[local reference file]",
+      "rollBase": "10d6",
+      "rollUpcast": 0
+    }
+  ],
+  "magicItems": [
+    {
+      "name": "+1 Armor [2014 PDF]",
+      "rulesName": "+1 Armor",
+      "category": "Armor (any), rare",
+      "source": "HoardDragonQueen_Supplement_PF_v0.3",
+      "sourcePage": 2,
+      "description": "+1 Armor\nArmor (any), rare\nYou have a +1 bonus to AC while wearing this armor.\n\nSource: Hoard of the Dragon Queen Supplement v0.3, PDF page 2. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "+1 Weapon [2014 PDF]",
+      "rulesName": "+1 Weapon",
+      "category": "Weapon (any), uncommon",
+      "source": "HoardDragonQueen_Supplement_PF_v0.3",
+      "sourcePage": 2,
+      "description": "+1 Weapon\nWeapon (any), uncommon\nYou have a +1 bonus to attack and damage rolls made\nwith this magic weapon.\n\nSource: Hoard of the Dragon Queen Supplement v0.3, PDF page 2. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Arrow-Catching Shield [2014 PDF]",
+      "rulesName": "Arrow-Catching Shield",
+      "category": "Armor (shield), rare (requires attunement)",
+      "source": "HoardDragonQueen_Supplement_PF_v0.3",
+      "sourcePage": 2,
+      "description": "Arrow-Catching Shield\nArmor (shield), rare (requires attunement)\nYou gain a +2 bonus to AC against ranged attacks while\nyou wield this shield. This bonus is in addition to the\nshield’s normal bonus to AC. In addition, whenever an\nattacker makes a ranged attack against a target within\n5 feet of you, you can use your reaction to become the\ntarget of the attack instead.\n\nSource: Hoard of the Dragon Queen Supplement v0.3, PDF page 2. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Bag of Holding [2014 PDF]",
+      "rulesName": "Bag of Holding",
+      "category": "Wondrous item, uncommon",
+      "source": "HoardDragonQueen_Supplement_PF_v0.3",
+      "sourcePage": 2,
+      "description": "Bag of Holding\nWondrous item, uncommon\nThis bag has an interior space considerably larger\nthan its outside dimensions, roughly 2 feet in diameter\nat the mouth and 4 feet deep. The bag can hold up to\n500 pounds, not exceeding a volume of 64 cubic feet.\nThe bag weighs 15 pounds, regardless of its contents.\nRetrieving an item from the bag requires an action.\nIf the bag is overloaded, pierced, or torn, it ruptures\nand is destroyed, and its contents are scattered in the\nAstral Plane. If the bag is turned inside out, its contents\nspill forth, unharmed, but the bag must be put right\nbefore it can be used again. Breathing creatures inside\nthe bag can survive up to a number of minutes equal\nto 10 divided by the number of creatures (minimum 1\nminute), after which time they begin to suffocate.\nPlacing a bag of holding inside an extradimensional\nspace created by a Heward’s handy haversack, portable\nhole, or similar item instantly destroys both items and\nopens a gate to the Astral Plane. The gate originates\nwhere the one item was placed inside the other. Any\ncreature within 10 feet of the gate is sucked through it\nto a random location on the Astral Plane. The gate then\ncloses. The gate is one-way only and can’t be reopened.\n\nSource: Hoard of the Dragon Queen Supplement v0.3, PDF page 2. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Bracers of Defense [2014 PDF]",
+      "rulesName": "Bracers of Defense",
+      "category": "Wondrous item, rare (requires attunement)",
+      "source": "HoardDragonQueen_Supplement_PF_v0.3",
+      "sourcePage": 2,
+      "description": "Bracers of Defense\nWondrous item, rare (requires attunement)\nWhile wearing these bracers, you gain a +2 bonus to AC\nif you are wearing no armor and using no shield.\n\nSource: Hoard of the Dragon Queen Supplement v0.3, PDF page 2. This is the older printing.\n[local reference file]",
+      "effects": [
+        {
+          "target": "ac",
+          "value": 2,
+          "scale": "flat",
+          "op": "bonus",
+          "condition": "unarmoredNoShield"
+        }
+      ],
+      "automation": "Supported permanent bonuses apply when Equipped / active is enabled. Enable it only when worn and attuned; the app does not enforce attunement slots. Bracers require no tracked armor or shield. Other conditions and powers remain manual."
+    },
+    {
+      "name": "Dagger of Venom [2014 PDF]",
+      "rulesName": "Dagger of Venom",
+      "category": "Weapon (dagger), rare",
+      "source": "HoardDragonQueen_Supplement_PF_v0.3",
+      "sourcePage": 2,
+      "description": "Dagger of Venom\nWeapon (dagger), rare\nYou gain a +1 bonus to attack and damage rolls made\nwith this magic weapon.\nYou can use an action to cause thick, black poison\nto coat the blade. The poison remains for 1 minute\nor until an attack using this weapon hits a creature.\nThat creature must succeed on a DC 15 Constitution\nsaving throw or take 2d10 poison damage and become\npoisoned for 1 minute. The dagger can’t be used this\nway again until the next dawn.\n\nSource: Hoard of the Dragon Queen Supplement v0.3, PDF page 2. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Oil of Etherealness [2014 PDF]",
+      "rulesName": "Oil of Etherealness",
+      "category": "Potion, rare",
+      "source": "HoardDragonQueen_Supplement_PF_v0.3",
+      "sourcePage": 2,
+      "description": "Oil of Etherealness\nPotion, rare\nBeads of this cloudy gray oil form on the outside of its\ncontainer and quickly evaporate. The oil can cover a\nMedium or smaller creature, along with the equipment\nit’s wearing and carrying (one additional vial is required\nfor each size category above Medium). Applying the oil\ntakes 10 minutes. The affected creature then gains the\neffect of the etherealness spell for 1 hour.\n\nSource: Hoard of the Dragon Queen Supplement v0.3, PDF page 2. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Potion of Gaseous Form [2014 PDF]",
+      "rulesName": "Potion of Gaseous Form",
+      "category": "Potion, rare",
+      "source": "HoardDragonQueen_Supplement_PF_v0.3",
+      "sourcePage": 2,
+      "description": "Potion of Gaseous Form\nPotion, rare\nWhen you drink this potion, you gain the effect of\nthe gaseous form spell for 1 hour (no concentration\nrequired) or until you end the effect as a bonus action.\nThis potion’s container seems to hold fog that moves\nand pours like water.\n\nSource: Hoard of the Dragon Queen Supplement v0.3, PDF page 2. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Potion of Healing [2014 PDF]",
+      "rulesName": "Potion of Healing",
+      "category": "Potion, rarity varies",
+      "source": "HoardDragonQueen_Supplement_PF_v0.3",
+      "sourcePage": 2,
+      "description": "Potion of Healing\nPotion, rarity varies\nYou regain hit points when you drink this potion. The\nnumber of hit points depends on the potion’s rarity, as\nshown in the Potions of Healing table. Whatever its\npotency, the potion’s red liquid glimmers when agitated.\nPotions of Healing\nPotion of … Rarity HP Regained\nHealing Common 2d4 + 2\nGreater healing Uncommon 4d4 + 4\n\nSource: Hoard of the Dragon Queen Supplement v0.3, PDF page 2. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Staff of Fire [2014 PDF]",
+      "rulesName": "Staff of Fire",
+      "category": "Staff, very rare (requires attunement by a druid,",
+      "source": "HoardDragonQueen_Supplement_PF_v0.3",
+      "sourcePage": 2,
+      "description": "Staff of Fire\nStaff, very rare (requires attunement by a druid,\nsorcerer, warlock, or wizard)\nYou have resistance to fire damage while you hold this\nstaff.\nThe staff has 10 charges. While holding it, you can use\nan action to expend 1 or more of its charges to cast one\nof the following spells from it, using your spell save DC:\nburning hands (1 charge), fireball (3 charges), or wall of\nfire (4 charges).\nThe staff regains 1d6 + 4 expended charges daily\nat dawn. If you expend the last charge, roll a d20. On\na 1, the staff blackens, crumbles into cinders, and is\ndestroyed.\n\nSource: Hoard of the Dragon Queen Supplement v0.3, PDF page 2. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Arrow of Dragon Slaying [2014 PDF]",
+      "rulesName": "Arrow of Dragon Slaying",
+      "category": "Weapon (arrow), very rare",
+      "source": "RiseTiamatSupplementv0.2_Printer",
+      "sourcePage": 2,
+      "description": "Arrow of Dragon Slaying\nWeapon (arrow), very rare\nIf a dragon takes damage from this arrow, it must make\na DC 17 Constitution saving throw, taking an extra 6d10\npiercing damage on a failed save, or half as much extra\ndamage on a successful one.\nOnce an arrow of dragon slaying deals its extra\ndamage to a dragon, it becomes a nonmagical arrow.\n\nSource: The Rise of Tiamat Supplement v0.2, PDF page 2. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Belt of Hill Giant Strength [2014 PDF]",
+      "rulesName": "Belt of Hill Giant Strength",
+      "category": "Wondrous item, rare (requires attunement)",
+      "source": "RiseTiamatSupplementv0.2_Printer",
+      "sourcePage": 2,
+      "description": "Belt of Hill Giant Strength\nWondrous item, rare (requires attunement)\nWhile wearing this belt, your Strength changes to 21. If\nyour Strength is already equal to or greater than 21, the\nitem has no effect on you.\n\nSource: The Rise of Tiamat Supplement v0.2, PDF page 2. This is the older printing.\n[local reference file]",
+      "effects": [
+        {
+          "target": "score:Strength",
+          "value": 21,
+          "scale": "flat",
+          "op": "minimum"
+        }
+      ],
+      "automation": "Supported permanent bonuses apply when Equipped / active is enabled. Enable it only when worn and attuned; the app does not enforce attunement slots. Bracers require no tracked armor or shield. Other conditions and powers remain manual."
+    },
+    {
+      "name": "Driftglobe [2014 PDF]",
+      "rulesName": "Driftglobe",
+      "category": "Wondrous item, uncommon",
+      "source": "RiseTiamatSupplementv0.2_Printer",
+      "sourcePage": 2,
+      "description": "Driftglobe\nWondrous item, uncommon\nThis small sphere of thick glass weighs 1 pound. If you\nare within 60 feet of it, you can speak its command word\nand cause it to emanate the light or daylight spell. Once\nused, the daylight effect can’t be used again until the\nnext dawn.\nYou can speak another command word as an action to\nmake the illuminated globe rise into the air and float no\nmore than 5 feet off the ground. The globe hovers in this\nway until you or another creature grasps it. If you move\nmore than 60 feet from the hovering globe, it follows\nyou until it is within 60 feet of you. It takes the shortest\nroute to do so. If prevented from moving, the globe sinks\ngently to the ground and becomes inactive, and its light\nwinks out.\n\nSource: The Rise of Tiamat Supplement v0.2, PDF page 2. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Elemental Gem [2014 PDF]",
+      "rulesName": "Elemental Gem",
+      "category": "Wondrous item, uncommon",
+      "source": "RiseTiamatSupplementv0.2_Printer",
+      "sourcePage": 2,
+      "description": "Elemental Gem\nWondrous item, uncommon\nThis gem contains a mote of elemental energy. When\nyou use an action to break the gem, an elemental is\nsummoned as if you had cast the conjure elemental\nspell, and the gem’s magic is lost. The type of gem\ndetermines the elemental summoned by the spell.\nGem Summoned Elemental\nBlue sapphire Air elemental\nYellow diamond Earth elemental\nRed corundum Fire elemental\nEmerald Water elemental\n\nSource: The Rise of Tiamat Supplement v0.2, PDF page 2. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Plate Armor of Lightning Resistance [2014 PDF]",
+      "rulesName": "Plate Armor of Lightning Resistance",
+      "category": "Armor (plate), rare (requires attunement)",
+      "source": "RiseTiamatSupplementv0.2_Printer",
+      "sourcePage": 2,
+      "description": "Plate Armor of Lightning Resistance\nArmor (plate), rare (requires attunement)\nYou have resistance to lightning damage while you wear\nthis armor.\n\nSource: The Rise of Tiamat Supplement v0.2, PDF page 2. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Potion of Fire Breath [2014 PDF]",
+      "rulesName": "Potion of Fire Breath",
+      "category": "Potion, uncommon",
+      "source": "RiseTiamatSupplementv0.2_Printer",
+      "sourcePage": 2,
+      "description": "Potion of Fire Breath\nPotion, uncommon\nAfter drinking this potion, you can use a bonus action to\nexhale fire at a target within 30 feet of you. The target\nmust make a DC 13 Dexterity saving throw, taking 4d6\nfire damage on a failed save, or half as much damage on\na successful one. The effect ends after you exhale the\nfire three times or when 1 hour has passed.\nThis potion’s orange liquid flickers, and smoke fills the\ntop of the container and wafts out whenever it is opened.\n\nSource: The Rise of Tiamat Supplement v0.2, PDF page 2. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Potion of Frost Giant Strength [2014 PDF]",
+      "rulesName": "Potion of Frost Giant Strength",
+      "category": "Potion, rare",
+      "source": "RiseTiamatSupplementv0.2_Printer",
+      "sourcePage": 2,
+      "description": "Potion of Frost Giant Strength\nPotion, rare\nWhen you drink the potion, your Strength score\nchanges to 23 for 1 hour. The potion has no effect on you\nif your Strength is equal to or greater than 23.\nThis potion’s transparent liquid has a piece of a\ngigantic fingernail from a frost giant floating in it.\n\nSource: The Rise of Tiamat Supplement v0.2, PDF page 2. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Potion of Growth [2014 PDF]",
+      "rulesName": "Potion of Growth",
+      "category": "Potion, uncommon",
+      "source": "RiseTiamatSupplementv0.2_Printer",
+      "sourcePage": 2,
+      "description": "Potion of Growth\nPotion, uncommon\nWhen you drink this potion, you gain the “enlarge”\neffect of the enlarge/reduce spell for 1d4 hours (no\nconcentration required). The red in the potion’s liquid\n\ncontinuously expands from a tiny bead to color the clear\nliquid around it and then contracts. Shaking the bottle\nfails to interrupt this process.\n\nSource: The Rise of Tiamat Supplement v0.2, PDF page 2. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Potion of Longevity [2014 PDF]",
+      "rulesName": "Potion of Longevity",
+      "category": "Potion, very rare",
+      "source": "RiseTiamatSupplementv0.2_Printer",
+      "sourcePage": 3,
+      "description": "Potion of Longevity\nPotion, very rare\nWhen you drink this potion, your physical age is\nreduced by 1d6 + 6 years, to a minimum of 13 years.\nEach time you subsequently drink a potion of longevity,\nthere is 10 percent cumulative chance that you instead\nage by 1d6 + 6 years. Suspended in this amber liquid\nare a scorpion’s tail, an adder’s fang, a dead spider,\nand a tiny heart that, against all reason, is still beating.\nThese ingredients vanish when the potion is opened.\n\nSource: The Rise of Tiamat Supplement v0.2, PDF page 3. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Potion of Poison [2014 PDF]",
+      "rulesName": "Potion of Poison",
+      "category": "Potion, uncommon",
+      "source": "RiseTiamatSupplementv0.2_Printer",
+      "sourcePage": 3,
+      "description": "Potion of Poison\nPotion, uncommon\nThis concoction looks, smells, and tastes like a potion of\nhealing or other beneficial potion. However, it is actually\npoison masked by illusion magic. An identify spell\nreveals its true nature.\nIf you drink it, you take 3d6 poison damage, and you\nmust succeed on a DC 13 Constitution saving throw or\nbe poisoned. At the start of each of your turns while you\nare poisoned in this way, you take 3d6 poison damage.\nAt the end of each of your turns, you can repeat the\nsaving throw. On a successful save, the poison damage\nyou take on your subsequent turns decreases by 1d6.\nThe poison ends when the damage decreases to 0.\n\nSource: The Rise of Tiamat Supplement v0.2, PDF page 3. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Ring of Cold Resistance [2014 PDF]",
+      "rulesName": "Ring of Cold Resistance",
+      "category": "Ring, rare (requires attunement)",
+      "source": "RiseTiamatSupplementv0.2_Printer",
+      "sourcePage": 3,
+      "description": "Ring of Cold Resistance\nRing, rare (requires attunement)\nYou have resistance to cold damage while wearing this\nring, which is set with a tourmaline.\n\nSource: The Rise of Tiamat Supplement v0.2, PDF page 3. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Ring of Poison Resistance [2014 PDF]",
+      "rulesName": "Ring of Poison Resistance",
+      "category": "Ring, rare (requires attunement)",
+      "source": "RiseTiamatSupplementv0.2_Printer",
+      "sourcePage": 3,
+      "description": "Ring of Poison Resistance\nRing, rare (requires attunement)\nYou have resistance to poison damage while wearing\nthis ring, which is set with an amethyst.\n\nSource: The Rise of Tiamat Supplement v0.2, PDF page 3. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Scroll of Protection [2014 PDF]",
+      "rulesName": "Scroll of Protection",
+      "category": "Scroll, rare",
+      "source": "RiseTiamatSupplementv0.2_Printer",
+      "sourcePage": 3,
+      "description": "Scroll of Protection\nScroll, rare\nEach scroll of protection works against a specific type of\ncreature.\nUsing an action to read the scroll encloses you in a\ninvisible barrier that extends from you to form a 5-foot-\nradius, 10-foot-high cylinder. For 5 minutes, this barrier\nprevents creatures of the specified type from entering or\naffecting anything within the cylinder.\nThe cylinder moves with you and remains centered on\nyou. However, if you move in such a way that a creature\nof the specified type would be inside the cylinder, the\neffect ends.\nA creature can attempt to overcome the barrier by\nusing an action to make a DC 15 Charisma check. On\na success, the creature ceases to be affected by the\nbarrier.\n\nSource: The Rise of Tiamat Supplement v0.2, PDF page 3. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Wand of Fear [2014 PDF]",
+      "rulesName": "Wand of Fear",
+      "category": "Wand, rare (requires attunement)",
+      "source": "RiseTiamatSupplementv0.2_Printer",
+      "sourcePage": 3,
+      "description": "Wand of Fear\nWand, rare (requires attunement)\nThis wand has 7 charges for the following properties. It\nregains 1d6 + 1 expended charges daily at dawn. If you\nexpend the wand’s last charge, roll a d20. On a 1, the\nwand crumbles into ashes and is destroyed.\nCommand. While holding the wand, you can use\nan action to expend 1 charge and command another\ncreature to flee or grovel, as with the command spell\n(save DC 15).\nCone of Fear. While holding the wand, you can use\nan action to expend 2 charges, causing the wand’s tip to\nemit a 60-foot cone of amber light. Each creature in the\ncone must succeed on a DC 15 Wisdom saving throw\nor become frightened of you for 1 minute. While it is\nfrightened in this way, a creature must spend its turns\ntrying to move as far away from you as it can, and it can’t\nwillingly move to a space within 30 feet of you. It also\ncan’t take reactions. For its action, it can use only the\nDash action or try to escape from an effect that prevents\nit from moving. If it has nowhere it can move, the\ncreature can use the Dodge action. At the end of each of\nits turns, a creature can repeat the saving throw, ending\nthe effect on itself on a success.\n\nSource: The Rise of Tiamat Supplement v0.2, PDF page 3. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Black Dragon Mask [2014 PDF]",
+      "rulesName": "Black Dragon Mask",
+      "category": "Wondrous item, legendary (requires attunement)",
+      "source": "RiseTiamatSupplementv0.2_Printer",
+      "sourcePage": 4,
+      "description": "Black Dragon Mask\nWondrous item, legendary (requires attunement)\nThis horned mask of glossy ebony has a skull-like\nmien. While you wear the mask, you gain the following\nbenefits, in addition to those the dragon masks share.\nDamage Type. The mask’s damage type is acid.\nWater Breathing. You can breathe underwater.\n\nShared properties (same PDF page):\nDragon Mask Properties\nEach dragon mask is a legendary wondrous item that\nreshapes to fit the face and head of a wearer attuned to\nit. While you are wearing any dragon mask and attuned\nto it, you gain the following benefits.\nDamage Absorption. You have resistance against\nthe mask’s damage type. If you already have resistance\nto that damage type from another source, you instead\nhave immunity to that damage type. If you already have\nimmunity to that damage type from another source,\nwhenever you are subjected to damage of that type, you\ntake none of that damage and regain a number of hit\npoints equal to half the damage dealt of that type.\nDraconic Majesty. While you are wearing no armor,\nyou can add your Charisma bonus to your Armor Class.\nDragon Breath. If you have a breath weapon that\nrequires rest to recharge, it gains a recharge of 6.\nDragon Sight. You gain darkvision out to 60 feet, or\nto an additional 60 feet if you already have that sense.\nOnce per day, you can gain blindsight out to 30 feet for 5\nminutes.\nDragon Tongue. You can speak and understand\nDraconic. You also have advantage on any Charisma\ncheck you make against dragons that share the mask’s\ncolor.\nLegendary Resistance (1/Day). If you fail a saving\nthrow, you can choose to succeed instead.\n\nSource: The Rise of Tiamat Supplement v0.2, PDF page 4. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Blue Dragon Mask [2014 PDF]",
+      "rulesName": "Blue Dragon Mask",
+      "category": "Wondrous item, legendary (requires attunement)",
+      "source": "RiseTiamatSupplementv0.2_Printer",
+      "sourcePage": 4,
+      "description": "Blue Dragon Mask\nWondrous item, legendary (requires attunement)\nThis mask of glossy azure has spikes around its edges\nand a ridged horn in its center. While you wear the\nmask, you gain the following benefits, in addition to\nthose the dragon masks share.\nDamage Type. The mask’s damage type is lightning.\nLingering Shock. If you deal lightning damage to a\ncreature, it can’t take reactions until its next turn.\n\nShared properties (same PDF page):\nDragon Mask Properties\nEach dragon mask is a legendary wondrous item that\nreshapes to fit the face and head of a wearer attuned to\nit. While you are wearing any dragon mask and attuned\nto it, you gain the following benefits.\nDamage Absorption. You have resistance against\nthe mask’s damage type. If you already have resistance\nto that damage type from another source, you instead\nhave immunity to that damage type. If you already have\nimmunity to that damage type from another source,\nwhenever you are subjected to damage of that type, you\ntake none of that damage and regain a number of hit\npoints equal to half the damage dealt of that type.\nDraconic Majesty. While you are wearing no armor,\nyou can add your Charisma bonus to your Armor Class.\nDragon Breath. If you have a breath weapon that\nrequires rest to recharge, it gains a recharge of 6.\nDragon Sight. You gain darkvision out to 60 feet, or\nto an additional 60 feet if you already have that sense.\nOnce per day, you can gain blindsight out to 30 feet for 5\nminutes.\nDragon Tongue. You can speak and understand\nDraconic. You also have advantage on any Charisma\ncheck you make against dragons that share the mask’s\ncolor.\nLegendary Resistance (1/Day). If you fail a saving\nthrow, you can choose to succeed instead.\n\nSource: The Rise of Tiamat Supplement v0.2, PDF page 4. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Green Dragon Mask [2014 PDF]",
+      "rulesName": "Green Dragon Mask",
+      "category": "Wondrous item, legendary (requires attunement)",
+      "source": "RiseTiamatSupplementv0.2_Printer",
+      "sourcePage": 4,
+      "description": "Green Dragon Mask\nWondrous item, legendary (requires attunement)\nThis mottled green mask is surmounted by a frilled\ncrest and has leathery spiked plates along its jaw. While\nyou wear the mask, you gain the following benefits, in\naddition to those the dragon masks share.\nDamage Type. The mask’s damage type is poison.\nWater Breathing. You can breathe underwater.\n\nShared properties (same PDF page):\nDragon Mask Properties\nEach dragon mask is a legendary wondrous item that\nreshapes to fit the face and head of a wearer attuned to\nit. While you are wearing any dragon mask and attuned\nto it, you gain the following benefits.\nDamage Absorption. You have resistance against\nthe mask’s damage type. If you already have resistance\nto that damage type from another source, you instead\nhave immunity to that damage type. If you already have\nimmunity to that damage type from another source,\nwhenever you are subjected to damage of that type, you\ntake none of that damage and regain a number of hit\npoints equal to half the damage dealt of that type.\nDraconic Majesty. While you are wearing no armor,\nyou can add your Charisma bonus to your Armor Class.\nDragon Breath. If you have a breath weapon that\nrequires rest to recharge, it gains a recharge of 6.\nDragon Sight. You gain darkvision out to 60 feet, or\nto an additional 60 feet if you already have that sense.\nOnce per day, you can gain blindsight out to 30 feet for 5\nminutes.\nDragon Tongue. You can speak and understand\nDraconic. You also have advantage on any Charisma\ncheck you make against dragons that share the mask’s\ncolor.\nLegendary Resistance (1/Day). If you fail a saving\nthrow, you can choose to succeed instead.\n\nSource: The Rise of Tiamat Supplement v0.2, PDF page 4. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Red Dragon Mask [2014 PDF]",
+      "rulesName": "Red Dragon Mask",
+      "category": "Wondrous item, legendary (requires attunement)",
+      "source": "RiseTiamatSupplementv0.2_Printer",
+      "sourcePage": 4,
+      "description": "Red Dragon Mask\nWondrous item, legendary (requires attunement)\nThis mask of glossy crimson has swept-back horns and\nspiked cheek ridges. While you wear the mask, you gain\nthe following benefits, in addition to those the dragon\nmasks share.\nDamage Type. The mask’s damage type is fire.\nDragon Fire. If you deal fire damage to a creature or\nflammable object, it starts burning. At the start of each\nof its turns, a creature burning in this way takes 1d6 fire\ndamage. A creature that can reach the burning target\ncan use an action to extinguish the fire.\n\nShared properties (same PDF page):\nDragon Mask Properties\nEach dragon mask is a legendary wondrous item that\nreshapes to fit the face and head of a wearer attuned to\nit. While you are wearing any dragon mask and attuned\nto it, you gain the following benefits.\nDamage Absorption. You have resistance against\nthe mask’s damage type. If you already have resistance\nto that damage type from another source, you instead\nhave immunity to that damage type. If you already have\nimmunity to that damage type from another source,\nwhenever you are subjected to damage of that type, you\ntake none of that damage and regain a number of hit\npoints equal to half the damage dealt of that type.\nDraconic Majesty. While you are wearing no armor,\nyou can add your Charisma bonus to your Armor Class.\nDragon Breath. If you have a breath weapon that\nrequires rest to recharge, it gains a recharge of 6.\nDragon Sight. You gain darkvision out to 60 feet, or\nto an additional 60 feet if you already have that sense.\nOnce per day, you can gain blindsight out to 30 feet for 5\nminutes.\nDragon Tongue. You can speak and understand\nDraconic. You also have advantage on any Charisma\ncheck you make against dragons that share the mask’s\ncolor.\nLegendary Resistance (1/Day). If you fail a saving\nthrow, you can choose to succeed instead.\n\nSource: The Rise of Tiamat Supplement v0.2, PDF page 4. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "White Dragon Mask [2014 PDF]",
+      "rulesName": "White Dragon Mask",
+      "category": "Wondrous item, legendary (requires attunement)",
+      "source": "RiseTiamatSupplementv0.2_Printer",
+      "sourcePage": 4,
+      "description": "White Dragon Mask\nWondrous item, legendary (requires attunement)\nThis gleaming mask is white with highlights of pale\nblue and is topped by a spined crest. While you wear\nthe mask, you gain the following benefits, in addition to\nthose the dragon masks share.\nDamage Type. The mask’s damage type is cold.\nWinter’s Fury. While your current hit points are equal\nto or less than half your hit point maximum, you deal an\nextra 1d8 cold damage with your melee attacks.\n\nShared properties (same PDF page):\nDragon Mask Properties\nEach dragon mask is a legendary wondrous item that\nreshapes to fit the face and head of a wearer attuned to\nit. While you are wearing any dragon mask and attuned\nto it, you gain the following benefits.\nDamage Absorption. You have resistance against\nthe mask’s damage type. If you already have resistance\nto that damage type from another source, you instead\nhave immunity to that damage type. If you already have\nimmunity to that damage type from another source,\nwhenever you are subjected to damage of that type, you\ntake none of that damage and regain a number of hit\npoints equal to half the damage dealt of that type.\nDraconic Majesty. While you are wearing no armor,\nyou can add your Charisma bonus to your Armor Class.\nDragon Breath. If you have a breath weapon that\nrequires rest to recharge, it gains a recharge of 6.\nDragon Sight. You gain darkvision out to 60 feet, or\nto an additional 60 feet if you already have that sense.\nOnce per day, you can gain blindsight out to 30 feet for 5\nminutes.\nDragon Tongue. You can speak and understand\nDraconic. You also have advantage on any Charisma\ncheck you make against dragons that share the mask’s\ncolor.\nLegendary Resistance (1/Day). If you fail a saving\nthrow, you can choose to succeed instead.\n\nSource: The Rise of Tiamat Supplement v0.2, PDF page 4. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Amulet of Health [2014 PDF]",
+      "rulesName": "Amulet of Health",
+      "category": "Wondrous item, rare (requires attunement)",
+      "source": "DMBasicRulesv.0.3_PrinterFriendly",
+      "sourcePage": 59,
+      "description": "Amulet of Health\nWondrous item, rare (requires attunement)\nYour Constitution score is 19 while you wear this\namulet. It has no effect on you if your Constitution is\nalready 19 or higher.\n\nSource: Dungeon Master’s Basic Rules v0.3, PDF page 59. This is the older printing.\n[local reference file]",
+      "effects": [
+        {
+          "target": "score:Constitution",
+          "value": 19,
+          "scale": "flat",
+          "op": "minimum"
+        }
+      ],
+      "automation": "Supported permanent bonuses apply when Equipped / active is enabled. Enable it only when worn and attuned; the app does not enforce attunement slots. Bracers require no tracked armor or shield. Other conditions and powers remain manual."
+    },
+    {
+      "name": "Armor, +1, +2, or +3 [2014 PDF]",
+      "rulesName": "Armor, +1, +2, or +3",
+      "category": "Armor (light, medium, or heavy), rare (+1), very rare (+2),",
+      "source": "DMBasicRulesv.0.3_PrinterFriendly",
+      "sourcePage": 59,
+      "description": "Armor, +1, +2, or +3\nArmor (light, medium, or heavy), rare (+1), very rare (+2),\nor legendary (+3)\nYou have a bonus to AC while wearing this armor. The\nbonus is determined by its rarity.\n\nSource: Dungeon Master’s Basic Rules v0.3, PDF page 59. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Boots of Striding and Springing [2014 PDF]",
+      "rulesName": "Boots of Striding and Springing",
+      "category": "Wondrous item, uncommon (requires attunement)",
+      "source": "DMBasicRulesv.0.3_PrinterFriendly",
+      "sourcePage": 59,
+      "description": "Boots of Striding and Springing\nWondrous item, uncommon (requires attunement)\nWhile you wear these boots, your walking speed\nbecomes 30 feet, unless your walking speed is higher,\nand your speed isn’t reduced if you are encumbered\nor wearing heavy armor. In addition, you can jump\nthree times the normal distance, though you can’t jump\nfarther than your remaining movement would allow.\n\nSource: Dungeon Master’s Basic Rules v0.3, PDF page 59. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Cloak of Elvenkind [2014 PDF]",
+      "rulesName": "Cloak of Elvenkind",
+      "category": "Wondrous item, uncommon (requires attunement)",
+      "source": "DMBasicRulesv.0.3_PrinterFriendly",
+      "sourcePage": 59,
+      "description": "Cloak of Elvenkind\nWondrous item, uncommon (requires attunement)\nWhile you wear this cloak with its hood up, Wisdom\n(Perception) checks made to see you have disadvantage,\nand you have advantage on Dexterity (Stealth) checks\nmade to hide, as the cloak’s color shifts to camouflage\nyou. Pulling the hood up or down requires an action.\n\nSource: Dungeon Master’s Basic Rules v0.3, PDF page 59. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Gauntlets of Ogre Power [2014 PDF]",
+      "rulesName": "Gauntlets of Ogre Power",
+      "category": "Wondrous item, uncommon (requires attunement)",
+      "source": "DMBasicRulesv.0.3_PrinterFriendly",
+      "sourcePage": 59,
+      "description": "Gauntlets of Ogre Power\nWondrous item, uncommon (requires attunement)\nYour Strength score is 19 while you wear these\ngauntlets. They have no effect on you if your Strength is\nalready 19 or higher.\n\nSource: Dungeon Master’s Basic Rules v0.3, PDF page 59. This is the older printing.\n[local reference file]",
+      "effects": [
+        {
+          "target": "score:Strength",
+          "value": 19,
+          "scale": "flat",
+          "op": "minimum"
+        }
+      ],
+      "automation": "Supported permanent bonuses apply when Equipped / active is enabled. Enable it only when worn and attuned; the app does not enforce attunement slots. Bracers require no tracked armor or shield. Other conditions and powers remain manual."
+    },
+    {
+      "name": "Gloves of Swimming and Climbing [2014 PDF]",
+      "rulesName": "Gloves of Swimming and Climbing",
+      "category": "Wondrous item, uncommon (requires attunement)",
+      "source": "DMBasicRulesv.0.3_PrinterFriendly",
+      "sourcePage": 59,
+      "description": "Gloves of Swimming and Climbing\nWondrous item, uncommon (requires attunement)\nWhile wearing these gloves, climbing and swimming\ndon’t cost you extra movement, and you gain a +5 bonus\nto Strength (Athletics) checks made to climb or swim.\n\nSource: Dungeon Master’s Basic Rules v0.3, PDF page 59. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Goggles of Night [2014 PDF]",
+      "rulesName": "Goggles of Night",
+      "category": "Wondrous item, uncommon",
+      "source": "DMBasicRulesv.0.3_PrinterFriendly",
+      "sourcePage": 59,
+      "description": "Goggles of Night\nWondrous item, uncommon\nWhile wearing these dark lenses, you have darkvision\nout to a range of 60 feet. If you already have darkvision,\nwearing the goggles increases its range by 60 feet.\n\nSource: Dungeon Master’s Basic Rules v0.3, PDF page 59. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Headband of Intellect [2014 PDF]",
+      "rulesName": "Headband of Intellect",
+      "category": "Wondrous item, uncommon (requires attunement)",
+      "source": "DMBasicRulesv.0.3_PrinterFriendly",
+      "sourcePage": 59,
+      "description": "Headband of Intellect\nWondrous item, uncommon (requires attunement)\nYour Intelligence score is 19 while you wear this\nheadband. It has no effect on you if your Intelligence is\nalready 19 or higher.\n\nSource: Dungeon Master’s Basic Rules v0.3, PDF page 59. This is the older printing.\n[local reference file]",
+      "effects": [
+        {
+          "target": "score:Intelligence",
+          "value": 19,
+          "scale": "flat",
+          "op": "minimum"
+        }
+      ],
+      "automation": "Supported permanent bonuses apply when Equipped / active is enabled. Enable it only when worn and attuned; the app does not enforce attunement slots. Bracers require no tracked armor or shield. Other conditions and powers remain manual."
+    },
+    {
+      "name": "Keoghtom’s Ointment [2014 PDF]",
+      "rulesName": "Keoghtom’s Ointment",
+      "category": "Wondrous item, uncommon",
+      "source": "DMBasicRulesv.0.3_PrinterFriendly",
+      "sourcePage": 59,
+      "description": "Keoghtom’s Ointment\nWondrous item, uncommon\nThis glass jar, 3 inches in diameter, contains 1d4 + 1\ndoses of a thick mixture that smells faintly of aloe. The\njar and its contents weigh 1/2 pound.\nAs an action, one dose of the ointment can be\nswallowed or applied to the skin. The creature that\nreceives it regains 2d8 + 2 hit points, ceases to be\npoisoned, and is cured of any disease.\n\nSource: Dungeon Master’s Basic Rules v0.3, PDF page 59. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Potion of Flying [2014 PDF]",
+      "rulesName": "Potion of Flying",
+      "category": "Potion, very rare",
+      "source": "DMBasicRulesv.0.3_PrinterFriendly",
+      "sourcePage": 59,
+      "description": "Potion of Flying\nPotion, very rare\nWhen you drink this potion, you gain a flying speed\nequal to your walking speed for 1 hour and can hover.\nIf you’re in the air when the potion wears off, you fall\nunless you have some other means of staying aloft. This\npotion’s clear liquid floats at the top of its container and\nhas cloudy white impurities drifting in it.\n\nSource: Dungeon Master’s Basic Rules v0.3, PDF page 59. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Potion of Invisibility [2014 PDF]",
+      "rulesName": "Potion of Invisibility",
+      "category": "Potion, very rare",
+      "source": "DMBasicRulesv.0.3_PrinterFriendly",
+      "sourcePage": 59,
+      "description": "Potion of Invisibility\nPotion, very rare\nThis potion’s container looks empty but feels as though\nit holds liquid. When you drink it, you become invisible\nfor 1 hour. Anything you wear or carry is invisible with\nyou. The effect ends early if you attack or cast a spell.\n\nSource: Dungeon Master’s Basic Rules v0.3, PDF page 59. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Potion of Vitality [2014 PDF]",
+      "rulesName": "Potion of Vitality",
+      "category": "Potion, very rare",
+      "source": "DMBasicRulesv.0.3_PrinterFriendly",
+      "sourcePage": 59,
+      "description": "Potion of Vitality\nPotion, very rare\nWhen you drink this potion, it removes any exhaustion\nyou are suffering and cures any disease or poison\naffecting you. For the next 24 hours, you regain the\nmaximum number of hit points for any Hit Die you\nspend. The potion’s crimson liquid regularly pulses with\ndull light, calling to mind a heartbeat.\n\nSource: Dungeon Master’s Basic Rules v0.3, PDF page 59. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Ring of Evasion [2014 PDF]",
+      "rulesName": "Ring of Evasion",
+      "category": "Ring, rare (requires attunement)",
+      "source": "DMBasicRulesv.0.3_PrinterFriendly",
+      "sourcePage": 60,
+      "description": "Ring of Evasion\nRing, rare (requires attunement)\nThis ring has 3 charges, and it regains 1d3 expended\ncharges daily at dawn. When you fail a Dexterity saving\nthrow while wearing it, you can use your reaction\nto expend 1 of its charges to succeed on that saving\nthrow instead.\n\nSource: Dungeon Master’s Basic Rules v0.3, PDF page 60. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Ring of Protection [2014 PDF]",
+      "rulesName": "Ring of Protection",
+      "category": "Ring, rare (requires attunement)",
+      "source": "DMBasicRulesv.0.3_PrinterFriendly",
+      "sourcePage": 60,
+      "description": "Ring of Protection\nRing, rare (requires attunement)\nYou gain a +1 bonus to AC and saving throws while\nwearing this ring.\n\nSource: Dungeon Master’s Basic Rules v0.3, PDF page 60. This is the older printing.\n[local reference file]",
+      "effects": [
+        {
+          "target": "ac",
+          "value": 1,
+          "scale": "flat",
+          "op": "bonus"
+        },
+        {
+          "target": "save:*",
+          "value": 1,
+          "scale": "flat",
+          "op": "bonus"
+        }
+      ],
+      "automation": "Supported permanent bonuses apply when Equipped / active is enabled. Enable it only when worn and attuned; the app does not enforce attunement slots. Bracers require no tracked armor or shield. Other conditions and powers remain manual."
+    },
+    {
+      "name": "Ring of Resistance [2014 PDF]",
+      "rulesName": "Ring of Resistance",
+      "category": "Ring, rare (requires attunement)",
+      "source": "DMBasicRulesv.0.3_PrinterFriendly",
+      "sourcePage": 60,
+      "description": "Ring of Resistance\nRing, rare (requires attunement)\nYou have resistance to one damage type while wearing\nthis ring. The gem in the ring indicates the type, which\nthe DM chooses or determines randomly.\nd10 Damage Type Gem\n1 Acid Pearl\n2 Cold Tourmaline\n3 Fire Garnet\n4 Force Sapphire\n5 Lightning Citrine\n6 Necrotic Jet\n7 Poison Amethyst\n8 Psychic Jade\n9 Radiant Topaz\n10 Thunder Spinel\n\nSource: Dungeon Master’s Basic Rules v0.3, PDF page 60. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Spell Scroll [2014 PDF]",
+      "rulesName": "Spell Scroll",
+      "category": "Scroll, varies",
+      "source": "DMBasicRulesv.0.3_PrinterFriendly",
+      "sourcePage": 60,
+      "description": "Spell Scroll\nScroll, varies\nA spell scroll bears the words of a single spell, written in\na mystical cipher. If the spell is on your class’s spell list,\nyou can use an action to read the scroll and cast its spell\nwithout having to provide any of the spell’s components.\nOtherwise, the scroll is unintelligible.\nIf the spell is on your class’s spell list but of a higher\nlevel than you can normally cast, you must make an\nability check using your spellcasting ability to determine\nwhether you cast it successfully. The DC equals 10 + the\nspell’s level. On a failed check, the spell disappears from\nthe scroll with no other effect.\nOnce the spell is cast, the words on the scroll fade,\nand the scroll itself crumbles to dust.\nThe level of the spell on the scroll determines the\nspell’s saving throw DC and attack bonus, as well as the\nscroll’s rarity, as shown in the Spell Scroll table.\nSpell Scroll\nSpell Level Rarity Save DC Attack Bonus\nCantrip Common 13 +5\n1st Common 13 +5\n2nd Uncommon 13 +5\n3rd Uncommon 15 +7\n4th Rare 15 +7\n5th Rare 17 +9\n6th Very rare 17 +9\n7th Very rare 18 +10\n8th Very rare 18 +10\n9th Legendary 19 +11\nA wizard spell on a spell scroll can be copied just\nas spells in spellbooks can be copied. When a spell is\ncopied from a spell scroll, the copier must succeed on\nan Intelligence (Arcana) check with a DC equal to 10\n+ the spell’s level. If the check succeeds, the spell is\nsuccessfully copied. Whether the check succeeds or\nfails, the spell scroll is destroyed.\n\nSource: Dungeon Master’s Basic Rules v0.3, PDF page 60. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Wand of Magic Detection [2014 PDF]",
+      "rulesName": "Wand of Magic Detection",
+      "category": "Wand, uncommon",
+      "source": "DMBasicRulesv.0.3_PrinterFriendly",
+      "sourcePage": 60,
+      "description": "Wand of Magic Detection\nWand, uncommon\nThis wand has 3 charges. While holding it, you can\nexpend 1 charge as an action to cast the detect magic\nspell from it. The wand regains 1d3 expended charges\ndaily at dawn.\n\nSource: Dungeon Master’s Basic Rules v0.3, PDF page 60. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Wand of Magic Missiles [2014 PDF]",
+      "rulesName": "Wand of Magic Missiles",
+      "category": "Wand, uncommon",
+      "source": "DMBasicRulesv.0.3_PrinterFriendly",
+      "sourcePage": 60,
+      "description": "Wand of Magic Missiles\nWand, uncommon\nWhile you hold this wand, you can use an action to\nexpend 1 to 3 of its 7 charges to cast the magic missile\nspell without using any components. For 1 charge, you\ncast the spell as if you used a 1st-level spell slot, and you\nincrease the spell slot level by one for each additional\ncharge you spend.\nThe wand regains 1d6 + 1 expended charges each day\nat dawn. However, if you expend the wand’s last charge,\nroll a d20. On a 1, the wand crumbles into ashes and\nis destroyed.\n\nSource: Dungeon Master’s Basic Rules v0.3, PDF page 60. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    },
+    {
+      "name": "Weapon, +1, +2, or +3 [2014 PDF]",
+      "rulesName": "Weapon, +1, +2, or +3",
+      "category": "Weapon (any), uncommon (+1), rare (+2), or very rare (+3)",
+      "source": "DMBasicRulesv.0.3_PrinterFriendly",
+      "sourcePage": 60,
+      "description": "Weapon, +1, +2, or +3\nWeapon (any), uncommon (+1), rare (+2), or very rare (+3)\nYou have a bonus to attack and damage rolls made with\nthis magic weapon. The bonus is determined by the\nweapon’s rarity.\n\nSource: Dungeon Master’s Basic Rules v0.3, PDF page 60. This is the older printing.\n[local reference file]",
+      "effects": [],
+      "automation": "Reference item: apply charges, activation costs, conditions and item-specific weapon changes manually. Add supported permanent bonuses with Edit item effects."
+    }
+  ],
+  "retainedModernSpells": [
+    {
+      "name": "Ice Knife",
+      "current": "Ice Knife",
+      "sourcePage": 19
+    },
+    {
+      "name": "Vitriolic Sphere",
+      "current": "Vitriolic Sphere",
+      "sourcePage": 23
+    }
+  ],
+  "spellDescriptionCount": 43
+}
