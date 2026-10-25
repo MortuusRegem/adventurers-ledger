@@ -1,0 +1,1067 @@
+{
+  "species": [
+    {
+      "name": "Half-Elf",
+      "description": "Half-elves share human and elven ancestry. Their flexible training suits many adventuring roles.\n\nSkill Versatility: gain proficiency in two different skills of your choice. Select both in Required starting proficiencies or Species traits.\n\nFey Ancestry: advantage on saving throws against being charmed; magic cannot put you to sleep. This does not grant an elf's Trance or a shortened Long Rest.\n\nDarkvision: within 60 feet, treat dim light as bright light and darkness as dim light; darkness reveals shades of gray, not colors.\n\nLanguages: Common, Elvish, and one additional language of your choice. Record these with the character's language selector.",
+      "speed": 30,
+      "darkvision": 60,
+      "sizes": [
+        "Medium"
+      ],
+      "creatureType": "Humanoid",
+      "skillChoices": "all",
+      "skillCount": 2,
+      "effects": [
+        {
+          "target": "charmSave",
+          "op": "advantage",
+          "value": 1
+        }
+      ],
+      "expanded": true,
+      "rules": "Legacy species adapted for 2024: ignore the original racial ability-score increases; use background ability increases instead.",
+      "sourceBook": "Player's Handbook (2014); Basic Rules (2014)",
+      "source": "https://www.dndbeyond.com/species/20-half-elf"
+    },
+    {
+      "name": "Aasimar",
+      "speed": 30,
+      "darkvision": 60,
+      "sizes": [
+        "Medium",
+        "Small"
+      ],
+      "resistances": [
+        "Necrotic",
+        "Radiant"
+      ],
+      "description": "Healing Hands uses a Magic action to restore proficiency-count d4 HP once per Long Rest. Light is a Charisma cantrip. From level 3, a once-per-Long-Rest, one-minute revelation can grant flying wings, radiant light, or a frightening shroud. During revelation, one damage event on each of your turns may add proficiency-count radiant or necrotic damage. Inner Radiance also damages nearby creatures at your turn’s end. Choose the form on use; track actions, duration and uses manually.",
+      "spells": [
+        {
+          "name": "Light",
+          "level": 1,
+          "ability": "Charisma"
+        }
+      ],
+      "source": "https://roll20.net/compendium/dnd5e/Races%3AAasimar?expansion=32231"
+    },
+    {
+      "name": "Dragonborn",
+      "speed": 30,
+      "darkvision": 60,
+      "sizes": [
+        "Medium"
+      ],
+      "description": "Choose a dragon ancestry for resistance and breath damage. Breath replaces an attack: 15-foot cone or 30-by-5-foot line, Dexterity save against 8 + Constitution modifier + proficiency, half damage on success. It starts at 1d10 and grows at character levels 5, 11 and 17. Uses equal proficiency per Long Rest. From level 5, a once-per-Long-Rest Bonus Action grants a ten-minute fly speed equal to speed; track uses and flight manually.",
+      "variants": [
+        {
+          "name": "Black",
+          "resistances": [
+            "Acid"
+          ]
+        },
+        {
+          "name": "Blue",
+          "resistances": [
+            "Lightning"
+          ]
+        },
+        {
+          "name": "Brass",
+          "resistances": [
+            "Fire"
+          ]
+        },
+        {
+          "name": "Bronze",
+          "resistances": [
+            "Lightning"
+          ]
+        },
+        {
+          "name": "Copper",
+          "resistances": [
+            "Acid"
+          ]
+        },
+        {
+          "name": "Gold",
+          "resistances": [
+            "Fire"
+          ]
+        },
+        {
+          "name": "Green",
+          "resistances": [
+            "Poison"
+          ]
+        },
+        {
+          "name": "Red",
+          "resistances": [
+            "Fire"
+          ]
+        },
+        {
+          "name": "Silver",
+          "resistances": [
+            "Cold"
+          ]
+        },
+        {
+          "name": "White",
+          "resistances": [
+            "Cold"
+          ]
+        }
+      ],
+      "source": "SRD 5.2.1, CC BY 4.0 (included offline reference)"
+    },
+    {
+      "name": "Dwarf",
+      "speed": 30,
+      "darkvision": 120,
+      "sizes": [
+        "Medium"
+      ],
+      "resistances": [
+        "Poison"
+      ],
+      "effects": [
+        {
+          "target": "hpMax",
+          "value": 1,
+          "op": "bonus",
+          "scale": "level"
+        },
+        {
+          "target": "poisonSave",
+          "value": 0,
+          "op": "advantage",
+          "scale": "flat"
+        }
+      ],
+      "description": "Dwarven Toughness grants one additional maximum HP per character level. Poison resistance and advantage against the Poisoned condition apply. Stonecunning can grant grounded, stone-dependent tremorsense out to 60 feet for ten minutes, as a Bonus Action; uses equal proficiency per Long Rest. Activate and track Stonecunning manually.",
+      "source": "SRD 5.2.1, CC BY 4.0 (included offline reference)"
+    },
+    {
+      "name": "Elf",
+      "speed": 30,
+      "darkvision": 60,
+      "sizes": [
+        "Medium"
+      ],
+      "effects": [
+        {
+          "target": "charmSave",
+          "value": 0,
+          "op": "advantage",
+          "scale": "flat"
+        }
+      ],
+      "skillChoices": [
+        "Insight",
+        "Perception",
+        "Survival"
+      ],
+      "description": "Keen Senses grants a chosen skill proficiency. Fey Ancestry grants advantage against being or remaining Charmed. Trance replaces sleep and permits a four-hour Long Rest; magic cannot put you to sleep. Choose Intelligence, Wisdom or Charisma for lineage spells. Level-3/5 spells each have one free cast per Long Rest and can also use slots.",
+      "variants": [
+        {
+          "name": "High Elf",
+          "spells": [
+            {
+              "name": "Prestidigitation",
+              "level": 1
+            },
+            {
+              "name": "Detect Magic",
+              "level": 3
+            },
+            {
+              "name": "Misty Step",
+              "level": 5
+            }
+          ]
+        },
+        {
+          "name": "Drow",
+          "darkvision": 120,
+          "spells": [
+            {
+              "name": "Dancing Lights",
+              "level": 1
+            },
+            {
+              "name": "Faerie Fire",
+              "level": 3
+            },
+            {
+              "name": "Darkness",
+              "level": 5
+            }
+          ]
+        },
+        {
+          "name": "Wood Elf",
+          "speed": 35,
+          "spells": [
+            {
+              "name": "Druidcraft",
+              "level": 1
+            },
+            {
+              "name": "Longstrider",
+              "level": 3
+            },
+            {
+              "name": "Pass Without Trace",
+              "level": 5
+            }
+          ]
+        }
+      ],
+      "source": "SRD 5.2.1, CC BY 4.0 (included offline reference)"
+    },
+    {
+      "name": "Gnome",
+      "speed": 30,
+      "darkvision": 60,
+      "sizes": [
+        "Small"
+      ],
+      "effects": [
+        {
+          "target": "save:Intelligence",
+          "value": 0,
+          "op": "advantage",
+          "scale": "flat"
+        },
+        {
+          "target": "save:Wisdom",
+          "value": 0,
+          "op": "advantage",
+          "scale": "flat"
+        },
+        {
+          "target": "save:Charisma",
+          "value": 0,
+          "op": "advantage",
+          "scale": "flat"
+        }
+      ],
+      "description": "Gnomish Cunning grants advantage on Intelligence, Wisdom and Charisma saves. Forest lineage grants Minor Illusion and Speak with Animals, with proficiency-count free casts of the latter per Long Rest. Rock lineage grants Mending and Prestidigitation and permits small temporary clockwork devices. Choose Intelligence, Wisdom or Charisma for lineage spells; track crafting and free casts manually.",
+      "variants": [
+        {
+          "name": "Forest Gnome",
+          "spells": [
+            {
+              "name": "Minor Illusion",
+              "level": 1
+            },
+            {
+              "name": "Speak With Animals",
+              "level": 1
+            }
+          ]
+        },
+        {
+          "name": "Rock Gnome",
+          "spells": [
+            {
+              "name": "Mending",
+              "level": 1
+            },
+            {
+              "name": "Prestidigitation",
+              "level": 1
+            }
+          ]
+        }
+      ],
+      "source": "SRD 5.2.1, CC BY 4.0 (included offline reference)"
+    },
+    {
+      "name": "Goliath",
+      "speed": 35,
+      "darkvision": 0,
+      "sizes": [
+        "Medium"
+      ],
+      "effects": [
+        {
+          "target": "escapeGrapple",
+          "value": 0,
+          "op": "advantage",
+          "scale": "flat"
+        }
+      ],
+      "description": "Powerful Build increases carrying-size treatment and grants advantage on ability checks to end the Grappled condition. From level 5, Large Form can last ten minutes, granting +10 feet speed and Strength-check advantage; enable the form only while active and track its once-per-Long-Rest use. Your selected Giant Ancestry benefit has proficiency-count uses per Long Rest.",
+      "variants": [
+        {
+          "name": "Cloud",
+          "description": "Bonus Action: teleport up to 30 feet to a visible unoccupied space."
+        },
+        {
+          "name": "Fire",
+          "description": "After an attack-roll hit deals damage, add 1d10 fire damage."
+        },
+        {
+          "name": "Frost",
+          "description": "After an attack-roll hit deals damage, add 1d6 cold damage and slow the target by 10 feet until your next turn begins."
+        },
+        {
+          "name": "Hill",
+          "description": "After a qualifying hit deals damage to a Large or smaller creature, knock it prone."
+        },
+        {
+          "name": "Stone",
+          "description": "Reaction when damaged: reduce the damage by 1d12 + Constitution modifier."
+        },
+        {
+          "name": "Storm",
+          "description": "Reaction to damage from a creature within 60 feet: deal 1d8 thunder damage to it."
+        }
+      ],
+      "source": "SRD 5.2.1, CC BY 4.0 (included offline reference)"
+    },
+    {
+      "name": "Halfling",
+      "speed": 30,
+      "darkvision": 0,
+      "sizes": [
+        "Small"
+      ],
+      "effects": [
+        {
+          "target": "fearSave",
+          "value": 0,
+          "op": "advantage",
+          "scale": "flat"
+        }
+      ],
+      "description": "Brave grants advantage against the Frightened condition. Luck can reroll a natural 1 on a d20 test, keeping the replacement; the optional Luck switch automates one such die per test. Nimbleness permits movement through larger creatures, and Naturally Stealthy permits hiding behind a sufficiently larger creature. Resolve positioning and hiding conditions manually.",
+      "source": "SRD 5.2.1, CC BY 4.0 (included offline reference)"
+    },
+    {
+      "name": "Human",
+      "speed": 30,
+      "darkvision": 0,
+      "sizes": [
+        "Medium",
+        "Small"
+      ],
+      "skillChoices": "all",
+      "description": "Skillful grants proficiency in one chosen skill. Versatile grants an extra Origin feat; select it in species options or mark it as already tracked in Feats & bonuses. Resourceful grants Heroic Inspiration after a Long Rest; its use is tracked manually.",
+      "source": "SRD 5.2.1, CC BY 4.0 (included offline reference)"
+    },
+    {
+      "name": "Orc",
+      "speed": 30,
+      "darkvision": 120,
+      "sizes": [
+        "Medium"
+      ],
+      "description": "Adrenaline Rush permits a Bonus Action Dash and grants temporary HP equal to proficiency. It has proficiency-count uses, recovered on a Short or Long Rest. Relentless Endurance can leave you at 1 HP instead of 0 when not killed outright, once per Long Rest. Activate and track these limited-use benefits manually.",
+      "source": "SRD 5.2.1, CC BY 4.0 (included offline reference)"
+    },
+    {
+      "name": "Tiefling",
+      "speed": 30,
+      "darkvision": 60,
+      "sizes": [
+        "Medium",
+        "Small"
+      ],
+      "spells": [
+        {
+          "name": "Thaumaturgy",
+          "level": 1
+        }
+      ],
+      "description": "Choose a Fiendish Legacy for resistance and spells. Choose Intelligence, Wisdom or Charisma as the casting ability. Thaumaturgy is also known. Legacy spells gained at levels 3 and 5 each have one free use per Long Rest, plus normal slot casting; track those free casts manually.",
+      "variants": [
+        {
+          "name": "Infernal",
+          "resistances": [
+            "Fire"
+          ],
+          "spells": [
+            {
+              "name": "Fire Bolt",
+              "level": 1
+            },
+            {
+              "name": "Hellish Rebuke",
+              "level": 3
+            },
+            {
+              "name": "Darkness",
+              "level": 5
+            }
+          ]
+        },
+        {
+          "name": "Abyssal",
+          "resistances": [
+            "Poison"
+          ],
+          "spells": [
+            {
+              "name": "Poison Spray",
+              "level": 1
+            },
+            {
+              "name": "Ray Of Sickness",
+              "level": 3
+            },
+            {
+              "name": "Hold Person",
+              "level": 5
+            }
+          ]
+        },
+        {
+          "name": "Chthonic",
+          "resistances": [
+            "Necrotic"
+          ],
+          "spells": [
+            {
+              "name": "Chill Touch",
+              "level": 1
+            },
+            {
+              "name": "False Life",
+              "level": 3
+            },
+            {
+              "name": "Ray Of Enfeeblement",
+              "level": 5
+            }
+          ]
+        }
+      ],
+      "source": "SRD 5.2.1, CC BY 4.0 (included offline reference)"
+    },
+    {
+      "name": "Tabaxi",
+      "description": "Cat claws deal 1d6 + Strength slashing damage as an unarmed strike. Climbing speed equals walking speed. Feline Agility doubles speed for a turn; recover it by spending a turn moving 0 feet. Cat talents grant Perception and Stealth.",
+      "speed": 30,
+      "darkvision": 60,
+      "sizes": [
+        "Medium",
+        "Small"
+      ],
+      "expanded": true,
+      "rules": "Earlier book adapted for 2024: use background ability increases.",
+      "sourceBook": "Mordenkainen Presents: Monsters of the Multiverse (2022)",
+      "source": "https://www.dndbeyond.com/sources/dnd/motm",
+      "fixedSkills": [
+        "Perception",
+        "Stealth"
+      ],
+      "movement": "Climb equal to walking speed"
+    },
+    {
+      "name": "Leonin",
+      "description": "Claws deal 1d4 + Strength slashing damage. Hunter instincts grant one selected skill. Daunting Roar: bonus action, creatures of your choice within 10 feet make Wisdom saves (DC 8 + proficiency + Constitution) or become frightened of you until the end of your next turn. Once per short or long rest.",
+      "speed": 35,
+      "darkvision": 60,
+      "sizes": [
+        "Medium"
+      ],
+      "expanded": true,
+      "rules": "Earlier book adapted for 2024: use background ability increases.",
+      "sourceBook": "Mythic Odysseys of Theros (2020)",
+      "source": "https://www.dndbeyond.com/sources/dnd/moot",
+      "skillChoices": [
+        "Athletics",
+        "Intimidation",
+        "Perception",
+        "Survival"
+      ]
+    },
+    {
+      "name": "Tortle",
+      "description": "Natural armor is AC 17 without Dexterity; worn armor supplies no benefit, but shields apply. Claws deal 1d6 + Strength slashing. Hold breath for 1 hour. Shell Defense is an action: +4 AC and advantage on Strength/Constitution saves, speed 0, prone, disadvantage on Dexterity saves and no reactions; only a bonus action to emerge is available. Track shell defense manually.",
+      "speed": 30,
+      "darkvision": 0,
+      "sizes": [
+        "Medium",
+        "Small"
+      ],
+      "expanded": true,
+      "rules": "Earlier book adapted for 2024: use background ability increases.",
+      "sourceBook": "Mordenkainen Presents: Monsters of the Multiverse (2022)",
+      "source": "https://www.dndbeyond.com/sources/dnd/motm",
+      "naturalAc": 17,
+      "naturalDex": false,
+      "ignoreArmor": true,
+      "skillChoices": [
+        "Animal Handling",
+        "Medicine",
+        "Nature",
+        "Perception",
+        "Survival"
+      ]
+    },
+    {
+      "name": "Goblin",
+      "description": "Fury of the Small adds proficiency damage to a larger creature once per turn, proficiency uses per long rest. Nimble Escape allows Disengage or Hide as a bonus action. Fey ancestry helps resist charm.",
+      "speed": 30,
+      "darkvision": 60,
+      "sizes": [
+        "Small"
+      ],
+      "expanded": true,
+      "rules": "Earlier book adapted for 2024: use background ability increases.",
+      "sourceBook": "Mordenkainen Presents: Monsters of the Multiverse (2022)",
+      "source": "https://www.dndbeyond.com/sources/dnd/motm",
+      "effects": [
+        {
+          "target": "charmSave",
+          "value": 0,
+          "op": "advantage"
+        }
+      ]
+    },
+    {
+      "name": "Hobgoblin",
+      "description": "Fey Gift allows bonus-action Help, proficiency uses per long rest. From level 3, a Help can also provide Hospitality (1d6 + proficiency temporary HP to both), Passage (+10 speed to both until your next turn), or Spite (the helped attack makes its target's next attack roll disadvantaged). Fortune from the Many adds nearby ally count, maximum +3, to a failed attack, check or save; proficiency uses per long rest.",
+      "speed": 30,
+      "darkvision": 60,
+      "sizes": [
+        "Medium"
+      ],
+      "expanded": true,
+      "rules": "Earlier book adapted for 2024: use background ability increases.",
+      "sourceBook": "Mordenkainen Presents: Monsters of the Multiverse (2022)",
+      "source": "https://www.dndbeyond.com/sources/dnd/motm",
+      "effects": [
+        {
+          "target": "charmSave",
+          "value": 0,
+          "op": "advantage"
+        }
+      ]
+    },
+    {
+      "name": "Bugbear",
+      "description": "Long-Limbed adds 5 feet of reach to melee attacks on your turn. Powerful Build treats you as one size larger for carrying. Sneaky grants Stealth and permits movement through spaces for a Small creature without squeezing. Surprise Attack adds 2d6 damage to an attack against a creature that has not taken a turn in the current combat.",
+      "speed": 30,
+      "darkvision": 60,
+      "sizes": [
+        "Medium"
+      ],
+      "expanded": true,
+      "rules": "Earlier book adapted for 2024: use background ability increases.",
+      "sourceBook": "Mordenkainen Presents: Monsters of the Multiverse (2022)",
+      "source": "https://www.dndbeyond.com/sources/dnd/motm",
+      "fixedSkills": [
+        "Stealth"
+      ],
+      "effects": [
+        {
+          "target": "charmSave",
+          "value": 0,
+          "op": "advantage"
+        }
+      ]
+    },
+    {
+      "name": "Kobold",
+      "description": "Draconic Cry: bonus action, enemies within 10 feet that can hear you grant you and allies advantage on attacks until the start of your next turn; proficiency uses per long rest. Choose one Kobold Legacy.",
+      "speed": 30,
+      "darkvision": 60,
+      "sizes": [
+        "Small"
+      ],
+      "expanded": true,
+      "rules": "Earlier book adapted for 2024: use background ability increases.",
+      "sourceBook": "Mordenkainen Presents: Monsters of the Multiverse (2022)",
+      "source": "https://www.dndbeyond.com/sources/dnd/motm",
+      "variants": [
+        {
+          "name": "Craftiness",
+          "description": "Choose one proficiency in Arcana, Investigation, Medicine, Sleight of Hand or Survival.",
+          "skillChoices": [
+            "Arcana",
+            "Investigation",
+            "Medicine",
+            "Sleight of Hand",
+            "Survival"
+          ]
+        },
+        {
+          "name": "Defiance",
+          "description": "Advantage on saves to avoid or end frightened.",
+          "effects": [
+            {
+              "target": "fearSave",
+              "value": 0,
+              "op": "advantage"
+            }
+          ]
+        },
+        {
+          "name": "Draconic Sorcery",
+          "description": "Choose one Sorcerer cantrip, with Intelligence, Wisdom or Charisma as its casting ability. Record the spell in Spells."
+        }
+      ]
+    },
+    {
+      "name": "Lizardfolk",
+      "description": "Bite deals 1d6 + Strength piercing as an unarmed strike. Natural armor is 13 + Dexterity when unarmored; a shield still works. Hold breath for 15 minutes. Hungry Jaws: bonus-action bite, gaining proficiency temporary HP on a hit; proficiency uses per long rest. Nature intuition grants two selected skills.",
+      "speed": 30,
+      "darkvision": 0,
+      "sizes": [
+        "Medium"
+      ],
+      "expanded": true,
+      "rules": "Earlier book adapted for 2024: use background ability increases.",
+      "sourceBook": "Mordenkainen Presents: Monsters of the Multiverse (2022)",
+      "source": "https://www.dndbeyond.com/sources/dnd/motm",
+      "naturalAc": 13,
+      "naturalDex": true,
+      "movement": "Swim equal to walking speed",
+      "skillChoices": [
+        "Animal Handling",
+        "Medicine",
+        "Nature",
+        "Perception",
+        "Stealth",
+        "Survival"
+      ],
+      "skillCount": 2
+    },
+    {
+      "name": "Yuan-ti",
+      "description": "Magic Resistance grants advantage on saves against spells (apply only when the save is against a spell). Poison Resilience resists poison damage and helps resist the poisoned condition. Serpentine magic grants Poison Spray; Animal Friendship can target snakes; from level 3, Suggestion gains one free cast per long rest. Choose Intelligence, Wisdom or Charisma for these spells; normal slots can also cast the leveled spells.",
+      "speed": 30,
+      "darkvision": 60,
+      "sizes": [
+        "Medium",
+        "Small"
+      ],
+      "expanded": true,
+      "rules": "Earlier book adapted for 2024: use background ability increases.",
+      "sourceBook": "Mordenkainen Presents: Monsters of the Multiverse (2022)",
+      "source": "https://www.dndbeyond.com/sources/dnd/motm",
+      "resistances": [
+        "Poison"
+      ],
+      "effects": [
+        {
+          "target": "poisonSave",
+          "value": 0,
+          "op": "advantage"
+        }
+      ],
+      "spells": [
+        {
+          "name": "Poison Spray",
+          "level": 1
+        },
+        {
+          "name": "Animal Friendship (snakes only)",
+          "level": 1
+        },
+        {
+          "name": "Suggestion",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "name": "Kenku",
+      "description": "Expert Duplication gives advantage on checks to copy handwriting or craftwork. Kenku Recall grants two skill proficiencies and can grant advantage on a check with a proficient skill, proficiency uses per long rest. Mimicry reproduces sounds and voices; a listener can identify imitation with Insight against DC 8 + proficiency + Charisma.",
+      "speed": 30,
+      "darkvision": 0,
+      "sizes": [
+        "Medium",
+        "Small"
+      ],
+      "expanded": true,
+      "rules": "Earlier book adapted for 2024: use background ability increases.",
+      "sourceBook": "Mordenkainen Presents: Monsters of the Multiverse (2022)",
+      "source": "https://www.dndbeyond.com/sources/dnd/motm",
+      "skillChoices": "all",
+      "skillCount": 2
+    },
+    {
+      "name": "Aarakocra",
+      "description": "Flight speed equals walking speed while not wearing medium or heavy armor. Talons deal 1d6 + Strength slashing as an unarmed strike. From level 3, Wind Caller grants Gust of Wind once per long rest, and it can also use slots. Choose Intelligence, Wisdom or Charisma as its casting ability.",
+      "speed": 30,
+      "darkvision": 0,
+      "sizes": [
+        "Medium"
+      ],
+      "expanded": true,
+      "rules": "Earlier book adapted for 2024: use background ability increases.",
+      "sourceBook": "Mordenkainen Presents: Monsters of the Multiverse (2022)",
+      "source": "https://www.dndbeyond.com/sources/dnd/motm",
+      "movement": "Fly equal to walking speed; no medium/heavy armor",
+      "spells": [
+        {
+          "name": "Gust of Wind",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "name": "Owlin",
+      "description": "Silent Feathers grants Stealth. Flight speed equals walking speed while not wearing medium or heavy armor.",
+      "speed": 30,
+      "darkvision": 120,
+      "sizes": [
+        "Medium",
+        "Small"
+      ],
+      "expanded": true,
+      "rules": "Earlier book adapted for 2024: use background ability increases.",
+      "sourceBook": "Strixhaven: A Curriculum of Chaos (2021)",
+      "source": "https://www.dndbeyond.com/posts/1124-take-to-the-skies-with-the-new-owlin-race-from",
+      "fixedSkills": [
+        "Stealth"
+      ],
+      "movement": "Fly equal to walking speed; no medium/heavy armor"
+    },
+    {
+      "name": "Air Genasi",
+      "description": "Unending Breath lets you hold breath indefinitely while not incapacitated. Lightning resistance. Mingle with the Wind grants Shocking Grasp, Feather Fall at level 3, and Levitate at level 5. Each leveled spell has one free cast per long rest, plus slot casting; choose Intelligence, Wisdom or Charisma.",
+      "speed": 35,
+      "darkvision": 60,
+      "sizes": [
+        "Medium",
+        "Small"
+      ],
+      "expanded": true,
+      "rules": "Earlier book adapted for 2024: use background ability increases.",
+      "sourceBook": "Mordenkainen Presents: Monsters of the Multiverse (2022)",
+      "source": "https://www.dndbeyond.com/sources/dnd/motm",
+      "resistances": [
+        "Lightning"
+      ],
+      "spells": [
+        {
+          "name": "Shocking Grasp",
+          "level": 1
+        },
+        {
+          "name": "Feather Fall",
+          "level": 3
+        },
+        {
+          "name": "Levitate",
+          "level": 5
+        }
+      ]
+    },
+    {
+      "name": "Earth Genasi",
+      "description": "Earth Walk ignores difficult terrain while using walking speed on the ground or a floor. Merge with Stone grants Blade Ward, with a special bonus-action casting proficiency times per long rest. From level 5, Pass Without Trace has one free cast per long rest plus slot casting. Choose Intelligence, Wisdom or Charisma for these spells.",
+      "speed": 30,
+      "darkvision": 60,
+      "sizes": [
+        "Medium",
+        "Small"
+      ],
+      "expanded": true,
+      "rules": "Earlier book adapted for 2024: use background ability increases.",
+      "sourceBook": "Mordenkainen Presents: Monsters of the Multiverse (2022)",
+      "source": "https://www.dndbeyond.com/sources/dnd/motm",
+      "spells": [
+        {
+          "name": "Blade Ward",
+          "level": 1
+        },
+        {
+          "name": "Pass Without Trace",
+          "level": 5
+        }
+      ]
+    },
+    {
+      "name": "Fire Genasi",
+      "description": "Fire resistance. Reach to the Blaze grants Produce Flame, Burning Hands at level 3 and Flame Blade at level 5. Each leveled spell has one free cast per long rest plus slot casting. Choose Intelligence, Wisdom or Charisma.",
+      "speed": 30,
+      "darkvision": 60,
+      "sizes": [
+        "Medium",
+        "Small"
+      ],
+      "expanded": true,
+      "rules": "Earlier book adapted for 2024: use background ability increases.",
+      "sourceBook": "Mordenkainen Presents: Monsters of the Multiverse (2022)",
+      "source": "https://www.dndbeyond.com/sources/dnd/motm",
+      "resistances": [
+        "Fire"
+      ],
+      "spells": [
+        {
+          "name": "Produce Flame",
+          "level": 1
+        },
+        {
+          "name": "Burning Hands",
+          "level": 3
+        },
+        {
+          "name": "Flame Blade",
+          "level": 5
+        }
+      ]
+    },
+    {
+      "name": "Water Genasi",
+      "description": "Amphibious: breathe air and water. Acid resistance. Call to the Wave grants Acid Splash, Create or Destroy Water at level 3 and Water Walk at level 5. Each leveled spell has one free cast per long rest plus slot casting. Choose Intelligence, Wisdom or Charisma.",
+      "speed": 30,
+      "darkvision": 60,
+      "sizes": [
+        "Medium",
+        "Small"
+      ],
+      "expanded": true,
+      "rules": "Earlier book adapted for 2024: use background ability increases.",
+      "sourceBook": "Mordenkainen Presents: Monsters of the Multiverse (2022)",
+      "source": "https://www.dndbeyond.com/sources/dnd/motm",
+      "resistances": [
+        "Acid"
+      ],
+      "movement": "Swim equal to walking speed",
+      "spells": [
+        {
+          "name": "Acid Splash",
+          "level": 1
+        },
+        {
+          "name": "Create or Destroy Water",
+          "level": 3
+        },
+        {
+          "name": "Water Walk",
+          "level": 5
+        }
+      ]
+    },
+    {
+      "name": "Firbolg",
+      "description": "Firbolg Magic grants Detect Magic and Disguise Self once each per long rest plus slot casting; choose Intelligence, Wisdom or Charisma. The disguise may appear up to 3 feet shorter or taller. Hidden Step: bonus action, invisible until your next turn or an attack, damage roll, or forcing a save; proficiency uses per long rest. Powerful Build improves carrying. Speech of Beast and Leaf permits limited communication to beasts, plants and vegetation, with advantage on Charisma checks to influence them.",
+      "speed": 30,
+      "darkvision": 0,
+      "sizes": [
+        "Medium"
+      ],
+      "expanded": true,
+      "rules": "Earlier book adapted for 2024: use background ability increases.",
+      "sourceBook": "Mordenkainen Presents: Monsters of the Multiverse (2022)",
+      "source": "https://www.dndbeyond.com/sources/dnd/motm",
+      "spells": [
+        {
+          "name": "Detect Magic",
+          "level": 1
+        },
+        {
+          "name": "Disguise Self",
+          "level": 1
+        }
+      ]
+    },
+    {
+      "name": "Triton",
+      "description": "Amphibious: breathe air and water. Cold resistance. Emissary of the Sea allows simple ideas to be communicated to swimming beasts, elementals and monstrosities. Control Air and Water grants Fog Cloud, Gust of Wind at level 3 and Water Walk at level 5. One free cast per spell per long rest plus slot casting; choose Intelligence, Wisdom or Charisma.",
+      "speed": 30,
+      "darkvision": 60,
+      "sizes": [
+        "Medium"
+      ],
+      "expanded": true,
+      "rules": "Earlier book adapted for 2024: use background ability increases.",
+      "sourceBook": "Mordenkainen Presents: Monsters of the Multiverse (2022)",
+      "source": "https://www.dndbeyond.com/sources/dnd/motm",
+      "resistances": [
+        "Cold"
+      ],
+      "movement": "Swim equal to walking speed",
+      "spells": [
+        {
+          "name": "Fog Cloud",
+          "level": 1
+        },
+        {
+          "name": "Gust of Wind",
+          "level": 3
+        },
+        {
+          "name": "Water Walk",
+          "level": 5
+        }
+      ]
+    },
+    {
+      "name": "Changeling",
+      "description": "Fey creature. Choose two social skill proficiencies. Shape-Shifter changes appearance and voice; the transformation grants advantage on Charisma checks while active. Equipment stays unchanged. Resolve the transformation and its conditional advantage manually.",
+      "speed": 30,
+      "darkvision": 0,
+      "sizes": [
+        "Medium",
+        "Small"
+      ],
+      "expanded": true,
+      "rules": "Earlier book adapted for 2024: use background ability increases.",
+      "sourceBook": "Eberron: Forge of the Artificer (2025)",
+      "source": "https://www.dndbeyond.com/posts/2017-how-eberron-forge-of-the-artificer-reimagines",
+      "skillChoices": [
+        "Deception",
+        "Insight",
+        "Intimidation",
+        "Performance",
+        "Persuasion"
+      ],
+      "skillCount": 2,
+      "creatureType": "Fey"
+    },
+    {
+      "name": "Shifter",
+      "description": "Bestial Instincts grants one selected skill. Shifting is a bonus action lasting 1 minute, granting 2 x proficiency temporary HP; proficiency uses per long rest. Choose a shifting benefit. Its temporary modifiers and uses are tracked manually.",
+      "speed": 30,
+      "darkvision": 60,
+      "sizes": [
+        "Medium",
+        "Small"
+      ],
+      "expanded": true,
+      "rules": "Earlier book adapted for 2024: use background ability increases.",
+      "sourceBook": "Eberron: Forge of the Artificer (2025)",
+      "source": "https://www.dndbeyond.com/posts/2017-how-eberron-forge-of-the-artificer-reimagines",
+      "skillChoices": [
+        "Acrobatics",
+        "Athletics",
+        "Intimidation",
+        "Survival"
+      ],
+      "variants": [
+        {
+          "name": "Beasthide",
+          "description": "On shifting gain 1d6 additional temporary HP; +1 AC while shifted."
+        },
+        {
+          "name": "Longtooth",
+          "description": "When shifting and as a bonus action on later turns, bite for 1d6 + Strength piercing."
+        },
+        {
+          "name": "Swiftstride",
+          "description": "While shifted, +10 walking speed. Reaction: move 10 feet when a creature ends its turn within 5 feet, without opportunity attacks."
+        },
+        {
+          "name": "Wildhunt",
+          "description": "While shifted, advantage on Wisdom checks; creatures within 30 feet cannot have advantage on attacks against you unless you are incapacitated."
+        }
+      ]
+    },
+    {
+      "name": "Warforged",
+      "description": "Construct creature. Integrated Protection grants +1 AC. Constructed Resilience provides poison resistance and advantage on saves to end poisoned. Sentry rest replaces sleep; magical sleep fails. Tireless prevents exhaustion from lack of food, water or air. Specialized Design grants one skill and one tool proficiency; record the tool in Features & notes.",
+      "speed": 30,
+      "darkvision": 0,
+      "sizes": [
+        "Medium"
+      ],
+      "expanded": true,
+      "rules": "Earlier book adapted for 2024: use background ability increases.",
+      "sourceBook": "Eberron: Forge of the Artificer (2025)",
+      "source": "https://www.dndbeyond.com/posts/2017-how-eberron-forge-of-the-artificer-reimagines",
+      "skillChoices": "all",
+      "resistances": [
+        "Poison"
+      ],
+      "effects": [
+        {
+          "target": "ac",
+          "value": 1,
+          "op": "bonus"
+        },
+        {
+          "target": "poisonSave",
+          "value": 0,
+          "op": "advantage"
+        }
+      ],
+      "creatureType": "Construct"
+    },
+    {
+      "name": "Githyanki",
+      "description": "Psychic resistance. Astral Knowledge grants one skill and one weapon or tool proficiency after a long rest, lasting until the next; choose the skill here and record the other in notes. Githyanki Psionics grants invisible Mage Hand, Jump at level 3 and Misty Step at level 5. No components; each leveled spell has one free cast per long rest plus slot casting. Choose Intelligence, Wisdom or Charisma.",
+      "speed": 30,
+      "darkvision": 0,
+      "sizes": [
+        "Medium"
+      ],
+      "expanded": true,
+      "rules": "Earlier book adapted for 2024: use background ability increases.",
+      "sourceBook": "Mordenkainen Presents: Monsters of the Multiverse (2022)",
+      "source": "https://www.dndbeyond.com/sources/dnd/motm",
+      "skillChoices": "all",
+      "resistances": [
+        "Psychic"
+      ],
+      "spells": [
+        {
+          "name": "Mage Hand",
+          "level": 1
+        },
+        {
+          "name": "Jump",
+          "level": 3
+        },
+        {
+          "name": "Misty Step",
+          "level": 5
+        }
+      ]
+    },
+    {
+      "name": "Githzerai",
+      "description": "Psychic resistance. Mental Discipline grants advantage on saves against charm and fear. Githzerai Psionics grants invisible Mage Hand, Shield at level 3 and Detect Thoughts at level 5. No components; each leveled spell has one free cast per long rest plus slot casting. Choose Intelligence, Wisdom or Charisma.",
+      "speed": 30,
+      "darkvision": 0,
+      "sizes": [
+        "Medium"
+      ],
+      "expanded": true,
+      "rules": "Earlier book adapted for 2024: use background ability increases.",
+      "sourceBook": "Mordenkainen Presents: Monsters of the Multiverse (2022)",
+      "source": "https://www.dndbeyond.com/sources/dnd/motm",
+      "resistances": [
+        "Psychic"
+      ],
+      "effects": [
+        {
+          "target": "charmSave",
+          "value": 0,
+          "op": "advantage"
+        },
+        {
+          "target": "fearSave",
+          "value": 0,
+          "op": "advantage"
+        }
+      ],
+      "spells": [
+        {
+          "name": "Mage Hand",
+          "level": 1
+        },
+        {
+          "name": "Shield",
+          "level": 3
+        },
+        {
+          "name": "Detect Thoughts",
+          "level": 5
+        }
+      ]
+    }
+  ],
+  "note": "2024 species do not grant starting ability-score increases; use background increases."
+}
