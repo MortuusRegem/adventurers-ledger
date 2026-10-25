@@ -48,16 +48,18 @@ jobs:
         run: bash package-macos.sh ${{ matrix.arch }}
       - uses: actions/upload-artifact@v4
         with:
-          name: Mac-${{ matrix.arch }}
+          name: Mac-installer-${{ matrix.arch }}
           path: macOS/dist/*
           if-no-files-found: error
       - uses: actions/upload-artifact@v4
         if: always()
+        timeout-minutes: 2
+        continue-on-error: true
         with:
           name: Mac-diagnostics-${{ matrix.arch }}
           path: |
-            macOS/build-macos/**/self-test-failure.txt
-            macOS/build-macos/**/preview*.png
+            macOS/build-macos/Adventurers Ledger.app/Contents/MacOS/self-test-failure.txt
+            macOS/build-macos/Adventurers Ledger.app/Contents/MacOS/preview*.png
   publish:
     name: Publish Mac downloads
     needs: build
@@ -67,7 +69,7 @@ jobs:
     steps:
       - uses: actions/download-artifact@v4
         with:
-          pattern: Mac-*
+          pattern: Mac-installer-*
           merge-multiple: true
           path: installers
       - name: Attach Mac installers to version 1.1.1
