@@ -7,8 +7,8 @@ A desktop character manager with character sheets, inventory, dice rolling, and 
 [Open releases](https://github.com/MortuusRegem/adventurers-ledger/releases/latest).
 
 - **Windows:** use the `Adventurers-Ledger-Setup-….exe` installer.
-- **Mac — Apple Silicon (M1 and newer):** use the `…macOS-arm64.dmg` download when available.
-- **Mac — Intel:** use the `…macOS-x86_64.dmg` download when available.
+- **Mac — Apple Silicon (M1 and newer):** use the `…macOS-arm64.dmg` download.
+- **Mac — Intel:** use the `…macOS-x86_64.dmg` download.
 
 Mac builds require macOS 13 or later. Read the [Mac installation guide](macOS/MAC-INSTALL.md), including the first-launch approval steps for this non-notarized build.
 
