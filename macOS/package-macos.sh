@@ -28,7 +28,7 @@ find "$app/Contents/MacOS" -type f \( -name '*.png' -o -name 'self-test-failure.
 "$QT_ROOT_DIR/bin/macdeployqt" "$app" -always-overwrite -codesign=-
 codesign --verify --deep --strict --verbose=2 "$app"
 # Exercise the deployed bundle, not just the build linked against the installed Qt.
-QT_QPA_PLATFORM=offscreen "$app/Contents/MacOS/Adventurers Ledger" --self-test
+QT_QPA_PLATFORM=cocoa "$app/Contents/MacOS/Adventurers Ledger" --self-test
 find "$app/Contents/MacOS" -type f \( -name '*.png' -o -name 'self-test-failure.txt' \) -delete
 codesign --force --deep --sign - "$app"
 codesign --verify --deep --strict "$app"
