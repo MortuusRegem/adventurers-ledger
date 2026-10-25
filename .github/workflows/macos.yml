@@ -1,0 +1,77 @@
+name: Mac version
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'macOS/**'
+      - '.github/workflows/macos.yml'
+permissions:
+  contents: read
+jobs:
+  build:
+    name: Mac - ${{ matrix.label }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - runner: macos-15
+            arch: arm64
+            label: Apple Silicon
+          - runner: macos-15-intel
+            arch: x86_64
+            label: Intel
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 35
+    defaults:
+      run:
+        working-directory: macOS
+        shell: bash
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Qt
+        run: |
+          python3 -m venv "$RUNNER_TEMP/aqt"
+          "$RUNNER_TEMP/aqt/bin/pip" install aqtinstall==3.3.0
+          "$RUNNER_TEMP/aqt/bin/aqt" install-qt mac desktop 6.8.3 clang_64 --outputdir "$RUNNER_TEMP/Qt"
+          qtroot="$RUNNER_TEMP/Qt/6.8.3/macos"
+          test -x "$qtroot/bin/macdeployqt"
+          echo "QT_ROOT_DIR=$qtroot" >> "$GITHUB_ENV"
+      - name: Build Mac application
+        run: |
+          cmake -S . -B build-macos -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH="$QT_ROOT_DIR" -DCMAKE_OSX_ARCHITECTURES=${{ matrix.arch }} -DCMAKE_OSX_DEPLOYMENT_TARGET=13.0
+          cmake --build build-macos --parallel 3
+      - name: Test character features and updater
+        env:
+          QT_QPA_PLATFORM: offscreen
+        run: '"build-macos/Adventurers Ledger.app/Contents/MacOS/Adventurers Ledger" --self-test'
+      - name: Package and verify Mac installer
+        run: bash package-macos.sh ${{ matrix.arch }}
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Mac-${{ matrix.arch }}
+          path: macOS/dist/*
+          if-no-files-found: error
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: Mac-diagnostics-${{ matrix.arch }}
+          path: |
+            macOS/build-macos/**/self-test-failure.txt
+            macOS/build-macos/**/preview*.png
+  publish:
+    name: Publish Mac downloads
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: Mac-*
+          merge-multiple: true
+          path: installers
+      - name: Attach Mac installers to version 1.1.1
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: gh release upload v1.1.1 installers/*.dmg installers/*.sha256 --clobber
