@@ -1,0 +1,2368 @@
+{
+  "subclasses": [
+    {
+      "className": "Barbarian",
+      "name": "Path of the Ancestral Guardian",
+      "source": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/sources/dnd/xgte",
+      "legacy": true,
+      "description": "Protect allies with ancestral spirits while raging. Mark an enemy with an attack, reduce damage with a reaction, and consult protective spirits.",
+      "milestones": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "features": "Ancestral Protectors; Spirit Shield; Consult the Spirits; Vengeful Ancestors"
+    },
+    {
+      "className": "Barbarian",
+      "name": "Path of the Battlerager",
+      "source": "Sword Coast Adventurer's Guide (2015)",
+      "url": "https://www.dndbeyond.com/sources/dnd/scag",
+      "legacy": true,
+      "description": "A spiked-armor specialist who combines raging grapples, bonus-action armor attacks and retaliation. Armor availability and the original setting restriction require DM agreement.",
+      "milestones": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "features": "Battlerager Armor; Reckless Abandon; Battlerager Charge; Spiked Retribution"
+    },
+    {
+      "className": "Barbarian",
+      "name": "Path of the Beast",
+      "source": "Tasha's Cauldron of Everything (2020)",
+      "url": "https://www.dndbeyond.com/sources/dnd/tcoe",
+      "legacy": true,
+      "description": "Manifest a bite, claws or tail while raging. Later adaptations improve movement, magical natural attacks and support for nearby allies. Choose the natural weapon anew on each Rage.",
+      "milestones": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "features": "Form of the Beast; Bestial Soul; Infectious Fury; Call the Hunt"
+    },
+    {
+      "className": "Barbarian",
+      "name": "Path of the Storm Herald",
+      "source": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/sources/dnd/xgte",
+      "legacy": true,
+      "description": "A raging elemental aura supports allies or harms nearby foes. Choose Desert, Sea or Tundra when the subclass allows changing environments.",
+      "milestones": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "features": "Storm Aura; Storm Soul; Shielding Storm; Raging Storm",
+      "choices": [
+        {
+          "key": "Environment",
+          "options": [
+            {
+              "name": "Desert",
+              "description": "A hot aura damages nearby creatures; later gain heat protection."
+            },
+            {
+              "name": "Sea",
+              "description": "An electrical aura strikes one creature; later gain swimming and lightning protection."
+            },
+            {
+              "name": "Tundra",
+              "description": "An icy aura supplies temporary HP; later gain cold protection."
+            }
+          ],
+          "count": 1,
+          "level": 3
+        }
+      ]
+    },
+    {
+      "className": "Barbarian",
+      "name": "Path of Wild Magic",
+      "source": "Tasha's Cauldron of Everything (2020)",
+      "url": "https://www.dndbeyond.com/sources/dnd/tcoe",
+      "legacy": true,
+      "description": "Rage releases unpredictable magical surges. Sense magic, bolster allies and later gain more control over your surge results. Roll the surge table and resolve its temporary effects manually.",
+      "milestones": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "features": "Magic Awareness; Wild Surge; Bolstering Magic; Unstable Backlash; Controlled Surge"
+    },
+    {
+      "className": "Bard",
+      "name": "College of Creation",
+      "source": "Tasha's Cauldron of Everything (2020)",
+      "url": "https://www.dndbeyond.com/sources/dnd/tcoe",
+      "legacy": true,
+      "description": "Turn inspiration into a creative mote, fabricate temporary objects and animate a dancing item. Item limits and companion actions depend on Bard level.",
+      "milestones": [
+        3,
+        6,
+        14
+      ],
+      "features": "Mote of Potential; Performance of Creation; Animating Performance; Creative Crescendo"
+    },
+    {
+      "className": "Bard",
+      "name": "College of Eloquence",
+      "source": "Tasha's Cauldron of Everything (2020)",
+      "url": "https://www.dndbeyond.com/sources/dnd/tcoe",
+      "legacy": true,
+      "description": "A persuasive speaker who weakens enemy saves and makes Bardic Inspiration more reliable. Silver Tongue treats low Persuasion and Deception d20 rolls as 10; apply that roll floor when resolving checks.",
+      "milestones": [
+        3,
+        6,
+        14
+      ],
+      "features": "Silver Tongue; Unsettling Words; Unfailing Inspiration; Universal Speech; Infectious Inspiration"
+    },
+    {
+      "className": "Bard",
+      "name": "College of Swords",
+      "source": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/sources/dnd/xgte",
+      "legacy": true,
+      "description": "A weapon performer using flourishes for damage, defense or movement. Choose Dueling or Two-Weapon Fighting and resolve each flourish using Bardic Inspiration.",
+      "milestones": [
+        3,
+        6,
+        14
+      ],
+      "features": "Bonus Proficiencies; Fighting Style; Blade Flourish; Extra Attack; Master Flourish",
+      "choices": [
+        {
+          "key": "Fighting Style",
+          "options": [
+            {
+              "name": "Dueling",
+              "description": "Use the Dueling fighting-style rules; record its equipped-weapon damage effect in Feats & bonuses."
+            },
+            {
+              "name": "Two-Weapon Fighting",
+              "description": "Use the Two-Weapon Fighting style rules for the additional attack."
+            }
+          ],
+          "count": 1,
+          "level": 3
+        }
+      ]
+    },
+    {
+      "className": "Bard",
+      "name": "College of Whispers",
+      "source": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/sources/dnd/xgte",
+      "legacy": true,
+      "description": "A sinister performer using psychic weapon damage, fear and stolen identities. Capture a shadow to impersonate its owner and later exert longer-lasting influence.",
+      "milestones": [
+        3,
+        6,
+        14
+      ],
+      "features": "Psychic Blades; Words of Terror; Mantle of Whispers; Shadow Lore"
+    },
+    {
+      "className": "Bard",
+      "name": "College of Spirits",
+      "source": "Ravenloft: The Horrors Within (2026)",
+      "url": "https://www.dndbeyond.com/sources/dnd/rthw",
+      "legacy": false,
+      "description": "Tell supernatural tales and channel spirits through performance. Offers eerie support and unpredictable magical assistance. Use the current Ravenloft tale and spirit rules when resolving these abilities.",
+      "milestones": [
+        3,
+        6,
+        14
+      ],
+      "features": "Spiritual storytelling; spirit-guided magic; improved supernatural tales"
+    },
+    {
+      "className": "Bard",
+      "name": "College of the Moon",
+      "source": "Forgotten Realms: Heroes of Faerun (2025)",
+      "url": "https://www.dndbeyond.com/posts/2082-weave-your-tale-in-the-forgotten-realms-with-8",
+      "legacy": false,
+      "description": "A moonlit performer drawing on fey and lunar magic. Supports companions and shapes combat through the changing power of the moon.",
+      "milestones": [
+        3,
+        6,
+        14
+      ],
+      "features": "Lunar performance and fey support; later lunar benefits"
+    },
+    {
+      "className": "Cleric",
+      "name": "Arcana Domain",
+      "source": "Arcana Unleashed (2026)",
+      "url": "https://www.dndbeyond.com/posts/2209-harness-magical-might-with-these-8-arcana",
+      "legacy": false,
+      "description": "A priest of magic who combines divine casting with arcane study. Gain Arcana proficiency and Wizard cantrips, disrupt spells, and eventually expand into high-level Wizard magic.",
+      "milestones": [
+        3,
+        6,
+        17
+      ],
+      "features": "Student of Arcana; Modify Magic; Dispelling Recovery; Arcane Mastery",
+      "effects": [
+        {
+          "target": "skill:Arcana",
+          "value": 1,
+          "op": "proficiency",
+          "level": 3
+        }
+      ],
+      "choices": [
+        {
+          "key": "Wizard cantrips",
+          "spellClass": "Wizard",
+          "spellLevel": 0,
+          "count": 2,
+          "level": 3
+        },
+        {
+          "key": "Arcane Mastery 6",
+          "level": 17,
+          "spellClass": "Wizard",
+          "spellLevel": 6,
+          "count": 1
+        },
+        {
+          "key": "Arcane Mastery 7",
+          "level": 17,
+          "spellClass": "Wizard",
+          "spellLevel": 7,
+          "count": 1
+        },
+        {
+          "key": "Arcane Mastery 8",
+          "level": 17,
+          "spellClass": "Wizard",
+          "spellLevel": 8,
+          "count": 1
+        },
+        {
+          "key": "Arcane Mastery 9",
+          "level": 17,
+          "spellClass": "Wizard",
+          "spellLevel": 9,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "className": "Cleric",
+      "name": "Death Domain",
+      "source": "Dungeon Master's Guide (2014) - DM-controlled option",
+      "url": "https://www.dndbeyond.com/sources/dnd/dmg-2014",
+      "legacy": true,
+      "description": "A necromantic divine option intended for DM-controlled villains. Uses necrotic power and death-themed magic; confirm campaign permission before choosing it.",
+      "milestones": [
+        3,
+        6,
+        8,
+        17
+      ],
+      "features": "Reaper; Touch of Death; Inescapable Destruction; Improved Reaper"
+    },
+    {
+      "className": "Cleric",
+      "name": "Forge Domain",
+      "source": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/sources/dnd/xgte",
+      "legacy": true,
+      "description": "A divine smith who blesses equipment, works metal and becomes tougher in heavy armor. Blessing of the Forge affects one selected eligible item; record that item bonus separately.",
+      "milestones": [
+        3,
+        6,
+        8,
+        17
+      ],
+      "features": "Blessing of the Forge; Artisan Blessing; Soul of the Forge; Saint of Forge and Fire",
+      "effects": [
+        {
+          "target": "ac",
+          "value": 1,
+          "op": "bonus",
+          "level": 6,
+          "condition": "heavyArmor"
+        }
+      ],
+      "grants": [
+        {
+          "level": 3,
+          "names": [
+            "Identify",
+            "Searing Smite",
+            "Heat Metal",
+            "Magic Weapon"
+          ]
+        },
+        {
+          "level": 5,
+          "names": [
+            "Elemental Weapon",
+            "Protection from Energy"
+          ]
+        },
+        {
+          "level": 7,
+          "names": [
+            "Fabricate",
+            "Wall of Fire"
+          ]
+        },
+        {
+          "level": 9,
+          "names": [
+            "Animate Objects",
+            "Creation"
+          ]
+        }
+      ]
+    },
+    {
+      "className": "Cleric",
+      "name": "Grave Domain",
+      "source": "Ravenloft: The Horrors Within (2026)",
+      "url": "https://www.dndbeyond.com/sources/dnd/rthw",
+      "legacy": false,
+      "description": "A guardian of the boundary between life and death. Specializes in timely healing, protecting vulnerable companions and undermining enemies through grave magic.",
+      "milestones": [
+        3,
+        6,
+        17
+      ],
+      "features": "Grave-domain magic; protection at the edge of death; later deathward benefits"
+    },
+    {
+      "className": "Cleric",
+      "name": "Knowledge Domain",
+      "source": "Forgotten Realms: Heroes of Faerun (2025)",
+      "url": "https://www.dndbeyond.com/posts/2082-weave-your-tale-in-the-forgotten-realms-with-8",
+      "legacy": false,
+      "description": "A divine scholar who combines lore, information gathering and magically expanded expertise. Use its chosen disciplines to support investigation and exploration.",
+      "milestones": [
+        3,
+        6,
+        17
+      ],
+      "features": "Knowledge-domain lore and magical insights"
+    },
+    {
+      "className": "Cleric",
+      "name": "Nature Domain",
+      "source": "Player's Handbook (2014)",
+      "url": "https://www.dndbeyond.com/sources/dnd/phb-2014",
+      "legacy": true,
+      "description": "A divine protector of the natural world with a Druid cantrip, a natural-world skill, heavy armor training and elemental protection.",
+      "milestones": [
+        3,
+        6,
+        8,
+        17
+      ],
+      "features": "Acolyte of Nature; Charm Animals and Plants; Dampen Elements; Master of Nature",
+      "choices": [
+        {
+          "key": "Nature skill",
+          "options": [
+            {
+              "name": "Animal Handling",
+              "description": "Gain proficiency in Animal Handling.",
+              "effects": [
+                {
+                  "target": "skill:Animal Handling",
+                  "value": 1,
+                  "op": "proficiency",
+                  "level": 3
+                }
+              ]
+            },
+            {
+              "name": "Nature",
+              "description": "Gain proficiency in Nature.",
+              "effects": [
+                {
+                  "target": "skill:Nature",
+                  "value": 1,
+                  "op": "proficiency",
+                  "level": 3
+                }
+              ]
+            },
+            {
+              "name": "Survival",
+              "description": "Gain proficiency in Survival.",
+              "effects": [
+                {
+                  "target": "skill:Survival",
+                  "value": 1,
+                  "op": "proficiency",
+                  "level": 3
+                }
+              ]
+            }
+          ],
+          "count": 1,
+          "level": 3
+        },
+        {
+          "key": "Druid cantrip",
+          "spellClass": "Druid",
+          "spellLevel": 0,
+          "count": 1,
+          "level": 3
+        }
+      ],
+      "armor": [
+        "Heavy"
+      ]
+    },
+    {
+      "className": "Cleric",
+      "name": "Order Domain",
+      "source": "Tasha's Cauldron of Everything (2020)",
+      "url": "https://www.dndbeyond.com/sources/dnd/tcoe",
+      "legacy": true,
+      "description": "A commanding divine caster who coordinates allied attacks, compels obedience and accelerates enchantment magic. Pick a social proficiency for formal authority.",
+      "milestones": [
+        3,
+        6,
+        8,
+        17
+      ],
+      "features": "Voice of Authority; Order Demand; Embodiment of the Law; Orders Wrath",
+      "choices": [
+        {
+          "key": "Authority skill",
+          "options": [
+            {
+              "name": "Intimidation",
+              "description": "Gain proficiency in Intimidation.",
+              "effects": [
+                {
+                  "target": "skill:Intimidation",
+                  "value": 1,
+                  "op": "proficiency",
+                  "level": 3
+                }
+              ]
+            },
+            {
+              "name": "Persuasion",
+              "description": "Gain proficiency in Persuasion.",
+              "effects": [
+                {
+                  "target": "skill:Persuasion",
+                  "value": 1,
+                  "op": "proficiency",
+                  "level": 3
+                }
+              ]
+            }
+          ],
+          "count": 1,
+          "level": 3
+        }
+      ],
+      "armor": [
+        "Heavy"
+      ],
+      "grants": [
+        {
+          "level": 3,
+          "names": [
+            "Command",
+            "Heroism",
+            "Hold Person",
+            "Zone of Truth"
+          ]
+        },
+        {
+          "level": 5,
+          "names": [
+            "Mass Healing Word",
+            "Slow"
+          ]
+        },
+        {
+          "level": 7,
+          "names": [
+            "Compulsion",
+            "Locate Creature"
+          ]
+        },
+        {
+          "level": 9,
+          "names": [
+            "Commune",
+            "Dominate Person"
+          ]
+        }
+      ]
+    },
+    {
+      "className": "Cleric",
+      "name": "Peace Domain",
+      "source": "Tasha's Cauldron of Everything (2020)",
+      "url": "https://www.dndbeyond.com/sources/dnd/tcoe",
+      "legacy": true,
+      "description": "Build an empowering bond among allies, protect bonded companions and improve group resilience. Bond dice and damage transfers apply only under their feature conditions.",
+      "milestones": [
+        3,
+        6,
+        8,
+        17
+      ],
+      "features": "Emboldening Bond; Balm of Peace; Protective Bond; Expansive Bond",
+      "grants": [
+        {
+          "level": 3,
+          "names": [
+            "Heroism",
+            "Sanctuary",
+            "Aid",
+            "Warding Bond"
+          ]
+        },
+        {
+          "level": 5,
+          "names": [
+            "Beacon of Hope",
+            "Sending"
+          ]
+        },
+        {
+          "level": 7,
+          "names": [
+            "Aura of Purity",
+            "Otilukes Resilient Sphere"
+          ]
+        },
+        {
+          "level": 9,
+          "names": [
+            "Greater Restoration",
+            "Rarys Telepathic Bond"
+          ]
+        }
+      ],
+      "choices": [
+        {
+          "key": "Peace skill",
+          "options": [
+            {
+              "name": "Insight",
+              "description": "Gain proficiency in Insight.",
+              "effects": [
+                {
+                  "target": "skill:Insight",
+                  "value": 1,
+                  "op": "proficiency",
+                  "level": 3
+                }
+              ]
+            },
+            {
+              "name": "Performance",
+              "description": "Gain proficiency in Performance.",
+              "effects": [
+                {
+                  "target": "skill:Performance",
+                  "value": 1,
+                  "op": "proficiency",
+                  "level": 3
+                }
+              ]
+            },
+            {
+              "name": "Persuasion",
+              "description": "Gain proficiency in Persuasion.",
+              "effects": [
+                {
+                  "target": "skill:Persuasion",
+                  "value": 1,
+                  "op": "proficiency",
+                  "level": 3
+                }
+              ]
+            }
+          ],
+          "count": 1,
+          "level": 3
+        }
+      ]
+    },
+    {
+      "className": "Cleric",
+      "name": "Tempest Domain",
+      "source": "Player's Handbook (2014)",
+      "url": "https://www.dndbeyond.com/sources/dnd/phb-2014",
+      "legacy": true,
+      "description": "A storm priest with martial and heavy armor training, thunderous retaliation and powerful lightning or thunder bursts. Choose when to maximize damage through Channel Divinity.",
+      "milestones": [
+        3,
+        6,
+        8,
+        17
+      ],
+      "features": "Wrath of the Storm; Destructive Wrath; Thunderbolt Strike; Stormborn",
+      "martial": true,
+      "armor": [
+        "Heavy"
+      ]
+    },
+    {
+      "className": "Cleric",
+      "name": "Twilight Domain",
+      "source": "Tasha's Cauldron of Everything (2020)",
+      "url": "https://www.dndbeyond.com/sources/dnd/tcoe",
+      "legacy": true,
+      "description": "A twilight protector with enhanced night vision, initiative support and a protective sanctuary. Temporary HP, flight and sanctuary effects are conditional and must be resolved when used.",
+      "milestones": [
+        3,
+        6,
+        8,
+        17
+      ],
+      "features": "Eyes of Night; Vigilant Blessing; Twilight Sanctuary; Steps of Night; Twilight Shroud",
+      "martial": true,
+      "armor": [
+        "Heavy"
+      ],
+      "grants": [
+        {
+          "level": 3,
+          "names": [
+            "Faerie Fire",
+            "Sleep",
+            "Moonbeam",
+            "See Invisibility"
+          ]
+        },
+        {
+          "level": 5,
+          "names": [
+            "Aura of Vitality",
+            "Leomunds Tiny Hut"
+          ]
+        },
+        {
+          "level": 7,
+          "names": [
+            "Aura of Life",
+            "Greater Invisibility"
+          ]
+        },
+        {
+          "level": 9,
+          "names": [
+            "Circle of Power",
+            "Mislead"
+          ]
+        }
+      ]
+    },
+    {
+      "className": "Druid",
+      "name": "Circle of Dreams",
+      "source": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/sources/dnd/xgte",
+      "legacy": true,
+      "description": "A fey healer who uses a pool of restorative magic, shelters the party at rest and learns short-range teleportation and dream travel.",
+      "milestones": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "features": "Balm of the Summer Court; Hearth of Moonlight and Shadow; Hidden Paths; Walker in Dreams",
+      "resources": [
+        {
+          "name": "Balm dice (d6)",
+          "level": 3,
+          "scale": "classLevel",
+          "recovery": "Long rest"
+        }
+      ]
+    },
+    {
+      "className": "Druid",
+      "name": "Circle of the Shepherd",
+      "source": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/sources/dnd/xgte",
+      "legacy": true,
+      "description": "Support beasts and fey through spirit totems and strengthened summons. Some older creature-summoning interactions need a DM ruling with the revised 2024 summoning spells.",
+      "milestones": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "features": "Speech of the Woods; Spirit Totem; Mighty Summoner; Guardian Spirit; Faithful Summons"
+    },
+    {
+      "className": "Druid",
+      "name": "Circle of Spores",
+      "source": "Tasha's Cauldron of Everything (2020)",
+      "url": "https://www.dndbeyond.com/sources/dnd/tcoe",
+      "legacy": true,
+      "description": "A fungal Druid using spores, temporary HP and necrotic effects. Activate Symbiotic Entity with Wild Shape; its temporary benefits and fungal servants are tracked when used.",
+      "milestones": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "features": "Halo of Spores; Symbiotic Entity; Fungal Infestation; Spreading Spores; Fungal Body",
+      "grants": [
+        {
+          "level": 3,
+          "names": [
+            "Chill Touch",
+            "Blindness/Deafness",
+            "Gentle Repose"
+          ]
+        },
+        {
+          "level": 5,
+          "names": [
+            "Animate Dead",
+            "Gaseous Form"
+          ]
+        },
+        {
+          "level": 7,
+          "names": [
+            "Blight",
+            "Confusion"
+          ]
+        },
+        {
+          "level": 9,
+          "names": [
+            "Cloudkill",
+            "Contagion"
+          ]
+        }
+      ]
+    },
+    {
+      "className": "Druid",
+      "name": "Circle of Wildfire",
+      "source": "Tasha's Cauldron of Everything (2020)",
+      "url": "https://www.dndbeyond.com/sources/dnd/tcoe",
+      "legacy": true,
+      "description": "Summon a wildfire spirit and balance destructive fire with restorative magic. The companion can reposition allies; later features enhance healing and survival.",
+      "milestones": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "features": "Summon Wildfire Spirit; Enhanced Bond; Cauterizing Flames; Blazing Revival",
+      "grants": [
+        {
+          "level": 3,
+          "names": [
+            "Burning Hands",
+            "Cure Wounds",
+            "Flaming Sphere",
+            "Scorching Ray"
+          ]
+        },
+        {
+          "level": 5,
+          "names": [
+            "Plant Growth",
+            "Revivify"
+          ]
+        },
+        {
+          "level": 7,
+          "names": [
+            "Aura of Life",
+            "Fire Shield"
+          ]
+        },
+        {
+          "level": 9,
+          "names": [
+            "Flame Strike",
+            "Mass Cure Wounds"
+          ]
+        }
+      ]
+    },
+    {
+      "className": "Fighter",
+      "name": "Arcane Archer",
+      "source": "Arcana Unleashed (2026)",
+      "url": "https://www.dndbeyond.com/posts/2209-harness-magical-might-with-these-8-arcana",
+      "legacy": false,
+      "description": "Imbue ranged attacks with arcane shots and redirect misses. Combine weapon expertise with magical arrow effects, then improve mobility and shot recovery.",
+      "milestones": [
+        3,
+        7,
+        10,
+        15,
+        18
+      ],
+      "features": "Arcane Shot; Curving Shot; Ever-Ready Shot; later arcane mobility",
+      "effects": [
+        {
+          "target": "skill:Arcana",
+          "value": 1,
+          "op": "proficiency",
+          "level": 3
+        },
+        {
+          "target": "skill:Nature",
+          "value": 1,
+          "op": "proficiency",
+          "level": 3
+        }
+      ],
+      "choices": [
+        {
+          "key": "Archery cantrip",
+          "options": [
+            {
+              "name": "Druidcraft",
+              "description": "Learn Druidcraft.",
+              "spells": [
+                "Druidcraft"
+              ]
+            },
+            {
+              "name": "Prestidigitation",
+              "description": "Learn Prestidigitation.",
+              "spells": [
+                "Prestidigitation"
+              ]
+            }
+          ],
+          "count": 1,
+          "level": 3
+        }
+      ]
+    },
+    {
+      "className": "Fighter",
+      "name": "Cavalier",
+      "source": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/sources/dnd/xgte",
+      "legacy": true,
+      "description": "A mounted defender who marks enemies, protects allies and controls nearby movement. Its defensive abilities also work in many situations without a mount.",
+      "milestones": [
+        3,
+        7,
+        10,
+        15,
+        18
+      ],
+      "features": "Born to the Saddle; Unwavering Mark; Warding Maneuver; Hold the Line; Ferocious Charger; Vigilant Defender"
+    },
+    {
+      "className": "Fighter",
+      "name": "Samurai",
+      "source": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/sources/dnd/xgte",
+      "legacy": true,
+      "description": "Use Fighting Spirit for focused attacks and temporary HP. Develop social grace and Wisdom-save proficiency, then gain rapid attacks and extraordinary last stands.",
+      "milestones": [
+        3,
+        7,
+        10,
+        15,
+        18
+      ],
+      "features": "Fighting Spirit; Elegant Courtier; Tireless Spirit; Rapid Strike; Strength Before Death",
+      "effects": [
+        {
+          "target": "save:Wisdom",
+          "value": 1,
+          "op": "proficiency",
+          "level": 7
+        },
+        {
+          "target": "skill:Persuasion",
+          "value": 1,
+          "op": "bonus",
+          "level": 7,
+          "scale": "Wisdom"
+        }
+      ],
+      "resources": [
+        {
+          "name": "Fighting Spirit",
+          "level": 3,
+          "value": 3,
+          "recovery": "Long rest"
+        }
+      ],
+      "choices": [
+        {
+          "key": "Samurai skill",
+          "options": [
+            {
+              "name": "History",
+              "description": "Gain proficiency in History.",
+              "effects": [
+                {
+                  "target": "skill:History",
+                  "value": 1,
+                  "op": "proficiency",
+                  "level": 3
+                }
+              ]
+            },
+            {
+              "name": "Insight",
+              "description": "Gain proficiency in Insight.",
+              "effects": [
+                {
+                  "target": "skill:Insight",
+                  "value": 1,
+                  "op": "proficiency",
+                  "level": 3
+                }
+              ]
+            },
+            {
+              "name": "Performance",
+              "description": "Gain proficiency in Performance.",
+              "effects": [
+                {
+                  "target": "skill:Performance",
+                  "value": 1,
+                  "op": "proficiency",
+                  "level": 3
+                }
+              ]
+            },
+            {
+              "name": "Persuasion",
+              "description": "Gain proficiency in Persuasion.",
+              "effects": [
+                {
+                  "target": "skill:Persuasion",
+                  "value": 1,
+                  "op": "proficiency",
+                  "level": 3
+                }
+              ]
+            }
+          ],
+          "count": 1,
+          "level": 3
+        }
+      ]
+    },
+    {
+      "className": "Fighter",
+      "name": "Rune Knight",
+      "source": "Tasha's Cauldron of Everything (2020)",
+      "url": "https://www.dndbeyond.com/sources/dnd/tcoe",
+      "legacy": true,
+      "description": "Inscribe magical runes on equipment and take on giant might. Runes provide passive benefits and limited-use activations; choose eligible runes as you gain levels.",
+      "milestones": [
+        3,
+        7,
+        10,
+        15,
+        18
+      ],
+      "features": "Rune Carver; Giants Might; Runic Shield; Great Stature; Master of Runes; Runic Juggernaut",
+      "choices": [
+        {
+          "key": "Runes",
+          "level": 3,
+          "count": 2,
+          "countByLevel": {
+            "3": 2,
+            "7": 3,
+            "10": 4,
+            "15": 5
+          },
+          "options": [
+            {
+              "name": "Cloud Rune",
+              "description": "Passive advantage on Sleight of Hand and Deception. Resolve its attack-redirection activation separately.",
+              "effects": [
+                {
+                  "target": "skill:Sleight of Hand",
+                  "value": 0,
+                  "op": "advantage",
+                  "level": 3
+                },
+                {
+                  "target": "skill:Deception",
+                  "value": 0,
+                  "op": "advantage",
+                  "level": 3
+                }
+              ]
+            },
+            {
+              "name": "Fire Rune",
+              "description": "Tool expertise and an activated fiery restraint; apply tool checks and the activation manually."
+            },
+            {
+              "name": "Frost Rune",
+              "description": "Passive advantage on Animal Handling and Intimidation. Activate the rune separately for its temporary benefits.",
+              "effects": [
+                {
+                  "target": "skill:Animal Handling",
+                  "value": 0,
+                  "op": "advantage",
+                  "level": 3
+                },
+                {
+                  "target": "skill:Intimidation",
+                  "value": 0,
+                  "op": "advantage",
+                  "level": 3
+                }
+              ]
+            },
+            {
+              "name": "Stone Rune",
+              "description": "Passive advantage on Insight and 120-foot darkvision. Resolve the charm activation manually.",
+              "effects": [
+                {
+                  "target": "skill:Insight",
+                  "value": 0,
+                  "op": "advantage",
+                  "level": 3
+                }
+              ]
+            },
+            {
+              "name": "Hill Rune",
+              "description": "Level 7: poison resilience and an activation providing temporary physical resistances.",
+              "level": 7
+            },
+            {
+              "name": "Storm Rune",
+              "description": "Level 7: passive Arcana advantage; the prophetic activation alters rolls conditionally.",
+              "level": 7,
+              "effects": [
+                {
+                  "target": "skill:Arcana",
+                  "value": 0,
+                  "op": "advantage",
+                  "level": 7
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "className": "Fighter",
+      "name": "Echo Knight",
+      "source": "Explorer's Guide to Wildemount (2020)",
+      "url": "https://www.dndbeyond.com/sources/dnd/egtw",
+      "legacy": true,
+      "description": "Manifest a magical echo for attacks and repositioning. Later use the echo to scout and defend allies. The echo is a special feature, not a second full character turn.",
+      "milestones": [
+        3,
+        7,
+        10,
+        15,
+        18
+      ],
+      "features": "Manifest Echo; Unleash Incarnation; Echo Avatar; Shadow Martyr; Reclaim Potential; Legion of One",
+      "resources": [
+        {
+          "name": "Unleash Incarnation",
+          "level": 3,
+          "scale": "Constitution",
+          "minimum": 1,
+          "recovery": "Long rest"
+        }
+      ]
+    },
+    {
+      "className": "Fighter",
+      "name": "Banneret",
+      "source": "Forgotten Realms: Heroes of Faerun (2025)",
+      "url": "https://www.dndbeyond.com/posts/2082-weave-your-tale-in-the-forgotten-realms-with-8",
+      "legacy": false,
+      "description": "A battlefield leader who inspires companions through acts of courage and coordinated combat. The current Banneret replaces the older Purple Dragon Knight option.",
+      "milestones": [
+        3,
+        7,
+        10,
+        15,
+        18
+      ],
+      "features": "Leadership and coordinated support; rallying battlefield benefits"
+    },
+    {
+      "className": "Monk",
+      "name": "Warrior of the Ascendant Dragon",
+      "source": "Fizban's Treasury of Dragons (2021)",
+      "url": "https://www.dndbeyond.com/sources/dnd/ftod",
+      "legacy": true,
+      "description": "Channel draconic strikes and breath, temporarily take wing and later surround yourself with a protective or frightening draconic presence.",
+      "milestones": [
+        3,
+        6,
+        11,
+        17
+      ],
+      "features": "Draconic Disciple; Breath of the Dragon; Wings Unfurled; Aspect of the Wyrm; Ascendant Aspect"
+    },
+    {
+      "className": "Monk",
+      "name": "Warrior of the Astral Self",
+      "source": "Tasha's Cauldron of Everything (2020)",
+      "url": "https://www.dndbeyond.com/sources/dnd/tcoe",
+      "legacy": true,
+      "description": "Manifest astral arms, visage and body using Focus. Resolve reach, alternate ability use and empowered senses only while the relevant astral features are active.",
+      "milestones": [
+        3,
+        6,
+        11,
+        17
+      ],
+      "features": "Arms of the Astral Self; Visage of the Astral Self; Body of the Astral Self; Awakened Astral Self"
+    },
+    {
+      "className": "Monk",
+      "name": "Warrior of the Drunken Master",
+      "source": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/sources/dnd/xgte",
+      "legacy": true,
+      "description": "A mobile combatant who disengages through flurries and turns awkward positioning into an advantage. Redirect attacks and eventually unleash a wide flurry.",
+      "milestones": [
+        3,
+        6,
+        11,
+        17
+      ],
+      "features": "Drunken Technique; Tipsy Sway; Drunkards Luck; Intoxicated Frenzy",
+      "effects": [
+        {
+          "target": "skill:Performance",
+          "value": 1,
+          "op": "proficiency",
+          "level": 3
+        }
+      ]
+    },
+    {
+      "className": "Monk",
+      "name": "Warrior of the Kensei",
+      "source": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/sources/dnd/xgte",
+      "legacy": true,
+      "description": "Master selected kensei weapons for offense and defense. Agile Parry and weapon empowerment apply under their specific attack and equipment conditions.",
+      "milestones": [
+        3,
+        6,
+        11,
+        17
+      ],
+      "features": "Path of the Kensei; One with the Blade; Sharpen the Blade; Unerring Accuracy"
+    },
+    {
+      "className": "Monk",
+      "name": "Warrior of the Long Death",
+      "source": "Sword Coast Adventurer's Guide (2015)",
+      "url": "https://www.dndbeyond.com/sources/dnd/scag",
+      "legacy": true,
+      "description": "Study mortality to gain resilience through nearby deaths and a terrifying presence. Later survive fatal blows by spending Focus and channel deadly necrotic touch.",
+      "milestones": [
+        3,
+        6,
+        11,
+        17
+      ],
+      "features": "Touch of Death; Hour of Reaping; Mastery of Death; Touch of the Long Death"
+    },
+    {
+      "className": "Monk",
+      "name": "Warrior of the Sun Soul",
+      "source": "Sword Coast Adventurer's Guide (2015)",
+      "url": "https://www.dndbeyond.com/sources/dnd/scag",
+      "legacy": true,
+      "description": "Project radiant martial energy at range and release searing bursts. Later surround yourself with a luminous defensive aura.",
+      "milestones": [
+        3,
+        6,
+        11,
+        17
+      ],
+      "features": "Radiant Sun Bolt; Searing Arc Strike; Searing Sunburst; Sun Shield"
+    },
+    {
+      "className": "Monk",
+      "name": "Warrior of the Mystic Arts",
+      "source": "Arcana Unleashed (2026)",
+      "url": "https://www.dndbeyond.com/posts/2209-harness-magical-might-with-these-8-arcana",
+      "legacy": false,
+      "description": "Blend martial discipline with spellcasting. Use arcane magic alongside unarmed combat and develop a flexible magically empowered fighting style.",
+      "milestones": [
+        3,
+        6,
+        11,
+        17
+      ],
+      "features": "Mystic spellcasting and martial magic; later arcane techniques",
+      "choices": [
+        {
+          "key": "Sorcerer cantrips",
+          "level": 3,
+          "spellClass": "Sorcerer",
+          "spellLevel": 0,
+          "count": 2
+        }
+      ]
+    },
+    {
+      "className": "Paladin",
+      "name": "Oath of Conquest",
+      "source": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/sources/dnd/xgte",
+      "legacy": true,
+      "description": "An intimidating conqueror who suppresses frightened enemies and punishes opposition. Its aura and retaliation depend on the target and combat circumstances.",
+      "milestones": [
+        3,
+        7,
+        15,
+        20
+      ],
+      "features": "Conquering Presence; Guided Strike; Aura of Conquest; Scornful Rebuke; Invincible Conqueror",
+      "grants": [
+        {
+          "level": 3,
+          "names": [
+            "Armor of Agathys",
+            "Command"
+          ]
+        },
+        {
+          "level": 5,
+          "names": [
+            "Hold Person",
+            "Spiritual Weapon"
+          ]
+        },
+        {
+          "level": 9,
+          "names": [
+            "Bestow Curse",
+            "Fear"
+          ]
+        },
+        {
+          "level": 13,
+          "names": [
+            "Dominate Beast",
+            "Stoneskin"
+          ]
+        },
+        {
+          "level": 17,
+          "names": [
+            "Cloudkill",
+            "Dominate Person"
+          ]
+        }
+      ]
+    },
+    {
+      "className": "Paladin",
+      "name": "Oath of the Crown",
+      "source": "Sword Coast Adventurer's Guide (2015)",
+      "url": "https://www.dndbeyond.com/sources/dnd/scag",
+      "legacy": true,
+      "description": "Swear to law and community, challenge enemies and take injuries for allies. A defensive oath built around loyalty and protecting nearby companions.",
+      "milestones": [
+        3,
+        7,
+        15,
+        20
+      ],
+      "features": "Champions Challenge; Turn the Tide; Divine Allegiance; Unyielding Spirit; Exalted Champion"
+    },
+    {
+      "className": "Paladin",
+      "name": "Oathbreaker",
+      "source": "Dungeon Master's Guide (2014) - DM-controlled option",
+      "url": "https://www.dndbeyond.com/sources/dnd/dmg-2014",
+      "legacy": true,
+      "description": "A DM-controlled fallen Paladin option wielding fear, undead influence and destructive auras. Confirm permission and the consequences of its aura before using it.",
+      "milestones": [
+        3,
+        7,
+        15,
+        20
+      ],
+      "features": "Control Undead; Dreadful Aspect; Aura of Hate; Supernatural Resistance; Dread Lord"
+    },
+    {
+      "className": "Paladin",
+      "name": "Oath of Redemption",
+      "source": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/sources/dnd/xgte",
+      "legacy": true,
+      "description": "Resolve conflict through persuasion and protective magic, while absorbing harm meant for others. Retaliation and regeneration depend on their individual triggers.",
+      "milestones": [
+        3,
+        7,
+        15,
+        20
+      ],
+      "features": "Emissary of Peace; Rebuke the Violent; Aura of the Guardian; Protective Spirit; Emissary of Redemption",
+      "grants": [
+        {
+          "level": 3,
+          "names": [
+            "Sanctuary",
+            "Sleep"
+          ]
+        },
+        {
+          "level": 5,
+          "names": [
+            "Calm Emotions",
+            "Hold Person"
+          ]
+        },
+        {
+          "level": 9,
+          "names": [
+            "Counterspell",
+            "Hypnotic Pattern"
+          ]
+        },
+        {
+          "level": 13,
+          "names": [
+            "Otilukes Resilient Sphere",
+            "Stoneskin"
+          ]
+        },
+        {
+          "level": 17,
+          "names": [
+            "Hold Monster",
+            "Wall of Force"
+          ]
+        }
+      ]
+    },
+    {
+      "className": "Paladin",
+      "name": "Oath of the Watchers",
+      "source": "Tasha's Cauldron of Everything (2020)",
+      "url": "https://www.dndbeyond.com/sources/dnd/tcoe",
+      "legacy": true,
+      "description": "Defend against extraplanar threats with alertness, protective Channel Divinity and an initiative aura. Allies must be in range to benefit from the aura.",
+      "milestones": [
+        3,
+        7,
+        15,
+        20
+      ],
+      "features": "Watchers Will; Abjure the Extraplanar; Aura of the Sentinel; Vigilant Rebuke; Mortal Bulwark",
+      "effects": [
+        {
+          "target": "initiative",
+          "value": 1,
+          "op": "bonus",
+          "level": 7,
+          "scale": "proficiency"
+        }
+      ],
+      "grants": [
+        {
+          "level": 3,
+          "names": [
+            "Alarm",
+            "Detect Magic"
+          ]
+        },
+        {
+          "level": 5,
+          "names": [
+            "Moonbeam",
+            "See Invisibility"
+          ]
+        },
+        {
+          "level": 9,
+          "names": [
+            "Counterspell",
+            "Nondetection"
+          ]
+        },
+        {
+          "level": 13,
+          "names": [
+            "Aura of Purity",
+            "Banishment"
+          ]
+        },
+        {
+          "level": 17,
+          "names": [
+            "Hold Monster",
+            "Scrying"
+          ]
+        }
+      ]
+    },
+    {
+      "className": "Paladin",
+      "name": "Oath of the Noble Genies",
+      "source": "Forgotten Realms: Heroes of Faerun (2025)",
+      "url": "https://www.dndbeyond.com/posts/2082-weave-your-tale-in-the-forgotten-realms-with-8",
+      "legacy": false,
+      "description": "Channel the authority and elemental power of noble genies. Mix oath magic with an elemental presence and support for allies.",
+      "milestones": [
+        3,
+        7,
+        15,
+        20
+      ],
+      "features": "Genie-themed oath magic and elemental empowerment"
+    },
+    {
+      "className": "Ranger",
+      "name": "Horizon Walker",
+      "source": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/sources/dnd/xgte",
+      "legacy": true,
+      "description": "A planar hunter who detects portals, channels force damage and teleports between attacks. Later use planar movement to become harder to harm.",
+      "milestones": [
+        3,
+        7,
+        11,
+        15
+      ],
+      "features": "Detect Portal; Planar Warrior; Ethereal Step; Distant Strike; Spectral Defense",
+      "grants": [
+        {
+          "level": 3,
+          "names": [
+            "Protection from Evil and Good"
+          ]
+        },
+        {
+          "level": 5,
+          "names": [
+            "Misty Step"
+          ]
+        },
+        {
+          "level": 9,
+          "names": [
+            "Haste"
+          ]
+        },
+        {
+          "level": 13,
+          "names": [
+            "Banishment"
+          ]
+        },
+        {
+          "level": 17,
+          "names": [
+            "Teleportation Circle"
+          ]
+        }
+      ]
+    },
+    {
+      "className": "Ranger",
+      "name": "Monster Slayer",
+      "source": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/sources/dnd/xgte",
+      "legacy": true,
+      "description": "Study enemies to identify weaknesses, designate a chosen prey and disrupt dangerous supernatural powers. Defensive reactions improve your ability to confront a major threat.",
+      "milestones": [
+        3,
+        7,
+        11,
+        15
+      ],
+      "features": "Hunters Sense; Slayers Prey; Supernatural Defense; Magic-Users Nemesis; Slayers Counter",
+      "grants": [
+        {
+          "level": 3,
+          "names": [
+            "Protection from Evil and Good"
+          ]
+        },
+        {
+          "level": 5,
+          "names": [
+            "Zone of Truth"
+          ]
+        },
+        {
+          "level": 9,
+          "names": [
+            "Magic Circle"
+          ]
+        },
+        {
+          "level": 13,
+          "names": [
+            "Banishment"
+          ]
+        },
+        {
+          "level": 17,
+          "names": [
+            "Hold Monster"
+          ]
+        }
+      ]
+    },
+    {
+      "className": "Ranger",
+      "name": "Swarmkeeper",
+      "source": "Tasha's Cauldron of Everything (2020)",
+      "url": "https://www.dndbeyond.com/sources/dnd/tcoe",
+      "legacy": true,
+      "description": "A supernatural swarm adds damage or movement after attacks. Later ride a swarm current, improve its protective power and disperse to avoid danger.",
+      "milestones": [
+        3,
+        7,
+        11,
+        15
+      ],
+      "features": "Gathered Swarm; Writhing Tide; Mighty Swarm; Swarming Dispersal",
+      "grants": [
+        {
+          "level": 3,
+          "names": [
+            "Mage Hand",
+            "Faerie Fire"
+          ]
+        },
+        {
+          "level": 5,
+          "names": [
+            "Web"
+          ]
+        },
+        {
+          "level": 9,
+          "names": [
+            "Gaseous Form"
+          ]
+        },
+        {
+          "level": 13,
+          "names": [
+            "Arcane Eye"
+          ]
+        },
+        {
+          "level": 17,
+          "names": [
+            "Insect Plague"
+          ]
+        }
+      ]
+    },
+    {
+      "className": "Ranger",
+      "name": "Drakewarden",
+      "source": "Fizban's Treasury of Dragons (2021)",
+      "url": "https://www.dndbeyond.com/sources/dnd/ftod",
+      "legacy": true,
+      "description": "Bond with a drake companion that grows with your Ranger level. Select its elemental essence, coordinate its actions and eventually share flight.",
+      "milestones": [
+        3,
+        7,
+        11,
+        15
+      ],
+      "features": "Drake Companion; Bond of Fang and Scale; Drakes Breath; Perfected Bond",
+      "grants": [
+        {
+          "level": 3,
+          "names": [
+            "Thaumaturgy"
+          ]
+        }
+      ]
+    },
+    {
+      "className": "Ranger",
+      "name": "Winter Walker",
+      "source": "Forgotten Realms: Heroes of Faerun (2025)",
+      "url": "https://www.dndbeyond.com/posts/2082-weave-your-tale-in-the-forgotten-realms-with-8",
+      "legacy": false,
+      "description": "Survive bitter cold and wield winter magic while hunting through frozen terrain. Its later benefits combine supernatural endurance and control of the battlefield.",
+      "milestones": [
+        3,
+        7,
+        11,
+        15
+      ],
+      "features": "Winter-themed hunting, survival and magic"
+    },
+    {
+      "className": "Ranger",
+      "name": "Hollow Warden",
+      "source": "Ravenloft: The Horrors Within (2026)",
+      "url": "https://www.dndbeyond.com/sources/dnd/rthw",
+      "legacy": false,
+      "description": "A hunter carrying an unnatural force within. Draw on that sinister presence to strengthen the hunt and confront supernatural threats.",
+      "milestones": [
+        3,
+        7,
+        11,
+        15
+      ],
+      "features": "Hollow Warden magic and eldritch hunting benefits"
+    },
+    {
+      "className": "Rogue",
+      "name": "Inquisitive",
+      "source": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/sources/dnd/xgte",
+      "legacy": true,
+      "description": "A perceptive investigator who reads motives and studies opponents to enable Sneak Attack. Later sharpen your senses and expose supernatural deception.",
+      "milestones": [
+        3,
+        9,
+        13,
+        17
+      ],
+      "features": "Ear for Deceit; Eye for Detail; Insightful Fighting; Steady Eye; Unerring Eye; Eye for Weakness"
+    },
+    {
+      "className": "Rogue",
+      "name": "Mastermind",
+      "source": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/sources/dnd/xgte",
+      "legacy": true,
+      "description": "An infiltrator and tactical supporter who mimics social identities and helps allies from range. Later redirect attacks and conceal your intentions.",
+      "milestones": [
+        3,
+        9,
+        13,
+        17
+      ],
+      "features": "Master of Intrigue; Master of Tactics; Insightful Manipulator; Misdirection; Soul of Deceit"
+    },
+    {
+      "className": "Rogue",
+      "name": "Scout",
+      "source": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/sources/dnd/xgte",
+      "legacy": true,
+      "description": "A wilderness skirmisher with Nature and Survival expertise. Reposition when enemies approach and later gain speed and exceptional opening attacks.",
+      "milestones": [
+        3,
+        9,
+        13,
+        17
+      ],
+      "features": "Skirmisher; Survivalist; Superior Mobility; Ambush Master; Sudden Strike",
+      "effects": [
+        {
+          "target": "skill:Nature",
+          "value": 1,
+          "op": "expertise",
+          "level": 3
+        },
+        {
+          "target": "skill:Survival",
+          "value": 1,
+          "op": "expertise",
+          "level": 3
+        },
+        {
+          "target": "speed",
+          "value": 10,
+          "op": "bonus",
+          "level": 9
+        }
+      ]
+    },
+    {
+      "className": "Rogue",
+      "name": "Swashbuckler",
+      "source": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/sources/dnd/xgte",
+      "legacy": true,
+      "description": "A charismatic duelist whose footwork creates openings for Sneak Attack. Add Charisma to initiative and use social pressure to control a duel.",
+      "milestones": [
+        3,
+        9,
+        13,
+        17
+      ],
+      "features": "Fancy Footwork; Rakish Audacity; Panache; Elegant Maneuver; Master Duelist",
+      "effects": [
+        {
+          "target": "initiative",
+          "value": 1,
+          "op": "bonus",
+          "level": 3,
+          "scale": "Charisma"
+        }
+      ]
+    },
+    {
+      "className": "Rogue",
+      "name": "Phantom",
+      "source": "Ravenloft: The Horrors Within (2026)",
+      "url": "https://www.dndbeyond.com/sources/dnd/rthw",
+      "legacy": false,
+      "description": "A Rogue accompanied by the dead, drawing on ghostly knowledge and supernatural attacks. Later gain deeper access to spectral movement and the memories of departed souls.",
+      "milestones": [
+        3,
+        9,
+        13,
+        17
+      ],
+      "features": "Ghostly knowledge and death-powered Rogue techniques"
+    },
+    {
+      "className": "Rogue",
+      "name": "Scion of the Three",
+      "source": "Forgotten Realms: Heroes of Faerun (2025)",
+      "url": "https://www.dndbeyond.com/posts/2082-weave-your-tale-in-the-forgotten-realms-with-8",
+      "legacy": false,
+      "description": "A sinister Rogue associated with the Dead Three. Uses murder, fear and manipulation to turn stealth and precision into darker supernatural influence.",
+      "milestones": [
+        3,
+        9,
+        13,
+        17
+      ],
+      "features": "Dead Three themed supernatural Rogue abilities"
+    },
+    {
+      "className": "Sorcerer",
+      "name": "Divine Soul Sorcery",
+      "source": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/sources/dnd/xgte",
+      "legacy": true,
+      "description": "Combine Sorcerer magic with access to Cleric spells and divine luck. Later strengthen healing, gain supernatural flight and recover from severe injury.",
+      "milestones": [
+        3,
+        6,
+        14,
+        18
+      ],
+      "features": "Divine Magic; Favored by the Gods; Empowered Healing; Otherworldly Wings; Unearthly Recovery",
+      "spellLists": [
+        "Cleric"
+      ]
+    },
+    {
+      "className": "Sorcerer",
+      "name": "Shadow Sorcery",
+      "source": "Ravenloft: The Horrors Within (2026)",
+      "url": "https://www.dndbeyond.com/sources/dnd/rthw",
+      "legacy": false,
+      "description": "Channel the Shadowfell through darkness, eerie resilience and shadowy magic. Its supernatural senses and later shadow techniques suit stealth and control.",
+      "milestones": [
+        3,
+        6,
+        14,
+        18
+      ],
+      "features": "Shadowfell sorcery and survival; later supernatural shadow powers"
+    },
+    {
+      "className": "Sorcerer",
+      "name": "Storm Sorcery",
+      "source": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/sources/dnd/xgte",
+      "legacy": true,
+      "description": "Command wind and storm magic, move with gusts and unleash elemental retaliation. Later protect yourself from storms and share magical flight.",
+      "milestones": [
+        3,
+        6,
+        14,
+        18
+      ],
+      "features": "Wind Speaker; Tempestuous Magic; Heart of the Storm; Storm Guide; Storms Fury; Wind Soul"
+    },
+    {
+      "className": "Sorcerer",
+      "name": "Lunar Sorcery",
+      "source": "Dragonlance: Shadow of the Dragon Queen (2022)",
+      "url": "https://www.dndbeyond.com/sources/dnd/dsotdq",
+      "legacy": true,
+      "description": "Choose a lunar phase to change magical benefits. Full, New and Crescent Moon influence spells and Metamagic interactions; later shift phases and release lunar phenomena.",
+      "milestones": [
+        3,
+        6,
+        14,
+        18
+      ],
+      "features": "Lunar Embodiment; Moon Fire; Lunar Boons; Waxing and Waning; Lunar Empowerment; Lunar Phenomenon",
+      "choices": [
+        {
+          "key": "Lunar phase",
+          "options": [
+            {
+              "name": "Full Moon",
+              "description": "Use the Full Moon phase benefits until changed under Lunar Sorcery rules."
+            },
+            {
+              "name": "New Moon",
+              "description": "Use the New Moon phase benefits until changed under Lunar Sorcery rules."
+            },
+            {
+              "name": "Crescent Moon",
+              "description": "Use the Crescent Moon phase benefits until changed under Lunar Sorcery rules."
+            }
+          ],
+          "count": 1,
+          "level": 3
+        }
+      ]
+    },
+    {
+      "className": "Sorcerer",
+      "name": "Spellfire Sorcery",
+      "source": "Forgotten Realms: Heroes of Faerun (2025)",
+      "url": "https://www.dndbeyond.com/posts/2082-weave-your-tale-in-the-forgotten-realms-with-8",
+      "legacy": false,
+      "description": "Manipulate spellfire as a source of magical offense and resilience. Draw on raw magical energy to support your casting and endure hostile magic.",
+      "milestones": [
+        3,
+        6,
+        14,
+        18
+      ],
+      "features": "Spellfire magic, bursts and magical resilience"
+    },
+    {
+      "className": "Warlock",
+      "name": "Fathomless Patron",
+      "source": "Tasha's Cauldron of Everything (2020)",
+      "url": "https://www.dndbeyond.com/sources/dnd/tcoe",
+      "legacy": true,
+      "description": "Make a pact with a deep-sea power, summon a spectral tentacle and adapt to underwater exploration. Later gain stronger protection and watery travel.",
+      "milestones": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "features": "Tentacle of the Deeps; Gift of the Sea; Oceanic Soul; Guardian Coil; Grasping Tentacles; Fathomless Plunge",
+      "resources": [
+        {
+          "name": "Tentacle of the Deeps",
+          "level": 3,
+          "scale": "proficiency",
+          "recovery": "Long rest"
+        }
+      ]
+    },
+    {
+      "className": "Warlock",
+      "name": "Genie Patron",
+      "source": "Tasha's Cauldron of Everything (2020)",
+      "url": "https://www.dndbeyond.com/sources/dnd/tcoe",
+      "legacy": true,
+      "description": "Bind yourself to a genie vessel, adding elemental flavor and an extradimensional refuge to your pact. Choose a patron kind, later gaining flight and more potent wishes.",
+      "milestones": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "features": "Genies Vessel; Elemental Gift; Sanctuary Vessel; Limited Wish",
+      "choices": [
+        {
+          "key": "Genie kind",
+          "options": [
+            {
+              "name": "Dao",
+              "description": "Earth patron; bludgeoning vessel damage and earth-themed spells."
+            },
+            {
+              "name": "Djinni",
+              "description": "Air patron; thunder vessel damage and wind-themed spells."
+            },
+            {
+              "name": "Efreeti",
+              "description": "Fire patron; fire vessel damage and flame-themed spells."
+            },
+            {
+              "name": "Marid",
+              "description": "Water patron; cold vessel damage and water-themed spells."
+            }
+          ],
+          "count": 1,
+          "level": 3
+        }
+      ]
+    },
+    {
+      "className": "Warlock",
+      "name": "Hexblade Patron",
+      "source": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/sources/dnd/xgte",
+      "legacy": true,
+      "description": "A weapon-focused pact with curses, martial weapons, medium armor and shields. Hex Warrior ability substitution applies only to its designated eligible weapon.",
+      "milestones": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "features": "Hexblades Curse; Hex Warrior; Accursed Specter; Armor of Hexes; Master of Hexes",
+      "martial": true,
+      "armor": [
+        "Medium",
+        "Shield"
+      ],
+      "resources": [
+        {
+          "name": "Hexblades Curse",
+          "level": 3,
+          "value": 1,
+          "recovery": "Short or long rest"
+        }
+      ]
+    },
+    {
+      "className": "Warlock",
+      "name": "Undead Patron",
+      "source": "Ravenloft: The Horrors Within (2026)",
+      "url": "https://www.dndbeyond.com/sources/dnd/rthw",
+      "legacy": false,
+      "description": "Borrow a powerful undead being's dreadful presence. Transform to intimidate enemies and develop supernatural endurance, with later ghostly manifestations.",
+      "milestones": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "features": "Undead transformation and fear; later spectral endurance"
+    },
+    {
+      "className": "Warlock",
+      "name": "Undying Patron",
+      "source": "Sword Coast Adventurer's Guide (2015)",
+      "url": "https://www.dndbeyond.com/sources/dnd/scag",
+      "legacy": true,
+      "description": "A pact centered on outlasting death, resisting sickness and drawing strength from survival. Later escape the limits of age and restore damaged flesh.",
+      "milestones": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "features": "Among the Dead; Defy Death; Undying Nature; Indestructible Life"
+    },
+    {
+      "className": "Warlock",
+      "name": "Vestige Patron",
+      "source": "Arcana Unleashed (2026)",
+      "url": "https://www.dndbeyond.com/posts/2209-harness-magical-might-with-these-8-arcana",
+      "legacy": false,
+      "description": "Partner with the remnant of a forgotten deity. Gain domain-related spells and a supernatural companion whose divine power develops with the pact.",
+      "milestones": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "features": "Vestige companion; domain spells; later companion empowerment",
+      "choices": [
+        {
+          "key": "Vestige domain",
+          "options": [
+            {
+              "name": "Life",
+              "description": "Use the Life Domain spell table for Vestige Spells; add its granted spells using the spell editor."
+            },
+            {
+              "name": "Light",
+              "description": "Use the Light Domain spell table for Vestige Spells; add its granted spells using the spell editor."
+            },
+            {
+              "name": "Trickery",
+              "description": "Use the Trickery Domain spell table for Vestige Spells; add its granted spells using the spell editor."
+            },
+            {
+              "name": "War",
+              "description": "Use the War Domain spell table for Vestige Spells; add its granted spells using the spell editor."
+            }
+          ],
+          "count": 1,
+          "level": 3
+        }
+      ]
+    },
+    {
+      "className": "Wizard",
+      "name": "Bladesinger",
+      "source": "Forgotten Realms: Heroes of Faerun (2025)",
+      "url": "https://www.dndbeyond.com/posts/2082-weave-your-tale-in-the-forgotten-realms-with-8",
+      "legacy": false,
+      "description": "Combine swordplay and Wizard spellcasting through Bladesong. Its defensive and mobility bonuses apply only while the song is active and equipment meets its restrictions.",
+      "milestones": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "features": "Bladesong; magical swordplay; later song benefits",
+      "choices": [
+        {
+          "key": "Bladesong state",
+          "options": [
+            {
+              "name": "Inactive",
+              "description": "No Bladesong modifiers."
+            },
+            {
+              "name": "Active",
+              "description": "While legally using Bladesong: add Intelligence to AC, +10 walking speed and advantage on Acrobatics checks. End the state when the song ends.",
+              "effects": [
+                {
+                  "target": "ac",
+                  "value": 1,
+                  "op": "bonus",
+                  "level": 3,
+                  "scale": "Intelligence"
+                },
+                {
+                  "target": "speed",
+                  "value": 10,
+                  "op": "bonus",
+                  "level": 3
+                },
+                {
+                  "target": "skill:Acrobatics",
+                  "value": 0,
+                  "op": "advantage",
+                  "level": 3
+                }
+              ]
+            }
+          ],
+          "count": 1,
+          "level": 3
+        }
+      ]
+    },
+    {
+      "className": "Wizard",
+      "name": "Chronurgy Magic",
+      "source": "Explorer's Guide to Wildemount (2020)",
+      "url": "https://www.dndbeyond.com/sources/dnd/egtw",
+      "legacy": true,
+      "description": "Study time to influence rolls, act earlier and temporarily suspend creatures. Later store a spell in a bead or force a crucial outcome at a personal cost.",
+      "milestones": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "features": "Chronal Shift; Temporal Awareness; Momentary Stasis; Arcane Abeyance; Convergent Future",
+      "effects": [
+        {
+          "target": "initiative",
+          "value": 1,
+          "op": "bonus",
+          "level": 3,
+          "scale": "Intelligence"
+        }
+      ],
+      "resources": [
+        {
+          "name": "Chronal Shift",
+          "level": 3,
+          "value": 2,
+          "recovery": "Long rest"
+        }
+      ]
+    },
+    {
+      "className": "Wizard",
+      "name": "Graviturgy Magic",
+      "source": "Explorer's Guide to Wildemount (2020)",
+      "url": "https://www.dndbeyond.com/sources/dnd/egtw",
+      "legacy": true,
+      "description": "Manipulate weight and gravity to change movement and reposition creatures. Later impose stronger gravitational hazards around your magic.",
+      "milestones": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "features": "Adjust Density; Gravity Well; Violent Attraction; Event Horizon"
+    },
+    {
+      "className": "Wizard",
+      "name": "Order of Scribes",
+      "source": "Tasha's Cauldron of Everything (2020)",
+      "url": "https://www.dndbeyond.com/sources/dnd/tcoe",
+      "legacy": true,
+      "description": "An awakened spellbook and magical quill make spell study and casting more flexible. Manifest the book's mind and later use it as a powerful magical safeguard.",
+      "milestones": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "features": "Wizardly Quill; Awakened Spellbook; Manifest Mind; Master Scrivener; One with the Word"
+    },
+    {
+      "className": "Wizard",
+      "name": "Conjurer",
+      "source": "Arcana Unleashed (2026)",
+      "url": "https://www.dndbeyond.com/posts/2209-harness-magical-might-with-these-8-arcana",
+      "legacy": false,
+      "description": "Specialize in summoning and teleportation. Reposition yourself and allies, reinforce summoned creatures and eventually call forth more than one servant.",
+      "milestones": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "features": "Conjuration Savant; Benign Transposition; strengthened summons; later summoning mastery",
+      "savantSchool": "Conjuration"
+    },
+    {
+      "className": "Wizard",
+      "name": "Enchanter",
+      "source": "Arcana Unleashed (2026)",
+      "url": "https://www.dndbeyond.com/posts/2209-harness-magical-might-with-these-8-arcana",
+      "legacy": false,
+      "description": "A specialist in influencing minds and directing encounters through enchantment. Develop stronger magical manipulation and increasingly effective charm-based control.",
+      "milestones": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "features": "Enchantment Savant; enchantment specialization and control",
+      "savantSchool": "Enchantment"
+    },
+    {
+      "className": "Wizard",
+      "name": "Necromancer",
+      "source": "Arcana Unleashed (2026)",
+      "url": "https://www.dndbeyond.com/posts/2209-harness-magical-might-with-these-8-arcana",
+      "legacy": false,
+      "description": "Study the forces of life and death to strengthen necromantic magic and direct undead servants. Its later powers deepen control over death and undeath.",
+      "milestones": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "features": "Necromancy Savant; necromantic specialization and undead mastery",
+      "savantSchool": "Necromancy"
+    },
+    {
+      "className": "Wizard",
+      "name": "Transmuter",
+      "source": "Arcana Unleashed (2026)",
+      "url": "https://www.dndbeyond.com/posts/2209-harness-magical-might-with-these-8-arcana",
+      "legacy": false,
+      "description": "Reshape matter and carry a magical stone with selectable benefits. Later improve transformations and perform powerful restorative or transformative workings.",
+      "milestones": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "features": "Transmutation Savant; Transmuters Stone; Shapechanger; Master Transmuter",
+      "savantSchool": "Transmutation"
+    },
+    {
+      "className": "Wizard",
+      "name": "War Magic",
+      "source": "Xanathar's Guide to Everything (2017)",
+      "url": "https://www.dndbeyond.com/sources/dnd/xgte",
+      "legacy": true,
+      "description": "A battle-ready Wizard who adds Intelligence to initiative. Use Arcane Deflection reactively and later improve protection while concentrating. Its deflection and concentration bonuses are conditional.",
+      "milestones": [
+        3,
+        6,
+        10,
+        14
+      ],
+      "features": "Arcane Deflection; Tactical Wit; Power Surge; Durable Magic; Deflecting Shroud",
+      "effects": [
+        {
+          "target": "initiative",
+          "value": 1,
+          "op": "bonus",
+          "level": 3,
+          "scale": "Intelligence"
+        }
+      ]
+    },
+    {
+      "className": "Artificer",
+      "name": "Alchemist",
+      "source": "Eberron: Forge of the Artificer (2025)",
+      "url": "https://www.dndbeyond.com/posts/2109-forge-your-story-with-5-inventive-artificer",
+      "legacy": false,
+      "description": "Brew experimental elixirs and support allies through alchemical spells. Later improve healing and certain spell damage, supply restoration and gain strong chemical defenses.",
+      "milestones": [
+        3,
+        5,
+        9,
+        15
+      ],
+      "features": "Experimental Elixir; Alchemical Savant; Restorative Reagents; Chemical Mastery"
+    },
+    {
+      "className": "Artificer",
+      "name": "Armorer",
+      "source": "Eberron: Forge of the Artificer (2025)",
+      "url": "https://www.dndbeyond.com/posts/2109-forge-your-story-with-5-inventive-artificer",
+      "legacy": false,
+      "description": "Build Arcane Armor for a chosen combat role. Guardian, Infiltrator and Dreadnaught models provide different weapons and tactical benefits. Models and their temporary attacks require their equipment conditions.",
+      "milestones": [
+        3,
+        5,
+        9,
+        15
+      ],
+      "features": "Arcane Armor; Armor Model; Extra Attack; later armor improvements",
+      "armor": [
+        "Heavy"
+      ],
+      "choices": [
+        {
+          "key": "Armor model",
+          "options": [
+            {
+              "name": "Guardian",
+              "description": "A protective close-combat armor model."
+            },
+            {
+              "name": "Infiltrator",
+              "description": "A mobile ranged armor model; +5 walking speed while using this model.",
+              "effects": [
+                {
+                  "target": "speed",
+                  "value": 5,
+                  "op": "bonus",
+                  "level": 3,
+                  "condition": "wearingArmor"
+                }
+              ]
+            },
+            {
+              "name": "Dreadnaught",
+              "description": "A powerful close-combat armor model; use its size and equipment rules."
+            }
+          ],
+          "count": 1,
+          "level": 3
+        }
+      ]
+    },
+    {
+      "className": "Artificer",
+      "name": "Artillerist",
+      "source": "Eberron: Forge of the Artificer (2025)",
+      "url": "https://www.dndbeyond.com/posts/2109-forge-your-story-with-5-inventive-artificer",
+      "legacy": false,
+      "description": "Deploy an eldritch cannon for offense or protection. Use an arcane firearm to improve spell damage and later field stronger, more resilient cannons.",
+      "milestones": [
+        3,
+        5,
+        9,
+        15
+      ],
+      "features": "Eldritch Cannon; Arcane Firearm; Explosive Cannon; Fortified Position",
+      "choices": [
+        {
+          "key": "Cannon configuration",
+          "options": [
+            {
+              "name": "Flamethrower",
+              "description": "Use the Flamethrower cannon profile and resolve its actions separately."
+            },
+            {
+              "name": "Force Ballista",
+              "description": "Use the Force Ballista cannon profile and resolve its actions separately."
+            },
+            {
+              "name": "Protector",
+              "description": "Use the Protector cannon profile and resolve its actions separately."
+            }
+          ],
+          "count": 1,
+          "level": 3
+        }
+      ]
+    },
+    {
+      "className": "Artificer",
+      "name": "Battle Smith",
+      "source": "Eberron: Forge of the Artificer (2025)",
+      "url": "https://www.dndbeyond.com/posts/2109-forge-your-story-with-5-inventive-artificer",
+      "legacy": false,
+      "description": "A magically armed defender with a Steel Defender companion. Combine martial training and Intelligence-based magic-weapon attacks, then deliver restorative or damaging arcane jolts.",
+      "milestones": [
+        3,
+        5,
+        9,
+        15
+      ],
+      "features": "Battle Ready; Steel Defender; Extra Attack; Arcane Jolt; Improved Defender",
+      "martial": true
+    },
+    {
+      "className": "Artificer",
+      "name": "Cartographer",
+      "source": "Eberron: Forge of the Artificer (2025)",
+      "url": "https://www.dndbeyond.com/posts/2109-forge-your-story-with-5-inventive-artificer",
+      "legacy": false,
+      "description": "Map the world with arcane tools and support companions through exploration magic and spatial tricks. Your maps and teleportation abilities help the party navigate dangerous territory.",
+      "milestones": [
+        3,
+        5,
+        9,
+        15
+      ],
+      "features": "Arcane maps and exploration magic; later spatial support"
+    },
+    {
+      "className": "Artificer",
+      "name": "Reanimator",
+      "source": "Ravenloft: The Horrors Within (2026)",
+      "url": "https://www.dndbeyond.com/sources/dnd/rthw",
+      "legacy": false,
+      "description": "An artificer of unsettling life magic who works with a reanimated companion. Improve that creation over time and resolve its statistics and actions separately.",
+      "milestones": [
+        3,
+        5,
+        9,
+        15
+      ],
+      "features": "Reanimator skill set; reanimated companion; later companion improvements"
+    }
+  ],
+  "scope": "Published Wizards of the Coast book options through 2026-10-17. Revised entries replace older printings. Partner books and playtests are separate.",
+  "total": 130
+}
